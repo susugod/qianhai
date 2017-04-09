@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    	<script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>
+	    <link rel="stylesheet" href="css/main.css" />
+	    <link rel="stylesheet" href="css/swiper-3.4.0.min.css" />
+	    <script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>
+	    <script type="text/javascript" src="js/swiper-3.4.0.jquery.min.js" ></script>
+	    <title></title>
+	    <script type="text/javascript">
+	   		document.addEventListener('plusready', function(){
+	   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+	   		});
+	    </script>
+	</head>
+	<body>
+		<header class="aboutUs-title">
+			<ul class="aboutUs-tit">
+				<li class="select btn1"><a>公司介绍</a></li>
+				<li class="btn2"><a>团队介绍</a></li>
+				<li class="btn3"><a>媒体报道</a></li>
+				<li class="btn4"><a>联系我们</a></li>
+			</ul>
+		</header>
+		<div class="content">
+		
+			<div class="swiper-container swiper-container-horizontal aboutUs-content" id="swiper-container1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide blue-slide swiper-slide-prev" style="">
+							<li class="swiper-li1">
+								<img src="img/company.png" />
+								<div class="phone">
+									<img src="img/logo.png" />
+									<span>粤ICP备16050990号</span>
+									<span>©Copyright 前海办办科技(深圳)有限公司版权所有</span>
+						    	</div>
+							</li>
+						</div>
+						<div class="swiper-slide red-slide swiper-slide-active" style="">
+							<li class="swiper-li2">
+								<img src="img/team.png" />
+								<div class="phone">
+									<img src="img/logo.png" />
+									<span>粤ICP备16050990号</span>
+									<span>©Copyright 前海办办科技(深圳)有限公司版权所有</span>
+						    	</div>
+							</li>
+						</div>
+						<div class="swiper-slide orange-slide swiper-slide-next" style="">
+							<li class="swiper-li3">
+								<img src="img/media.png" />
+								<ul class="company">
+									<li>
+										<a href="http://news.iresearch.cn/content/2016/09/263927.shtml"><img src="img/media1.png" /></a>
+									</li>
+									<li>
+										
+										<a href="http://www.toutiao.com/i6327770990252130817"><img src="img/media2.png" /></a>
+									</li>
+									<li>
+										
+										<a href="http://www.shangjie.biz/shangxun/2016/1018/414213.shtml"><img src="img/media3.png" /></a>
+									</li>
+									<li>
+										<a href="http://mt.sohu.com/20160629/n456964805.shtml"><img src="img/media4.png" /></a>
+									</li>
+									<li>
+										<a href="http://news.163.com/16/0922/11/C1IL4JTS00014SEH.html"><img src="img/media5.png" /></a>
+									</li>
+									<li>
+										<a href="http://mp3.zol.com.cn/605/6054607.html"><img src="img/media6.png" /></a>
+									</li>
+								</ul>
+								<div class="phone" style="margin-top: 0.5rem;">
+									<img src="img/logo.png" />
+									<span>粤ICP备16050990号</span>
+									<span>©Copyright 前海办办科技(深圳)有限公司版权所有</span>
+						    	</div>
+							</li>
+						</div>
+						<div class="swiper-slide red-slide swiper-slide-active">
+							<li class="address swiper-li4">
+								<img src="img/ditu.png" />
+								<div class="phone">
+									<img src="img/logo.png" />
+									<span>粤ICP备16050990号</span>
+									<span>©Copyright 前海办办科技(深圳)有限公司版权所有</span>
+						    	</div>
+							</li>
+						</div>
+					</div>
+				</div>
+		</div>
+	</body>
+	<script>
+	$(function(){
+	  	$(".aboutUs-title li").on("click",function(){
+	  		
+			$(this).addClass("select").siblings().removeClass();
+			var a = $(this).index();
+			var b = $(".swiper-wrapper li").height();
+			$(".aboutUs-content>li").hide();
+			$('.aboutUs-content>li').eq(a).show();
+			
+		})
+  })	
+		var mySwiper = new Swiper('.swiper-container',{
+			autoHeight:true,
+			onSlideChangeStart: function(swiper){
+		     	var activeIndex = swiper.activeIndex
+		     	$(".aboutUs-tit li").eq(activeIndex).addClass("select").siblings().removeClass();
+		     	switch(activeIndex)
+		     		{
+					case 0:
+						document.body.scrollTop=0;
+						break;
+					case 1:
+						document.body.scrollTop=0;
+						break;
+					case 2:
+						document.body.scrollTop=0;
+						break;
+		     		case 3:
+						document.body.scrollTop=0;
+						break;
+					case 4:
+						document.body.scrollTop=0;
+						break;
+					}
+		    }
+		})
+		
+		$('.btn1').click(function(){
+			mySwiper.slideTo(0, 0, false);
+			document.body.scrollTop=0;
+		})
+		$('.btn2').click(function(){
+			mySwiper.slideTo(1, 0, false);
+			document.body.scrollTop=0;
+		})
+		$('.btn3').click(function(){
+			mySwiper.slideTo(2, 0, false);
+			document.body.scrollTop=0;
+		})
+		$('.btn4').click(function(){
+			mySwiper.slideTo(3, 0, false);
+			document.body.scrollTop=0;
+		})
+	</script>
+</html>

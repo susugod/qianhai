@@ -1,0 +1,649 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+/* 首页 */
+.ibo-index-navbar
+{
+    background: #dedede;
+    opacity: 0.75;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid rgba(237,237,237,.15);
+    z-index: 90;
+}
+
+.ibo-index-inner
+{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+}
+
+.ibo-navbar-header
+{
+    float: left;
+}
+
+.ibo-logo
+{
+    width: 160px;
+    height: 100px;
+    display: block;
+    background: url(../img/index/shouping-logo.png) no-repeat center center;
+    font-size: 0;
+}
+
+.ibo-navbar-right
+{
+    float: right;
+}
+
+    .ibo-navbar-right li
+    {
+        list-style: none;
+        width: 100px;
+        height: 100%;
+        display: inline-block;
+    }
+
+        .ibo-navbar-right li a
+        {
+            font-size: 14px;
+            color: #000000;
+            font-family: 'Microsoft YaHei';
+            display: block;
+            width: 100%;
+            height: 100%;
+            line-height: 100px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+            .ibo-navbar-right li a:hover
+            {
+                background: #ffffff;
+                color: #ff7e00;
+            }
+
+.ibo-container
+{
+    width: 100%;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.ibo-pages
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ibo-pages-first
+{
+    background: url(../img/index/shouping-bj.png) no-repeat center center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.ibo-pages-first-img
+{
+    position: absolute;
+    z-index: 10;
+    width: 700px;
+}
+
+.ibo-pages-first-qx
+{
+    position: absolute;
+    left: 490px;
+}
+
+.ibo-pages-first-yk
+{
+    position: absolute;
+    left: 250px;
+    margin-top: 60px;
+    z-index: 12;
+}
+
+.ibo-pages-first-qp
+{
+    position: absolute;
+    margin-top: 240px;
+    left: 0px;
+}
+
+.ibo-pages-first-wz
+{
+    position: absolute;
+    z-index: 10;
+    left: 700px;
+    bottom: 25%;
+}
+
+.ibo-pages-second
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.ibo-pages-second-title
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 36px;
+    text-align: center;
+    height: 40px;
+}
+
+.ibo-pages-second-content
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    text-align: center;
+    color: #838383;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.ibo-pages-second-img
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 60px auto;
+    padding: 0;
+}
+
+.ibo-pages-third
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.ibo-pages-third-title
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 36px;
+    text-align: center;
+    height: 40px;
+}
+
+.ibo-pages-third-content
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    text-align: center;
+    color: #838383;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.ibo-pages-third-word
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 44px;
+    text-align: center;
+    color: #ff7e00;
+    margin-top: 32px;
+    height: 50px;
+}
+
+.ibo-pages-third-img
+{
+    position: relative;
+    margin-top: 10px;
+}
+
+.ibo-pages-fourth
+{
+    background: url(../img/index/ping4-01.png) no-repeat center center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+}
+
+.ibo-pages-fourth-title
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 44px;
+    text-align: center;
+    color: #ff7800;
+    height: 50px;
+}
+
+.ibo-pages-fourth-content
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+    height: 30px;
+}
+
+.ibo-pages-fifth
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.ibo-pages-fifth-title
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 36px;
+    text-align: center;
+    height: 40px;
+}
+
+.ibo-pages-fifth-content
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    text-align: center;
+    color: #838383;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.ibo-pages-fifth-img
+{
+    margin: 40px auto;
+}
+
+.ibo-pages-sixth
+{
+    background: url(../img/index/ping6-bj.png) no-repeat center center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+}
+
+.ibo-pages-sixth-title
+{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ibo-pages-sixth-content
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    text-align: center;
+    color: #6e6b6a;
+    margin-top: 40px;
+}
+
+.ibo-pages-sixth-address
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: #5c5959;
+    margin-top: 30px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.ibo-pages-sixth-telfax
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    text-align: center;
+    color: #5c5959;
+    margin-top: 30px auto;
+}
+
+.ibo-pages-sixth-word
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    text-align: center;
+    color: #6e6b6a;
+    margin-top: 17px;
+}
+
+.ibo-pages-sixth-button-register
+{
+    background: transparent;
+    border: 1px solid #ff8400;
+    width: 180px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 14px;
+    color: #ff8400;
+    display: block;
+    margin: auto;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+.ibo-pages-sixth-button-login
+{
+    background: transparent;
+    border: 1px solid #727272;
+    width: 180px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 14px;
+    color: #727272;
+    display: block;
+    margin: auto;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+}
+
+.ibo-pages-sixth-sections
+{
+    position: absolute;
+    height: 360px;
+    text-align: center;
+    width: 100%;
+}
+
+.ibo-pages-sixth-sectionaccount
+{
+    background: #fff;
+    width: 48%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.ibo-pages-sixth-sectioncontract
+{
+    background: #fff;
+    width: 48%;
+    height: 100%;
+    float: right;
+    overflow: hidden;
+}
+
+.ibo-pages-sixth-links
+{
+    position: absolute;
+    top: 55%;
+    height: 150px;
+    border: 3px solid #959595;
+    text-align: center;
+    width: 100%;
+}
+
+.ibo-pages-sixth-links-title
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.ibo-pages-sixth-links-href
+{
+    margin-left: 50px;
+    text-align: left;
+}
+
+    .ibo-pages-sixth-links-href a
+    {
+        font-family: 'Microsoft YaHei';
+        font-size: 20px;
+        display: inline-block;
+        margin-right: 25px;
+        color: #9e9e9e;
+        text-decoration: none;
+    }
+
+/* 图片轮播 */
+.roundabout-holder
+{
+    padding: 0;
+    height: 400px;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+
+.roundabout-moveable-item
+{
+    border: 0;
+    list-style: none;
+    width: 400px;
+    height: 300px;
+    -moz-box-shadow: 0px 20px 20px -10px #000000;
+    box-shadow: 0px 20px 20px -10px #000000;
+    -webkit-box-shadow: 0px 20px 20px -10px #000000;
+}
+
+    .roundabout-moveable-item img
+    {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+.round_conrol
+{
+    position: relative;
+    width: 198px;
+    margin: 0 auto;
+    height: 34px;
+    padding: 0 0 0 0;
+}
+
+.round_but
+{
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 22px;
+    cursor: pointer;
+}
+
+/* 登录 注册页面*/
+.htitle
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    color: #4f4f4f;
+}
+
+.content
+{
+    padding: 0px 35px;
+    float: left;
+    width: 58%;
+}
+
+.title
+{
+    float: left;
+    width: 30%;
+}
+
+#tipsmsgdiv
+{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #adddf8;
+    color: #ffffff;
+    width: 100%;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.rowdiv
+{
+    margin-bottom: 20px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.rowdivspan
+{
+    display: block;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+}
+
+.rowdivgrayspan
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+    color: #a7a7a7;
+}
+
+.rowdivtext
+{
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    border-radius: 1px;
+    border: 1px solid #a7a7a7;
+    width: 100%;
+    text-indent: 20px;
+}
+
+.rowdivagreementlink
+{
+    font-size: 12px;
+    color: #1279bc;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei';
+}
+
+.rowdivpasswordlink
+{
+    font-size: 12px;
+    color: #a7a7a7;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei';
+}
+
+.rowdivbtn
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 20px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 4px;
+    border: 0;
+    background: #0178BE;
+    color: #ffffff;
+    letter-spacing: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.error-msgs
+{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #0178BE;
+}
+
+.dropopen
+{
+    opacity: 0;
+}
+
+.dropshow-1
+{
+    transform: translateX(-200px);
+    opacity: 0;
+}
+
+.dropshow-2
+{
+    transition: all 0.5s;
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.dropclose
+{
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.ui-dialog-titlebar-close
+{
+    background: url("./images/ui-icons_ef8c08_256x240.png") -96px -128px;
+}
+
+.ibo-dialog
+{
+    background: #ffffff;
+}
+
+    .ibo-dialog .ui-dialog-titlebar
+    {
+        border: 0 none;
+    }
+
+    .ibo-dialog .ui-dialog-titlebar-close
+    {
+        height: 23px;
+        width: 23px;
+        border: 0 none;
+        background: url('../img/index/zhuceyemian--guanbianniu.png');
+    }
+
+    .ibo-dialog .ui-widget-header
+    {
+        background: transparent;
+    }

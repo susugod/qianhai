@@ -1,0 +1,47 @@
+.EconomyShow{width: 60%;margin: 0 auto;margin-top: 80px;padding-left:10%;padding-right:10%;background-color:#fff;box-shadow:4px 6px 6px #dedede;padding-bottom:30px;}
+.EconomyShow-One{width: 100%;float: left;margin-top: 50px;}
+.EconomyShow-Two{width: 100%;float: left;margin-top: 15px;border-bottom:1px solid #9c9c9c; height: 50px;line-height: 50px;}
+.EconomyShow-One input{width: 100px;height: 50px;line-height: 50px;background: #008cee;color: #FFFFFF;font-size: 14px;float: right;}
+.EconomyShow-Info{float: left;font-size: 14px;color: #373737;text-decoration:none;}
+.EconomyShow-Time{float: right;font-size: 14px;color: #808080;}
+/*发送信息*/
+.DispatchShow{width: 60%;margin: 0 auto;margin-top: 80px;}
+.DispatchShow-Ul{width: 80%;margin-left:10%;float: left; }
+.DispatchShow-Li{width: 100%;float: left;border-bottom: 1px solid #9c9c9c;}
+.DispatchShow-Two{width: 100%;float: left;}
+.DispatchShow-Input{width: 100%;height: 50px;line-height: 50px;float: left;border: 0;outline: none;font-size: 16px;}
+.DispatchShow-Text{width: 100%;height: 550px;float: left;border: 0;outline: none;font-size: 14px;padding-top: 10px;}
+.Dispatch-A-O{float: left;font-size: 14px;color: #373737;margin-top: 50px;margin-left: 90%;}
+.Dispatch-A-T{float: left;font-size: 14px;color: #373737;margin-top: 10px;margin-left: 88%;}
+.DispatchShow-Button{float: left;width: 100px;height: 50px;background: #008cee;color: #FFFFFF;outline: none;margin-top: 50px;margin-left: 46%;}
+/*反馈*/
+.SendSuccessShow{width: 60%;height: 200px;margin: 0 auto;background: #FFFFFF;margin-top: 200px;}
+.SendSuccess-One{width: 100%;text-align: center;float: left;margin-top: 80px;}
+.SendSuccess-One img{width: 100px;height: 100px;}
+.SendSuccess-Two{width: 100%;text-align: center;float: left;margin-top: 30px;font-size:14px;color: #373737;}
+/*订单申述*/
+.AllegeShow{width: 98%;margin: 0 auto;background: #FFFFFF;}
+.Allege-One{width: 100%;margin-top: 40px;float: left;height: 50px;line-height: 50px;}
+.Allege-Two{width: 100%;margin-top: 40px;float: left;height: 50px;line-height: 50px;}
+.Allege-One span{margin-left: 30px;}
+.Allege-Lan{font-size: 16px;color: #008cee;cursor: pointer;}
+.Allege-Hei{font-size: 16px;color: #373737;cursor: pointer;}
+.Allege-SX{font-size: 14px;color: #808080;float: left;}
+.Allege-Time{float: left;color: #373737;font-size: 14px;text-align: center;height:40px;width: 10%;margin-left: 20px;outline: none;border: 1px solid #373737;}
+.Allege-Td-A{color: #008cee;text-decoration: none;cursor: pointer;}
+.Allege-Th{text-align: center;height: 50px;line-height: 50px;background: #e5e5e5;border-bottom: solid  1px #373737;border-right: solid 1px #373737; }
+.Allege-Td{text-align: center;height: 50px;line-height: 50px;border-bottom: solid  1px #373737;border-right: solid 1px #373737; }
+.Allege-Table{width: 100%;border-left: solid 1px #373737;border-top: solid 1px #373737;float: left ;}
+.Allege-O-Button{width: 100px;float: right;height: 40px;border: 1px solid #373737;color: #373737;outline: none;background: #FFFFFF}
+.Allege-S-Button{float: left;height: 20px;margin-top: 10px;outline: none;border: 0;}
+.Allege-S-Text{float: left;height: 36px;line-height: 36px;width: 89%;outline: none;border: 0;font-size: 14px;}
+.Allege-Span{float: left;border: 1px solid #373737;height: 40px;width: 15%;margin-left: 50%}
+/*新增投诉*/
+.IncreasedShow{width: 98%;margin: 0 auto;}
+.Increased-One{float: left;width: 100%;margin-top: 50px;}
+.Increased-Two{float: left;width: 100%;margin-top: 50px;text-align: center;}
+.Increased-Span{width: 15%;float: right;border: 1px solid #373737;height: 40px;}
+.Increased-Button{margin-top: 10px;width: 20px;height: 20px;float: left;outline: none;}
+.Increased-Text{width: 90%;float: left;border: 0;outline: none;height: 38px;font-size: 14px;}
+.Increased-Textarea{margin-top: 30px;width: 100%;border: 1px solid #373737;height: 200px;float: left;outline: none;font-size: 14px;}
+.Increased-An{width: 150px;height: 50px;background: #008cee;color: #FFFFFF;}

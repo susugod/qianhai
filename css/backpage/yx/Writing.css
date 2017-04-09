@@ -1,0 +1,81 @@
+.WritingBigShow{margin: 0 auto;width: 60%;min-width:960px;}
+.WritingShow{width: 100%;margin-top: 50px;box-shadow: 4px 6px 6px #dedede;background-color: #fff;}
+.Writing-Div{width: 80%;padding-bottom:40px;margin-bottom: 50px;margin-left: auto;margin-right: auto;}
+.Writing-D-One{width: 100%;float: left;margin-top: 40px;}
+.Writing-U-One{width: 15%;float: left;font-size: 13px;color: #373737;font-weight:700;}
+.Writing-U-Two{width: 85%;float: left;}
+.Writing-L-One{width: 100%;float: left;border-bottom: 1px solid #9c9c9c;}
+.Writing-L-One input{width: 100%;float: left;height:20px;border: 0;font-size: 14px;color: #808080;outline: none;padding-bottom: 8px;}
+.Writing-L-Two{width: 100%;float: left;margin-top:10px;font-size: 9px;color: #808080;}
+.Writing-D-One-Li{width: 100%;font-size: 13px;font-weight:700;color: #373737;float: left;}
+.Writing-D-One-L{width: 100%;float: left;}
+.Writing-D-One-L-a{margin-left:8px;margin-right:15px;}
+.Writing-D-One-L span{width: 100%;float: left;margin-top: 20px;height: 20px;line-height: 20px;}
+.Writing-D-L{width: 100%;float: left;font-size: 13px;font-weight:700;color: #373737;}
+.Writing-D-L input{width: 30px;border-bottom: 1px solid #9c9c9c;text-align: center;border-top:0;border-left: 0;border-right: 0;outline: none; }
+.Writing-li{width: 70%;float: left;}
+.Writing-li span{font-size: 13px;color: #373737;font-weight:700;line-height: 40px;}
+.Writing-li-A{font-size: 25px;color: #008cee;text-decoration: none;}
+.Writing-lT{width: 30%;float: left;}
+.Writing-lT input{width: 50px;height: 30px;background-color: #008cee;color: #FFFFFF;margin-left: 80%;outline: none;}
+.WritingShow-Button{margin-bottom: 50px;border-style: hidden;border-radius: 6px;text-align:center;background-color: #008cee; color: #FFFFFF; outline: none;  margin-top: 60px; height: 35px; padding-left: 30px;  padding-right: 30px;}
+#txtSheetNum{width:30px; border: none; border-bottom: 1px solid #c9c9c9;}
+/*重新提交*/
+.AgainSubmitShow{width: 80%;margin:30px auto; padding-top:40px;padding-bottom: 30px;background-color: #ffffff;border: 1px solid #cdcdcd;box-shadow: 3px 3px 5px #9c9c9c;}
+.AgainSubmit-li{width: 100%;padding-top: 50px;}
+.AgainSubmit-li_paddingleft76{padding-left:76px;}
+.AgainSubmit-li textarea{width: 100%;height: 378px;border: 1px solid #9c9c9c;padding: 5px;font-size: 14px;box-shadow: 3px 3px 5px #9c9c9c;}
+.AgainSubmit-li a{font-size: 16px;color: #373737;font-weight: 700;  margin-right: 20px;}
+.AgainSubmit-li input{font-size: 11px;height: 50px;background-color: #008cee;color: #FFFFFF;padding-left:30px;padding-right:30px;}
+.AgainSubmit-li span{font-size: 9px;color: #808080;padding-left: 10px;}
+.width80{width:80%;margin-left:auto;margin-right:auto;}
+.center{text-align:center;}
+/*查看原因*/
+.CauseShow{width: 80%;margin: 0 auto;background-color: #FFFFFF;box-shadow: 4px 6px 6px #dedede;margin-top: 30px;}
+.Cause-Div{width: 100%;min-height: 360px;padding-top: 40px;}
+.Cause-Div-T{width: 80%;margin-left:auto;margin-right:auto;}
+.Cause-li{width: 100%;margin-bottom:30px;}
+.Cause-li a{font-size: 13px;color: #373737;font-weight: 700;}
+.Cause-li span{font-size: 9px;color: #373737;margin-bottom:20px;white-space:normal; line-height: 29px;}
+.Cause-li_margin_l30{padding-left:30px;}
+.Cause-tltle{text-align: center; font-size: 20px; font-weight: 700;margin-bottom:60px;}
+#teamPerson{width:200px;text-align:center;display: inline-block;font-size:13px;margin-bottom:30px;}
+#createDate{width:200px;text-align:center;display: inline-block; font-size:13px;margin-bottom:40px;}
+/*提交需求*/
+.SubmitNeedShow{width: 90%;margin: 0 auto;padding-bottom: 40px;}
+.SubmitNeed-U{display: inline-block;width: 65px;margin-right: 80px;vertical-align:top;}
+.SubmitNeed-L{display: inline-block;}
+.SubmitNeed-U-L{width: 100%;margin-top: 40px;color: #373737;font-size: 13px;font-weight: 700;}
+.SubmitNeed-U-I{width: 100%;margin-top: 40px;color: #373737;font-size: 13px;font-weight: 700;}
+.SubmitButton-T{width: 100%;text-align: center;background: #fafafa;margin-top:50px; }
+.SubmitButton-T input{width: 100px;height: 40px;text-align: center;line-height: 40px;}
+.SubmitButton-T span{margin-right: 4%;}
+.border{width:80%;box-shadow:4px 6px 6px #dedede;margin-right: auto;  margin-left: auto;margin-top: 30px;background-color: #fff;}
+/*拒绝原因*/
+.RefuseCauseShow{margin: 0 auto;width: 60%;}
+.RefuseTop{width: 60%;margin: 0 auto;background: #FFFFFF;margin-top: 60px;margin-bottom: 60px;}
+.RefuseTop-One{width: 100%;margin-top: 50px;}
+.RefuseBottom-One{width: 100%;margin-top: 50px;}
+.RefuseTop-One textarea{width: 70%;margin-left:12%;height: 300px;color: #808080;}
+.RefuseBottom-Two textarea{width: 70%;margin-left:12%;height: 180px;color: #808080;}
+.RefuseTop-One a{font-size: 16px;color: #373737;padding-left: 8%}
+.RefuseBottom-One a{font-size: 16px;color: #373737;padding-left: 8%}
+.RefuseTop-Input{width: 50%;float:left;font-size: 16px;color: #808080;border-bottom:2px soild #363636;outline: none;margin-left: 12%;}
+.RefuseTop-Two{width: 100%;margin-top: 40px;}
+.RefuseBottom-Two{width: 100%;margin-top: 30px;}
+.RefuseBottom{width: 60%;margin: 0 auto;margin-top: 50px;background: #FFFFFF;}
+.Refuse-Li{width: 100%;text-align: center;margin-top: 50px;}
+.Refuse-Li input{width: 100px;height: 40px;background: #008cee;color: #FFFFFF;font-size: 16px;}
+.DeclineShow{width: 80%;margin: 0 auto;margin-top: 50px;padding-bottom: 40px;background-color: #fff;box-shadow: 4px 6px 6px #dedede;}
+.DeclineDiv{width: 80%;margin-left: 10%;margin-top: 25px;padding-top:1px;}
+.Decline-Li-One{width: 100%;height: 50px;line-height: 50px;border-bottom: 1px solid #9c9c9c;color: #373737;font-size: 16px;}
+.Decline-Li-Two{width: 100%;margin-top: 40px;color:#373737;font-size: 16px;font-weight:700;}
+.Decline-Li-Three{width: 100%;margin-top: 40px;color:#373737;font-size: 16px;text-align: center;font-weight:700;}
+.Decline-Li-Four{width: 100%;margin-top: 20px;color:#373737;font-size: 16px;}
+.Decline-Li-Five{width: 100%;margin-top: 20px;}
+.Decline-Li-Five a{float: right;color: #008cee;font-size: 14px;cursor: pointer;}
+.Decline-Li-Four p{word-wrap: break-word;color:#373737;font-size: 14px;margin-left: 50px;}
+
+
+
+.ke-content>img{max-height:100%;}

@@ -1,0 +1,50 @@
+.main{width: 100%;}
+/*优质文章*/
+.Exp{width: 90%;margin: 50px auto;}
+.Exp .hy span{float: left;margin-right: 15px;}
+.Exp .lx span{float: left;margin-right: 15px;}
+.hy{ height:40px;line-height: 40px;}
+.Exp ul{ border-bottom:1px dashed #c9c9c9;height:40px;line-height: 40px;box-sizing: border-box;}
+.Exp ul li.bx{margin-right: 30px;color: #6699ff;}
+.Exp ul li{float: left;margin-right: 10px;}
+.lx{height:40px;line-height: 40px;margin-top: 20px;}
+.analyze{width: 96%;margin: 40px auto;border: 1px;}
+.analyze_list{height: 80px;border: 1px solid #c9c9c9;margin-bottom: 30px;}
+.analyze_list_content{text-align:left;float: left;width: 55%;display: block;margin-top: 30px;}
+.analyze_list_content_a{float: left;text-align:left;width: 100%;display: block;}
+.analyze_list_date{float: left;text-align:left;width: 15%;margin-top: 30px;}
+.analyze_list_date_a{float: left;text-align:left;width: 100%;display: block;text-decoration: none;color: #373737;}
+.analyze_list_read{float: left;text-align:left;width: 15%;margin-top: 30px;}
+.analyze_list_read_a{text-decoration: none;}
+.analyze_list img{float: left;display: block;width: 40px;height: 40px;padding: 20px;}
+.analyze_list span{text-align:left;float: left;height: 80px;}
+.analyze_list_span{height: 80px;}
+.analyze_list a{float: right;text-align: right;padding-right: 20px;color: #6699ff;}
+.overflowBT{float: left;width: 100%;margin-top: 10px}
+.overflowBT span{float: left;color: #373737;padding-left: 40px;}
+.overflowBTA{float: left;color:#008cee;font-size: 12px;padding-left: 12px;cursor: pointer;}
+.overflowBTB{float: left;color:#808080;font-size: 12px;padding-left: 12px;cursor: pointer;}
+
+/*查看文章分析*/
+.details_content{width:80%;margin:40px auto;}
+.details_content img{max-width:100%;}
+.Exp_article{width:80%;margin:40px auto;}
+.Exp_article img{max-width:100%;height:auto;}
+.Exp_article_details{width: 80%; margin: 30px auto; border: 1px solid #cdcdcd;box-shadow: 4px 6px 6px #dedede;background-color: #fff; }
+.Exp_article_details h3{  font-size: 15px;  margin-bottom: 30px;}
+.Exp_article_details article{min-height: 200px;word-wrap:break-word; word-break:break-all;}
+.case_delete {width:10%;margin:50px auto;}
+/*投放案例*/
+.Exp_put_good{width: 90%;margin: 50px auto;}
+.Exp_put_good a.more{display: block;float: right;color: #6699ff;margin-right: 50px;margin-top:20%;}
+.Exp_put_good ul{margin-top: 50px;}
+.Exp_put_good ul li{height: 50px;line-height: 50px;width: 98%;margin: 0 auto;border-bottom: 1px solid #c9c9c9;}
+.Exp_put_good ul li span.fr{float: right;}
+.Exp_put_good ul li span.fl{float: left;}
+.Exp_put_good a.advice{display: block;float: right;margin: 50px 30px 50px 0;color: #6699ff;}
+.Exp_put_good_a{text-decoration: none;}
+/*案例列表投放*/
+.Exp_list{width: 90%;margin: 50px auto;}
+.search{width: 98%;}
+.search .search_text{height: 30px;border: 1px solid #c9c9c9;box-sizing:border-box;float: right;width: 220px;}
+.search .search_button{border: none; width: 100px;height: 30px;float: right;margin-left: 25px;}

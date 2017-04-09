@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>办办科技</title>
+    <meta name="keywords" content="SAAS  企业营销推广  移动办公 客户关系管理">
+    <meta name="description" content="办办,实现企业推广的移动办公平台,一站式解决企业推广、移动办公、销售管理需求">
+    <link href="css/backpage/yx/homepage.css" rel="stylesheet" />
+</head>
+<body class="bodyOne" style="background-color: #F5F6FB;">
+    <header class="header-inherit" id="AboutUs-header">
+        <ul>
+            <li><a title="logo" href="index.html">
+                <img id="LogoImg" src="img/homepage/logo.png" alt="logo" /></a></li>
+            <li><a title="注册" id="TopForIE" href="views/backpage/AppManage/Register/RegisterOne.html">注册</a></li>
+            <li><a title="登录" href="views/backpage/AppManage/login/login.html">登录</a></li>
+            <li><a title="我们" href="AboutUs.html">我们</a></li>
+            <li><a title="案例" href="Case.html">案例</a></li>
+            <li><a title="服务" href="Serve.html">服务</a></li>
+            <li><a title="产品" href="MobilePromotion.html">产品</a></li>
+            <li><a title="首页" href="index.html">首页</a></li>
+            <div class="clear"></div>
+        </ul>
+    </header>
+    <article class="NewsArticle">
+        <div class="ArtTitle">标题</div>
+        <div class="ArtTime">标题</div>
+        <div class="ArtContent">标题</div>
+    </article>
+    <div id="page"><span class="PreviousNext">上一页</span><span class="NOPreviousNext">下一页</span><a class="ArtBack">返回目录</a></div>
+</body>
+<script src="js/jquery-1.11.3.min.js?TimeStamp=201604011320" type="text/javascript"></script>
+<script src="js/jquery-ui.min.js?TimeStamp=201604011320"></script>
+<script src="js/jquery.json-2.2.js?TimeStamp=201604011320"></script>
+<script src="js/common.js?TimeStamp=201604011320"></script>
+<script src="js/crossorgin.js?TimeStamp=201604011320"></script>
+<script>
+    $.ibo.isNotCheckLogin = true;
+    var worksID = $.ibo.QueryString("worksID") == undefined ? worksID : $.ibo.QueryString("worksID");
+    var ThisID;
+    var orderby = "A.CreateDate desc";//排序
+    var LastId;
+    var list = new Array();
+    var FirstTime = 1;
+    function GetArt() {
+        var data = $.toJSON({ worksID: worksID });
+        $.ibo.crossOrgin({
+            url: $.ibo.IndexSrvUrl,
+            funcName: "GetArticleWorksNewsById",
+            data: data,
+            success: function (obj) {
+                // 查询成功
+                if ($.ibo.ResFlag.Success == obj.ResFlag) {
+                    var articleWorks = obj.ResObj;
+
+                    $(".ArtTitle").html(articleWorks.Title);
+                    $(".ArtTime").html(articleWorks.CreateDate);
+                    $(".ArtContent").html(articleWorks.Content);
+                    if (FirstTime) {
+                        FirstTime = 0;
+                        GetList();
+                    }
+                    else {
+                        Getpage();
+
+                    }
+
+                }
+                else if ($.ibo.ResFlag.NoRight == obj.ResFlag) {
+                    alert("抱歉，您没有此权限！");
+                }
+                else if ($.ibo.ResFlag.Failed == obj.ResFlag) {
+                    alert(obj.ResObj);
+                }
+                else {
+                    $.ibo.ShowErrorMsg(obj);
+                }
+            }
+        });
+
+    }
+    GetArt();
+
+    function GetList() {
+        var condition = new Array();
+        condition.push({ Key: "WorksType", Value: 6 });
+        var data = $.toJSON({ condition: condition, OrderBy: orderby });
+        $.ibo.crossOrgin({
+            url: $.ibo.IndexSrvUrl,
+            funcName: "GetArticleWorksNewsList",
+            data: data,
+            success: function (obj) {
+                // 查询成功
+                if ($.ibo.ResFlag.Success == obj.ResFlag) {
+                    total = obj.ResObj.TotalCount;
+                    var worksList = obj.ResObj.List
+                    if (worksList.length > 0) {
+                        $(worksList).each(function (i, item) {
+                            list[i] = item.WorksID
+                            if (item.WorksID == worksID) {
+                                ThisID = i;
+                            }
+                            LastId = i;
+                        });
+
+                        Getpage();
+                    }
+                }
+                else if ($.ibo.ResFlag.NoRight == obj.ResFlag) {
+                    alert("抱歉，您没有此权限！");
+                }
+                else if ($.ibo.ResFlag.Failed == obj.ResFlag) {
+                    alert(obj.ResObj);
+                }
+                else {
+                    $.ibo.ShowErrorMsg(obj);
+                }
+            }
+        });
+    }
+
+    function Getpage() {
+
+        $("#page").html("");
+        if (ThisID == 0) {
+            var PageAa = $("<span>").addClass("NOPreviousNext").text("上一页"); $("#page").append(PageAa);
+        }
+        else {
+
+            var PageAa = $("<span>").addClass("PreviousNext").text("上一页").attr("onclick", "ThisID=ThisID-1;worksID=list[ThisID];GetArt();"); $("#page").append(PageAa);
+        }
+
+        if (ThisID == LastId) {
+            var PageAa = $("<span>").addClass("NOPreviousNext").text("下一页"); $("#page").append(PageAa);
+        }
+        else {
+
+            var PageAa = $("<span>").addClass("PreviousNext").text("下一页").attr("onclick", "ThisID=ThisID+1;worksID=list[ThisID];GetArt();"); $("#page").append(PageAa);
+        }
+        var PageAa = $("<a>").addClass("ArtBack").text("返回列表"); $("#page").append(PageAa);
+        $(".ArtBack").click(function () {
+            window.location.href = "List.html";
+        });
+    }
+
+</script>
+<script>
+    //百度推广
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?97602220d120e709153335bdc72530a4";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+</script>
+</html>

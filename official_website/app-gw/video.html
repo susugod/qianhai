@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/swiper-3.4.0.min.css" />
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/swiper-3.4.0.jquery.min.js"></script>
+		<title>视频</title>
+
+	</head>
+
+	<body>
+		<video controls="" autoplay="" name="media" width="100%">
+			<source src="" type="video/mp4">
+		</video>
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+			});
+
+			function aa() {
+				var arr = '';
+				arr = location.search.substring(1);
+				console.log(arr);
+				switch(arr) {
+					case "1":
+						$("source").attr("src", "media/company-dd.mp4");
+						break;
+					case "2":
+						$("source").attr("src", "media/company-zy.mp4");
+						break;
+					case "3":
+						$("source").attr("src", "media/mobile-IM.mp4");
+						break;
+					case "4":
+						$("source").attr("src", "media/mobile-checkon.mp4");
+						break;
+					case "5":
+						$("source").attr("src", "media/mobile-Request.mp4");
+						break;
+					case "6":
+						$("source").attr("src", "media/CRM-Product.mp4");
+						break;
+					case "7":
+						$("source").attr("src", "media/CRM-customer.mp4");
+						break;
+					case "8":
+						$("source").attr("src", "media/CRM-Sales.mp4");
+						break;
+				}
+			}
+			aa();
+		</script>
+	</body>
+
+</html>

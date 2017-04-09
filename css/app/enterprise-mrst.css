@@ -1,0 +1,425 @@
+.enterprise-mrst-detail .item-content{
+	padding-left: 1rem;
+}
+.enterprise-mrst-detail{
+	margin: 0;
+}
+.enterprise-mrst-detail img{
+	width: 3rem !important;
+	/*border-radius: 1.1rem;*/
+}
+.enterprise-mrst-detail .item-title{
+	color: #131313;
+	font-size: 0.75rem;
+}
+.enterprise-mrst-detail .item-subtitle{
+	color: #999999;
+	font-size: 0.6rem;
+    white-space: normal;
+}
+.enterprise-mrst-detail .item-subtitle span{
+	display: inline-block;
+	padding: 0 0.2rem;
+	border-radius: 0.5rem;
+	border: 1px solid #E1E1E1;
+    margin: 0.5rem 0.3rem 0.3rem 0;
+}
+.enterprise-mrst-cont .pad_mg_none{
+	margin: 0;
+	padding: 0;
+}
+.enterprise-mrst-cont{
+	overflow: hidden;
+}
+.enterprise-mrst-cont .tabs{
+	height: 24rem;
+	overflow-y: auto;
+    padding-bottom: 2rem;
+}
+.tab .content-block {
+	margin: 0;
+	margin-top: 0.5rem;
+	padding: 0;
+	/*background: white;*/
+}
+.tab .list-block{
+	margin: 0;
+}
+/*标签页1*/
+.enterprise_mrst_tab1 .enterprise-mrst-industry{
+	margin: 0;
+	margin-bottom: 0.5rem;
+}
+.enterprise_mrst_tab1 .enterprise-mrst-industry ul{
+	padding-left: 1rem;
+}
+.enterprise_mrst_tab1 .enterprise-mrst-industry li{
+	padding-left: 0rem !important;
+	border-bottom: 1px solid #E1E1E1;
+}
+.enterprise_mrst_tab1 .enterprise-mrst-industry li:last-child{
+	border-bottom: none;
+}
+.enterprise_mrst_tab1 .enterprise-mrst-industry  .item-media{
+	color: #131313;
+	font-size: 0.75rem;
+}
+/*标签页2*/
+
+.enterprise_mrst_tab2  li{
+	border-bottom: 1px solid #CDCDCD;
+}
+.enterprise_mrst_tab2 li>a{
+	width: 100%
+}
+.enterprise_mrst_tab2  .item-inner{
+	border-bottom: none;
+}
+.enterprise_mrst_tab2 .cl1{
+	color: #131313;
+	font-size: 0.75rem;
+}
+.enterprise_mrst_tab2 .cl2{
+	color: #999999;
+	margin-top: 0.3rem;
+	font-size: 0.6rem;
+}
+/*标签页3*/
+.enterprise_mrst_tab3  .card{
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px solid #CDCDCD;
+}
+.enterprise_mrst_tab3 .card-header{
+	padding: 0 0.75rem;
+}
+.enterprise_mrst_tab3 .card-footer .cl2{
+	font-size:  0.6rem;
+}
+.enterprise_mrst_tab3  .card_cont{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp:3;
+	overflow: hidden;
+}
+.enterprise_mrst_tab3  .cl1{
+	color: #131313;
+	font-size: 0.8rem;
+}
+.enterprise_mrst_tab3  .cl2{
+	color: #666666;
+	font-size: 0.7rem;
+}
+/*标签页4*/
+.enterprise_mrst_tab4 .card{
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px solid #CDCDCD;
+}
+.enterprise_mrst_tab4 .card-content-inner p:nth-child(1){
+	color: #131313;
+	font-size: 0.8rem;
+	margin-bottom: 0.5rem;
+}
+.enterprise_mrst_tab4 .card-content-inner p:nth-child(2){
+	color: #666666;
+	font-size: 0.6rem;
+	margin-top: 0.5rem;
+}
+.enterprise_mrst_tab4 .card-header{
+	padding: 0 0.75rem;
+}
+/*标签页5*/
+.enterprise_mrst_tab5 a{
+	width: 100%;
+}
+.enterprise_mrst_tab5 .item-media img{
+	width: 4rem;
+	height: 3.75rem;
+}
+.enterprise_mrst_tab5 .cl1{
+	font-size: 0.75rem;
+	color: #131313;
+}
+.enterprise_mrst_tab5 .cl2{
+	font-size: 0.6rem;
+	margin-top: 0.5rem;
+	color: #999999;
+}
+.enterprise_mrst_tab5 .item-link{
+	border-bottom: 1px solid #CDCDCD;
+}
+.enterprise_mrst_tab5 .item-inner{
+	border-bottom: none;
+}
+/*企业微站编辑页面*/
+#enterprise-edit .enterprise-mrst-industry  .item-media{
+	color: #999999;
+	font-size: 0.75rem;
+}
+#enterprise-edit .enterprise-mrst-industry  .item-title{
+	 color: #131313;
+}
+#enterprise-edit-text{
+	font-size: 0.7rem;
+    padding-right: 0.5rem;
+
+}
+#enterprise-edit .list-block{
+	margin: 0;
+}
+.enterprise-mrst-industry  .item-inner{
+	border-bottom: none;
+	margin-left: 1rem !important;
+}
+.enterprise-mrst-industry  .item-title{
+    white-space:  pre-wrap; 
+    word-break: break-all;
+    color: #666666;
+    font-size: 0.7rem;
+    border: none;
+    
+}
+.enterprise-mrst-industry textarea{
+	height: inherit;
+	font-size: 0.7rem;
+	color: #131313;
+	}
+
+.enterprise-mrst-intro{
+	margin: 0;
+	padding-left: 1rem;
+	padding-bottom: 3rem;
+	background: white;
+}
+.enterprise-mrst-intro textarea{
+		/*height: inherit;*/
+}
+.enterprise-mrst-intro h1{
+	margin: 0;
+	padding: 0.3rem 0;
+	font-size: 0.75rem;
+	color: #131313;
+	border-bottom: 1px solid #E1E1E1;
+}
+.enterprise-mrst-intro p{
+	margin: 0;
+	padding-top: 0.5rem;
+	font-size: 0.7rem;
+	color: #666666;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.enterprise-mrst .share {
+    width: 1.2rem;
+    height:1.2rem;
+    display: inline-block;
+    margin-top:0.5rem;
+    background: url(../../../img/views/mkt/share.png) no-repeat;
+    background-size: contain;
+}
+.enterprise-mrst-edit {
+	margin: 0.5rem 0;
+	padding: 0 2rem;
+}
+.enterprise-mrst-edit a{
+	border-radius: 1px;
+	background: #0080FC;
+	color: white;
+	font-size: 0.85rem;
+	
+
+}
+.enterprise-size {
+	
+	border-bottom: none !important;
+	background: #F1F1F1 !important;
+    border-top: 1px solid #E1E1E1 !important;
+    /*border-bottom: 1px solid #E1E1E1 !important;*/
+}
+
+.enterprise-size button{
+	color: #666666 !important; 
+}
+
+/*分享样式*/
+.picker-modal-inner {
+	background: white !important;
+    -webkit-mask-box-image: none !important; 
+    -webkit-mask-box-image: none !important;  
+}
+.picker-center-highlight{
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+}
+.edit-color2{
+	color: #999999;
+}
+.SeoKeysy{
+	color: #999999;
+	font-size: 0.6rem;
+	margin: 0;
+	padding: 0 0.2rem 0.7rem 0.5rem;
+}
+.edit-magintop{
+	margin-top: 0.5rem;
+}
+.dropload{
+	display: none;
+}
+.dropload-down{
+	height: 50px;
+}
+.dropload-down .dropload-load{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.dropload-load .loading{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	margin: 6px;
+	border: 2px solid #666;
+	border-bottom-color: transparent;
+	vertical-align: middle;
+	-webkit-animation: rotate 0.75s linear infinite;
+	animation: rotate 0.75s linear infinite;
+}
+@-webkit-keyframes rotate {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.noflow{
+	text-align: center;
+	margin-top: 8rem;
+    background: #efeff4;
+}
+ .noflow img{
+	margin: 0 auto;
+	width: 5rem;
+	height: 5rem;
+}
+ .shadow{
+	    box-shadow: 0 .05rem .1rem rgba(0,0,0,.3);
+
+}
+ .warn{
+	text-align: center;
+	margin: 1.5rem 0;
+	font-size: 0.85rem;
+	color: #666666;
+}
+.enterprise-mrst-down{
+	/*height: 2.5rem;*/
+	background: #414141;
+	margin: 0;
+	color: white;
+}
+.enterprise-mrst-down .item-title .cl1{
+	font-size: 0.7rem;
+}
+.enterprise-mrst-down .span{
+	font-size: 0.65rem;
+	display: inline-block;
+	color: white;
+	width: 4.1rem;
+	height: 1.75rem;
+	background: #008CF0;
+	border-radius:5px ;
+	text-align: center;
+	line-height: 1.75rem;
+	
+}
+.enterprise-mrst-down li{
+	height: 3rem;
+}
+.enterprise-mrst-down .item-title .cl2{
+	font-size: 0.6rem;
+}
+.enterprise-mrst-down ul{
+	border-bottom: none;
+	background: #414141;
+	border-top: none;
+}
+.enterprise-mrst header{
+	background-color: #414141;
+	border-bottom: none;
+	color: white;
+}
+.enterprise-mrst header .icon-left{
+	color: white;
+}
+.enterprise-mrst header .title{
+	color: white;
+}
+/*我的名片*/
+.Cards_Img{
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+	background: linear-gradient( -90deg, #008cf0 0%, #69cee8 100%);
+}
+#MyCards_Img{
+	width:3rem;
+	height:3rem;
+	border-radius:50%;
+}
+.Cards_Img .Cards_Img_Name{
+	margin:.5rem 0;
+}
+.MyCards_Detail_img{
+	padding-bottom:.2rem;
+	width:.9rem;
+	height:1.3rem;
+	vertical-align: middle;
+	margin:0 .5rem 0 1.4rem; 
+	float:left;
+}
+#MyCards_Email,
+#MyCards_Phone,
+#MyCards_Landline,
+#MyCards_Fax{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#MyCards_Email>span,
+#MyCards_Phone>span,
+#MyCards_Landline>span,
+#MyCards_Fax>span{
+	color:#fff;
+}
+.MyCardAll_ul{
+	overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.MyCardAll_li{
+	list-style: none;
+	float: left;
+	width: 48.5%;
+	margin:.3rem 0;
+}

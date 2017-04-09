@@ -1,0 +1,269 @@
+.PassWordShow{width: 1025px;height: 575px;margin: 0 auto;margin-top: 50px;}
+.PassWordBig{float: left;border: solid 1px #808080;width: 100%;height: 573px;}
+.PassWordBig-One{float: left;width: 100%;margin-top: 128px;}
+.PassWordBig-One span{float: left;width: 145px;height: 66px;line-height: 66px;font-size: 16px;margin-left: 175px;}
+.PassWordBig-One input{float: left;width: 526px;height: 64px;line-height: 64px;font-size: 16px;border: 1px solid #808080;outline: none;}
+.PassWordBig-Two{float: left;width: 100%;margin-top: 34px;}
+.PassWordBig-Two span{float: left;width: 145px;height: 66px;line-height: 66px;font-size: 16px;margin-left: 175px;}
+.PassWordBig-Two input{float: left;width: 526px;height: 64px;line-height: 64px;font-size: 16px;border: 1px solid #808080;outline: none;}
+.PassWordBig-Three{float: left;width: 100%;margin-top: 50px;}
+.PassWordBig-Three input{float: left;width: 100px;height: 40px;line-height: 40px;text-align: center;background-color: #008cee;color: #FFFFFF;margin-left: 500px;}
+/*充值*/
+.RechargeShow{width: 1649px;margin: 0 auto;margin-top: 50px;}
+.Recharge-Table{width: 100%;float: left;border-left: 1px solid #808080;border-top: 1px solid #808080;}
+.Recharge-TR{width: 100%;float: left;}
+.Recharge-One{float: left;width: 20%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Two{float: left;width: 19.93%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Three{float: left;width: 19.95%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Four{float: left;width: 19.9%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Five{float: left;width: 19.9%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+/*用户积分排行*/
+.UserIntegral-Show{width: 1648px;margin:0 auto;margin-top: 26px;}
+.UserIntegral-UL{float: left;width: 100%;}
+.UserIntegral-One{float: left;font-size: 16px;color: #373737;}
+.UserIntegral-Two{float: left;width: 100%;margin-top:40px;}
+.UserIntegral-Two a{float: left;margin-left: 20px;margin-right: 20px;padding-top: 5px;}
+.UserIntegral-Int-one{float: left;width: 52px;height: 24px;background-color: #FFFFFF;}
+.UserIntegral-Int-two{float: left;width: 52px;height: 24px;background-color: #FFFFFF;}
+.UserIntegral-Int-three{float: left;width: 52px;height: 24px;background-color: #008cee;color: #373737;margin-left: 46px;}
+.UserIntegral-Int-Four{float: left;width: 210px;height: 40px;border: 0;outline: none;}
+.UserIntegral-Int-Five{float: left;width: 20px;height: 20px;border: 0;outline: none;margin-top: 12px;}
+.UserIntegral-span{float: right;width: 246px;height: 40px;border: 1px solid #808080;line-height: 40px;}
+.Recharge-One-U{float: left;width: 20%;border-right: solid #808080 1px;height: 50px;background-color:#e5e5e5;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Two-U{float: left;width: 19.93%;border-right: solid #808080 1px;height: 50px;background-color:#e5e5e5;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Three-U{float: left;width: 19.95%;border-right: solid #808080 1px;height: 50px;background-color:#e5e5e5;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Four-U{float: left;width: 19.9%;border-right: solid #808080 1px;height: 50px;background-color:#e5e5e5;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Five-U{float: left;width: 19.9%;border-right: solid #808080 1px;height: 50px;background-color:#e5e5e5;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-One-U-Body-Td{float: left;width: 20%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Two-U-Body-Td{float: left;width: 19.93%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Three-U-Body-Td{float: left;width: 19.95%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Four-U-Body-Td{float: left;width: 19.9%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Five-U-Body-Td{float: left;width: 19.9%;border-right: solid #808080 1px;height: 50px;line-height: 50px;border-bottom: solid 1px #808080;text-align: center}
+.Recharge-Five-U-Body-Td a{display:inline-block;width:100%;text-decoration:none;color:#008ecc;}
+/*积分管理*/
+.IntegralShow{margin: 0 auto;}
+.IntegralShow-ul{width: 100%;}
+.IntegralShow-One{float: left;width: 100%;margin-top: 50px;}
+.IntegralShow-Two{float: left;width: 100%;margin-top: 60px;font-size: 16px;color: #808080;margin-bottom: 26px;}
+.IntegralShow-Three{float: left;width: 100%;}
+.IntegralShow-Span-One{width: 298px;height: 126px;float: left;line-height: 126px;border:1px solid #808080;text-align: center;font-size: 14px;color: #808080;}
+.IntegralShow-Span-Two{width: 298px;height: 126px;float: left;margin-left: 70px;line-height: 126px;border:1px solid #808080;text-align: center;font-size: 14px;color: #808080;}
+.IntegralShow-Span-A{font-size: 14px;color: #808080;padding-left: 5px;text-decoration: none;}
+.IntegralShow-Table{width: 100%;float: left;border-top: 1px solid #808080;border-left: 1px solid #808080;}
+.IntegralShow-Tr{float: left;width: 100%;height: 48px;line-height: 48px;}
+.IntegralShow-Td{float: left;width: 12.4%;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;font-size: 14px;color:#373737;}
+.IntegralShow-Ranklist{width:100%;float:left;margin-top:25px;}
+.IntegralShow-A-Ranklist{float:right;font-size:14px;text-decoration:none;}
+.IntegralShow-Li-CK{width:100%;float:left;margin-top:25px;text-decoration: none;}
+.IntegralShow-Li-CK a{float:right;font-size:14px;text-decoration:none;}
+.TradeRecordShow-Li input{width: 180px;height: 26px;line-height: 26px;text-align: center;outline:none;font-size:14px;color: #808080;}
+/*收入明细*/
+.IncomeShow{width: 1647px;margin: 0 auto;}
+.IncomeTop{width: 100%;float: left;margin-top: 50px;}
+/*按天计算*/
+.main{width: 100%;}
+.AccordingDay_title{margin-left: 20px;margin-top: 50px;}
+.AccordingDay_title ul li{float: left;padding-right: 26px;}
+.AccordingDay_title ul li a{font-size:16px;}
+.AccordingDay_date {width: 100%;margin-top: 35px;margin-left: 20px;}
+.AccordingDay_date input{width: 180px;height: 26px;line-height: 26px;text-align: center;outline:none;font-size:14px;color: #808080;}
+.AccordingDay_integral{margin-left:20px;margin-top:20px;}
+.AccordingDay_integral p{font-size: 14px;}
+.AccordingDay_integral p.margin20{margin-top: 20px;}
+.AccordingDay_integral p span{color: #008cf0;}
+.AccordingDay_table{margin:50px auto 0 auto;border-top:  1px solid #c9c9c9;border-left:  1px solid #c9c9c9;width: 98%;}
+.AccordingDay_table table{width: 100%;}
+.AccordingDay_table td{border-right: 1px solid #c9c9c9;border-bottom: 1px solid #c9c9c9;height: 50px;text-align: center;font-size: 14px;}
+/*按月计算*/
+.AccordingMonth_select{margin-left: 20px;margin-top: 30px;font-size: 14px;width: 100%;}
+.AccordingMonth_select span{display: inline-block;font-size: 14px;}
+.AccordingMonth_table{margin: 50px auto 0 auto;border-top:  1px solid #c9c9c9;border-left:  1px solid #c9c9c9;width: 98%;}
+.AccordingMonth_table table{width: 100%;}
+.AccordingMonth_table td{border-right: 1px solid #c9c9c9;border-bottom: 1px solid #c9c9c9;height: 50px;text-align: center;font-size: 14px;}
+/*查看*/
+.According_view{font-size: 16px;}
+/*资产明细*/
+.font-size16{font-size: 16px;display: block;}
+.font-size14{font-size: 14px;padding-left: 30px;display: block;}
+.Assets_table{margin: 50px auto 0 auto;border-top:  1px solid #c9c9c9;border-left:  1px solid #c9c9c9;width: 85%;}
+.Assets_table table{width: 100%;}
+.Assets_table td{border-right: 1px solid #c9c9c9;border-bottom: 1px solid #c9c9c9;height: 50px;text-align: center;font-size: 14px;}
+.Assets_account{width: 85%;margin: 106px auto 0 auto;}
+.Assets_account ul li{float: left;margin-bottom:30px;width: 25%;border: 1px solid #c9c9c9;margin-right: 62px;height: 134px;line-height: 134px;	text-align: center;font-size: 16px;color: #808080;}
+.Assets_account ul li a{display: block;}
+.bgColor{background: #e5e5e5;}
+/*按月统计*/
+.AssetDay_select{margin-bottom: 30px;}
+/*详情*/
+.AssetsDetails{	border-top:1px solid #c9c9c9;	border-left:  1px solid #c9c9c9;width: 96%;margin: 80px auto;}
+.AssetsDetails table{width: 100%;}
+.AssetsDetails td{border-right: 1px solid #c9c9c9;border-bottom: 1px solid #c9c9c9;height: 50px;text-align: center;font-size: 14px;}
+/*充值账户查看表格*/
+.AssetreChange_title{float: left;margin-left: 20px;margin-bottom: 20px;margin-top: 26px;width: 100%;}
+.AssetreChange_title ul li{float: left;padding-right: 26px;}
+.AssetreChange_title ul li a{font-size:14px;}
+.AssetreChange_title  .AssetreChange_title_A{float: left;margin-left: 26px;font-size: 14px;color: #808080;cursor: pointer;}
+.AssetreChange_title  .AssetreChange_title_B{float: left;margin-left: 26px;font-size: 14px;color: #3997f1;cursor: pointer;}
+.AssetreChange_C{margin:26px auto;color: #808080;font-size: 14px;width: 98%;margin-left: 35px;}
+.AssetreChange_C p.money{text-align: right;}
+.AccordingDay_title ul span{float: left;}
+.Assetsstistical_table{margin: 30px auto 0 auto;border-top:1px solid #c9c9c9;border-left:1px solid #c9c9c9;width: 98%;}
+.Assetsstistical_table table{width: 100%;}
+.Assetsstistical_table td{border-right: 1px solid #c9c9c9;border-bottom: 1px solid #c9c9c9;height: 50px;text-align: center;font-size: 14px;}
+.Assetsstistical_money{width: 96%;	margin: 20px auto 0 auto;}
+.Assetsstistical_money .money{text-align: right;}
+
+/*发票*/
+.invoiceChange_title{margin-left: 2%;margin-bottom: 20px;width: 100%;margin-top: 15px;}
+.invoiceChange_title ul li{float: left;padding-right: 26px;}
+.invoiceChange_title ul li a{font-size:14px;}
+.invoiceChange_title .invoiceChange_title_A{float: left;margin-left: 26px;font-size: 14px;color: #808080;cursor: pointer;}
+.invoiceChange_title .invoiceChange_title_B{float: left;margin-left: 26px;font-size: 14px;color: #3997f1;cursor: pointer;}
+.invoice_title{margin-left: 2%;margin-top: 50px;}
+.invoice_title ul li{float: left;padding-right: 26px;}
+.invoice_title ul li a{font-size:16px;}
+.invoice_date {width: 100%;float: left;margin-top: 35px;margin-left: 35px;}
+.invoice_date input{width: 180px;height: 26px;line-height: 26px;text-align: center;outline:none;font-size:14px;color: #808080;}
+.invoice{width: 96%;margin: 20px auto;}
+.invoice table{width: 100%;text-align: center;}
+.invoice table{width: 100%;border-left: 1px solid #9C9C9C;border-top: 1px solid #9C9C9C;}
+.invoice table tr{height: 50px;}
+.invoice table th{border-right:1px solid #9C9C9C;border-bottom: 1px solid #9C9C9C;background: #e5e5e5;}
+.invoice table td{border-right:1px solid #9C9C9C;border-bottom: 1px solid #9C9C9C;text-align: center;}
+.invoiceMonth_select{margin-left: 2%;margin-top: 30px;font-size: 14px;width: 100%;}
+.invoiceMonth_select span{display: inline-block;font-size: 14px;}
+/*发票明细*/
+.marginbottom{margin-bottom: 30px;}
+.margin-top{margin-top: 62px;}
+.margin-bottom{margin-bottom: 62px;}
+.right_adddress{height: 110px;}
+.right_adddress span{width: 100%;display: block;}
+.margin-thity{padding-top: 30px;width:30%;display:block;}
+.margin-forty{padding-top: 40px;width:30%;display:block;}
+.invoice_content{width: 80%;margin: 60px auto 60px auto;border:1px solid #c9c9c9;overflow: hidden;}
+.invoice_content input{outline: none;}
+.invoice_content .content_left{width: 45%;text-align: right;float: left;}
+.invoice_content .content_left span{display: block;height: 80px;line-height: 80px;}
+.invoice_content .content_left span.span_img{height: 125px;line-height: 125px;margin-top: 30px;}
+.invoice_content .content_right{margin-left: 10%;float: left;width: 45%;}
+.invoice_content .content_right p{height: 80px; line-height: 80px;}
+.invoice_content .content_right p.p_img{height: 125px;margin-top: 30px;}
+.invoice_content .content_right p.p_img a{margin-left: 33px;}
+.invoice_content .content_right p img{width: 154px; height: 125px;}
+/*交易明细*/
+.Transaction_title{float: left;margin-left: 20px;margin-bottom: 20px;margin-top: 26px;width: 100%;}
+.Transaction_title li{float: left;margin-right: 25px;}	
+.Transaction_title li a{font-size: 15px; font-weight: bold;}
+.Transaction_title  .Transaction_title_A{float: left;margin-left: 26px;font-size: 14px;color: #808080;cursor: pointer;}
+.Transaction_title  .Transaction_title_B{float: left;margin-left: 26px;font-size: 14px;color: #3997f1;cursor: pointer;}
+.Transaction_date{margin-left: 2%;margin-top: 25px;font-size: 14px; height: 30px;line-height: 30px;width: 96%; }
+.TD_sx{width: 5%;margin-right: 25px;float: left;}
+.TD_date{width: 30%;display:inline-block;text-align: left;height: 30px; line-height: 30px;float: left;}
+.TD_date input{width: 40%;}
+.TD_qd{width: 10%;float: left;text-align: right;}
+
+/*.TD_qd_input{width: 10%;float: left;margin-top: 3px;}*/
+.sp_select {width:10%;float:left;text-align: center;}
+.Transaction_date sp {width:30%;}
+
+.search{float: left;margin-top: 3px;margin-left:20% ;width: 12%;}
+.sure{float: left;margin-top: 3px;line-height: 30px;border:1px solid #000;background: #66CCFF;box-sizing: border-box;margin-left: 1%;width: 4%;text-align: center;}
+.Transaction{width: 96%;margin: 50px auto;}
+.Transaction table{width: 100%;text-align: center;}
+.Transaction table{width: 100%;border-left: 1px solid #9C9C9C;border-top: 1px solid #9C9C9C;}
+.Transaction table tr{height: 50px;}
+.Transaction table th{border-right:1px solid #9C9C9C;border-bottom: 1px solid #9C9C9C;background: #e5e5e5;}
+.Transaction table td{border-right:1px solid #9C9C9C;border-bottom: 1px solid #9C9C9C;text-align: center;}
+/*查看详情*/
+.Transaction_read{width: 100%;margin: 50px auto;}
+.Transaction_read table{width: 100%;text-align: center;}
+.Transaction_read table{width: 100%;border-left: 1px solid #9C9C9C;border-top: 1px solid #9C9C9C;}
+.Transaction_read table tr{height: 50px;}
+.Transaction_read_tr{background: #e5e5e5;}
+.Transaction_read table td{border-right:1px solid #9C9C9C;border-bottom: 1px solid #9C9C9C;text-align: center;}
+
+/*发票明细*/
+.invoice_content li{line-height: 80px;overflow: hidden;}
+.invoice_content li span a{display: inline-block;}
+.invoice_content .left{width: 30%;text-align: right;display: inline-block;margin-right: 8%;font-size: 16px;float: left;}
+.invoice_content .right{width: 60%;float: left;display: block;font-size: 14px;color: #808080;}
+.invoice_content .big{width: 160px;height: 120px;display: block;border: 1px solid #9C9C9C;float: left;line-height: 120px;text-align: center;box-sizing: border-box;}
+.address{width: 100%;display: inline-block;font-size: 14px;}
+.money{width: 100%;font-size: 14px;display:block;line-height: 80px;}
+.money a{color: #66CCFF;}
+.margin-bottom{margin-bottom: 30px;height: 120px;}
+.download{display:block;float: left;margin-left: 3%;}
+.right_a {color:#008cf0;font-style:normal;}
+/*发票明细普通发票*/
+.ContentTitle{font-size:16px;fint-weight:700;margin-top:50px;}
+
+/*手动积分调整*/
+.ManualAdjustment{width:80%;min-width:1060px;margin-left:auto;margin-right:auto;margin-top:40px;text-align:left;}
+.ManualAdjustment>div:first-child{text-align:right;}
+.ManualAdjustment>div:nth-child(2){text-align:center;}
+.ManualAdjustment>div:nth-child(2) :first-child{width:500px;height:50px;margin-right:50px;}
+.ManualAdjustment>div:nth-child(2) :nth-child(2){width:100px;height:50px;}
+.ManualAdjustment>div:nth-child(3){margin-top:50px;text-align:center;}
+.ManualAdjustment>div:nth-child(3) span{vertical-align: top;font-size:20px;line-height:50px;width:350px;height:50px;display:inline-block;border-bottom:1px solid #000;border-right:1px solid #000;}
+.ManualAdjustment>div:nth-child(3)>div:first-child span{border-top:1px solid #000;font-weight:700;}
+.ManualAdjustment>div:nth-child(3)>div span:first-child{border-left:1px solid #000;}
+.ManualAdjustment>div:nth-child(4){margin-top:50px;text-align:center;}
+.ManualAdjustment>div:nth-child(4)>span{display:inline-block;height:50px;width:150px;line-height:50px;cursor:pointer;font-size:20px;}
+.Secelted{background-color:#199ED8;}
+.ManualAdjustment>div:nth-child(4) :first-child{margin-right:50px;}
+.ManualAdjustment>div:nth-child(5){margin-top:50px;}
+.ManualAdjustment>div:nth-child(5) :first-child{font-size:20px;width:40%;text-align:right;display:inline-block;}
+.ManualAdjustment>div:nth-child(5) :nth-child(2){margin-left:50px;height:50px;line-height:50px;font-size:20px;width:350px;}
+.ManualAdjustment>div:nth-child(6){margin-top:50px;}
+.ManualAdjustment>div:nth-child(7){margin-top:50px;}
+.ManualAdjustment>div:nth-child(7) :first-child{font-size:20px;vertical-align: top;width:40%;text-align:right;display:inline-block;}
+.ManualAdjustment>div:nth-child(7) :nth-child(2){margin-left:50px;height:200px;line-height:50px;font-size:20px;width:550px;}
+.ManualAdjustment>div:nth-child(8){margin-top:50px;margin-bottom:50px;text-align:center;}
+.ManualAdjustment>div:nth-child(8) :first-child{width:150px;height:50px;}
+.FlowIntegral{display:none;}
+.FlowIntegral>div{margin-top:50px;}
+.FlowIntegral>div>:first-child{width:40%;text-align:right;display:inline-block;font-size:20px;}
+.FlowIntegral>div:first-child :nth-child(2){margin-left:50px;height:50px;margin-right:20px;}
+.FlowIntegral>div:nth-child(2) :nth-child(2){margin-left:50px;height:50px;}
+.DetailTable{display:none;}
+.DetailTable>span{vertical-align:top;}
+.DetailTable>div{display:inline-block;margin-left:50px;}
+.DetailTable>div>div>span:first-child{margin-right:50px;}
+.DetailTable>div span,.DetailTable>div input[type=number]{width:100px;height:40px;line-height:40px;font-size:20px;text-align:center;margin-right:10px;}
+.DetailTable>div input[type=button]{height:40px;width:80px;background-color:#169BD5;border-radius:10px;border-style:none;margin-right:10px;cursor:pointer;}
+.DetailTableContent>div{margin-top:20px;}
+.DetailTable>div>input[type=button]{margin-top:20px;}
+.save{display:none;}
+.write{display:inline-block;}
+
+/*赠送明细*/
+.PresentationDetails{width:80%;min-width:1400px;margin-left:auto;margin-right:auto;margin-top:40px;}
+.PresentationDetails>div:first-child :first-child,.PresentationDetails>div:first-child :nth-child(2){height:25px;width:100px;margin-right:20px;margin-left:20px;}
+.PresentationDetails>div:first-child :nth-child(3),.PresentationDetails>div:first-child :nth-child(4){height:25px;width:50px;background-color:#66CCFF;margin-right:20px;margin-left:20px;}
+.PresentationDetails>div:first-child :nth-child(4),.PresentationDetails>div:first-child :nth-child(5){float:right;}
+.PresentationDetails>div:first-child :nth-child(5){height:25px;}
+.PresentationDetails>div:nth-child(2){text-align:center;margin-top:50px;margin-left:auto;margin-right:auto;}
+.PresentationDetails>div:nth-child(2) span{width:200px;height:25px;line-height:25px;font-size:14px;display: table-cell;margin:0;border-left:0;text-align:center;border-bottom:1px solid #333;border-right:1px solid #333;}
+.PresentationDetails>div:nth-child(2)>div{text-align:center;}
+.PresentationDetails>div:nth-child(2)>div:first-child span{border-top:1px solid #333;font-weight:700;}
+.PresentationDetails>div:nth-child(2)>div span:first-child{border-left:1px solid #333;}
+/*积分赠送成功*/
+.ComplimentarySuccess{text-align:center;margin-top:400px;font-size:20px;font-weight:700;}
+/*查看流动积分*/
+.ViewDetails{width:80%;margin-left:auto;margin-right:auto;min-width:900px;margin-top:50px;font-size:20px;}
+.ViewDetails>div{margin-top:50px;}
+.ViewDetails>div>span{display:inline-block;width:200px;margin-right:20px;margin-left:20px;vertical-align:top;}
+.ViewDetailsData{display:inline-block;}
+.ViewDetailsData>div{margin-top:20px;}
+.ViewDetailsData>div>span{width:100px;margin-right:20px;display:inline-block;text-align:center;}
+
+/*调整部分*/
+.ManualAdjustmentIntegration  #startDate{height:20px;}
+.ManualAdjustmentIntegration  #endDate{height:20px;}
+.ManualAdjustmentIntegration  #txtCompany{width:900px;}
+.ManualAdjustmentIntegration  #searchBut{width:100px;height:50px;margin-left:50px;}
+    
+	
+	
+	
+

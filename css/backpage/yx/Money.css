@@ -1,0 +1,87 @@
+.MoneyShow{width: 80%;margin: 0 auto;margin-top: 40px;}
+.MoneyBig{min-width: 900px;padding-left:10%;padding-right:10%;margin-left:auto;margin-right:auto; padding-top: 25px;background-color: #fff;box-shadow:4px 6px 6px #dedede;    padding-bottom: 20px;}
+.MoneyBig-Li{width: 100%;border-bottom:1px solid #dedede;color: #373737;font-size: 15px;padding-bottom: 20px; font-weight:700;}
+.MoneyBig-One{width: 100%;margin-top: 30px;}
+.MoneyBig-O-Size{height: 50px;line-height: 50px;width: 17%;margin-right: 6%;border-right: 1px solid #9c9c9c;text-align: center;font-size: 14px;color: #373737;}
+.MoneyBig-T-Size{height: 35px;line-height: 35px;width: 138px;margin-right: 70px;margin-bottom: 30px; display: inline-block;}
+.MoneyBig-T-SizeT{height: 35px;line-height: 35px;margin-right: 70px;margin-bottom: 30px;color: #FFFFFF;font-size: 14px;cursor: pointer;display:inline-block;border:1px solid #008ecc}
+.MoneyBig-T-Size input{outline: none;width: 100%;height: 100%;}
+.MoneyBig-Span{      cursor: pointer;  margin-bottom: 30px;width:140px;display: inline-block;cursor: pointer;margin-right:45px;height: 35px;line-height: 35px;border: 1px solid #9c9c9c;text-align: center;font-size: 11px;color: #373737;}
+.MoneyBig-SpanT{    margin-bottom: 30px;width:140px;margin-right:45px;cursor: pointer;height: 35px;line-height: 35px;border: 1px solid #9c9c9c;text-align: center;color: #FFFFFF;font-size: 11px;cursor: pointer;background: #008cce;display:inline-block;}
+.MoneyBig-HSize{font-size: 11px;color: #808080;line-height: 30px;}
+.MoneyBig-Text{width: 140px;margin-left: 30px;outline: none;height: 35px;font-size: 11px;}
+.MoneyBig-Two{width: 100%;text-align: center;}
+.MoneyBig-Two input{ border-radius:6px;border-style:hidden;   padding-left: 30px;padding-right: 30px;height: 35px;background:#008cee;color: #FFFFFF;margin-top:50px;}
+/*办办充值*/
+.settlement{width: 80%;margin: 30px auto;}
+.MoneyB-Mian{width: 100%;    margin-bottom: 30px;}
+.Money-Border{width: 100%;  padding-bottom:25px;box-shadow: 4px 6px 6px #dedede;background-color: #fff;min-width: 900px;}
+.Money-Border{    padding-top: 40px;width: 100%;  padding-bottom:25px;box-shadow: 3px 3px 5px #c9c9c9;background-color: #fff;min-width: 900px;}
+.MoneyT-Show{width: 80%;margin:0 auto;}
+.MoneyT-Size{display:inline-block;font-size: 11px;color: #373737;margin-top: 40px;font-weight:700;margin-left: 50px;}
+.MoneyT-way{width: 100%;font-size: 15px;color: #373737;margin-top: 40px;padding-left: 50px;}
+.MoneyT-Li{width: 100%;padding-left: 50px;}
+.MoneyT-LE{width: 100%;margin-top: 60px;height: 20px;line-height: 20px;margin-bottom:20px;}
+.MoneyT-LE_JS{width: 100%;margin-top: 60px;height: 20px;line-height: 20px;margin-bottom:20px;}
+.MoneyT-LC{width: 100%;margin-top: 30px;padding-left:50px;}
+.MoneyT-Li span{font-size: 11px;color: #373737;margin-right: 110px;}
+.MoneyT-LE span{margin-left: 9%;font-size: 14px;color: #373737;}
+.MoneyT-Li span a{font-size:11px;color: #373737;padding-left: 5px;padding-right: 5px;}
+.MoneyT-P{margin-left: 4%;}
+.MoneyT-Input{    margin: 0px;}
+.MoneyT-Span{margin-bottom:40px;width:140px;height: 40px;line-height: 40px;border:1px solid #c9c9c9;text-align: center;color: #373737;margin-right:70px;display:inline-block;cursor: pointer;}
+.MoneyTT-Span{margin-bottom:40px;width:140px;height: 40px;line-height: 40px;border:1px solid #008cee;text-align: center;color: #FFFFFF;font-size: 14px;margin-right: 70px;cursor: pointer;display:inline-block;}
+.MoneyT-Hide{width: 100%;padding-left: 50px;color:#ee7d42;margin-top: 30px;}
+.MoneyT-Hide a{color:#0080fc;font-size: 11px;text-decoration: none;}
+.MoneyT-Title{font-size: 15px;color: #373737;font-weight: 700;margin-bottom: 20px;}
+.MoneyT-Four{width: 100%;margin-top: 40px;}
+.MoneyT-FOSpan{padding-left: 50px;font-size: 11px;color: #373737;}
+.MoneyT-FTSpan{padding-left: 250px;font-size: 11px;color: #373737;}
+.MoneyT-LC-Span{font-size: 11px;color: #373737;}
+.Money-Lan{font-size: 14px;color: #008cee;text-decoration: none;}
+.Money-BianJi{font-size: 11px;color: #008cee;text-decoration: none;cursor: pointer; margin-left: 20px;}
+.MoneyT-Button{display:inline-block;margin-top: 40px;margin-bottom: 50px;  }
+.MoneyT-Text{margin-top: 40px;margin-bottom: 20px;display:inline-block;margin-left:43px;}
+.MoneyT-Text input{height: 20px;}
+.MoneyT-Button input{margin-left:50px; border-radius:6px;height: 35px;line-height: 35px; padding-left:30px;padding-right:30px;background: #008cee;color: #FFFFFF;  border-style: none;}
+.MoneyBB-Li{width: 100%;text-align: center;}
+.MoneyBB-Li input{height: 35px; border-radius:6px;  padding-left: 30px; padding-right: 30px; font-size: 11px;background: #008cee;color: #FFFFFF;margin-top: 40px;border-style: hidden;}
+.font_width700{font-weight:700;margin-right: 50px;}
+.radio_mar_r13{margin-right:13px;position:relative;top:3px;}
+.money_all{margin-top:40px;padding-left:50px;font-weight:700;font-size:11px;}
+.mar_r50{margin-right:50px;}
+.font_weight_normal{font-weight:100;}
+.MoneyT-Size_title{width: 100%;  margin-top: 20px; height: 20px;  line-height: 20px; margin-bottom: 20px;font-size:16px;font-weight:700;color:#373737;}
+#IsIntegral,#ROne,#RTwo{position:relative;top:3px;margin-right:13px;}
+.Third-Party-Payment{margin-right: 50px;text-align: right;vertical-align: top;width:140px;height: 70px; line-height: 70px;    display: inline-block;  margin-bottom: 10px;  border-right: 1px solid #c9c9c9;position: relative;top: -10px;}
+.Third-Party-Payment a{margin-right: 25px;font-size: 11px;}
+#sum{font-size: 11px;color: #373737;display:none;}
+/*发票*/
+.InvoiceShow{width: 80%;margin: 0 auto;margin-top: 20px;}
+.InvoiceMain{width:100%;margin: 0 auto;}
+.InvoiceEighty{margin: 0 auto;  }
+.InvoiceTop{width: 100%;margin-top:20px;}
+.Invoice-KB{width: 15%;}
+.Invoice-Lan{ cursor: pointer;width: 170px;display: inline-block;color: #FFFFFF;font-size: 14px;height: 35px;line-height: 35px;border-radius:6px;text-align: center;border: 1px solid #9c9c9c;background: #008cee;margin-right: 60px;}
+.Invoice-Bai{cursor: pointer;width:170px;display: inline-block;color: #373737;font-size: 14px;height: 35px;line-height: 35px;border-radius:6px;text-align: center;border: 1px solid #9c9c9c;margin-right: 60px;}
+.InvoiceBottom-O{width: 100%;margin-top: 20px;display: none;}
+.InvoiceB-li{width: 100%;padding:5px;color: red;background:#ffffcc;font-size: 14px;border: 1px solid #9c9c9c;}
+.InvoiceA-li{width: 100%;margin-top: 20px;line-height: 35px;}
+.InvoiceA-li-A{width: 100%;margin-top: 20px;display: inline-block;}
+.InvoiceA-li-B{width: 100%;margin-top: 30px;line-height: 50px;}
+.InvoiceA-li-words{width: 100%;margin-top: 20px;}
+.InvoiceA-liT{width: 100%;margin-top: 40px;}
+.InvoiceA-Di{width: 100%;margin-top: 50px;height: 50px;line-height: 50px;}
+.InvoiceA-Span{ display: inline-block;width: 100px;margin-right:35px;  line-height: 35px;vertical-align: top;font-size:15px;font-weight:700;}
+.InvoiceA-Span a{font-size: 11px;color: #373737;    width: 24.4%}
+.InvoiceA-Text{width: 260px;height: 35px;outline: none;font-size: 11px;padding-left: 3%}
+.InvoiceA-Select{width: 260px;height: 35px;outline: none;font-size: 11px;padding-left: 3%}
+.InvoiceA-P{width: 50%;color: #373737;font-size: 11px;}
+.InvoiceA-P a{color: #008cee;text-decoration: none;font-size: 14px;}
+.InvoiceA-Img{position: relative;left: -85px; width: 150px;height: 150px;}
+.InvoiceA-Button{cursor: pointer;width:80px;height: 30px;line-height: 30px;background-color:#fff;color:#0080fc;text-align: center;font-size: 11px;    border: 1px solid #008cf0;border-radius: 4px;}
+.InvoiceA-Button:active{border-color:#fff;}
+.InvoiceA-One{border: 1px solid #9c9c9c; height: 35px; border-radius:6px; width: 164px; line-height: 35px;  text-align: center; background: #b4b4b4; display: inline-block;  margin-right: 50px;    cursor: pointer;}
+.InvoiceA-Two{border: 1px solid #9c9c9c; height: 35px;  border-radius:6px;line-height: 35px; text-align: center; background: #b4b4b4; display: inline-block; width: 164px;    cursor: pointer;}
+/*所有hr的样式*/
+ hr{border-top: 1px solid #c9c9c9;} 

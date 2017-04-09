@@ -1,0 +1,159 @@
+.BurseShow{width: 80%;    background-color: #fff;  margin: 30px auto; padding-top: 40px;  box-shadow:4px 6px 6px #dedede;     padding-bottom: 40px;   min-width: 900px;}
+.BurseShow-B{width: 80%; margin: 30px auto;     min-width: 1050px;   padding-top: 40px; background-color: #fff; box-shadow: 4px 6px 6px #dedede; padding-bottom: 40px;}
+.BurseShow-One{width: 80%;margin-left:auto;margin-right:auto;}
+.BurseShow-One input{width: 282px;height: 46px;line-height: 46px;text-align: center;font-size: 14px;color: #808080;outline: none;}
+.BurseShow-One select{width: 80px;height: 25px;line-height: 25px;text-align: center;font-size: 14px;color: #808080;outline: none;}
+.BurseShow-Two{width: 80%;    margin: 40px auto;}
+.BurseShow-Table{width: 100%;border-left: 1px solid #808080;}
+.BurseShow-Table thead .BurseShow-Tr:first-child td{border-top:1px solid #808080;}
+.BurseShow-Two td{border-bottom: solid 1px #808080;border-right: solid #808080 1px;height: 30px;line-height: 30px;text-align: center}
+.BurseShow-TdO{float: left;width: 24.9%;}
+.BurseShow-TdT{float: left;width: 24.8%;}
+.BurseShow-TdS{float: left;width: 24.9%;}
+.BurseShow-TdF{float: left;width: 24.8%;}
+.dateto{height:30px;width:100px;border:none;}
+.dateform{height:30px;width:100px;border:none;}
+.date-border{display:inline-block;border:1px solid #c9c9c9;margin-right:40px;height:30px;}
+#i_operation{     height: 34px; }
+/*各渠道费用*/
+.ChargeShow{margin:  auto;width:80%;margin-top: 30px; padding-top: 50px;      min-width: 900px;  background-color: #fff;box-shadow: 4px 6px 6px #dedede;    padding-bottom: 40px;}
+.ChargeShow-Table{width: 80%;border-left: 1px solid #c9c9c9;border-top: solid 1px #c9c9c9;margin-left:auto;margin-right:auto;}
+.ChargeShow td{float: left;border-bottom: solid 1px #c9c9c9;border-right: solid #c9c9c9 1px;height: 30px;line-height: 30px;text-align: center;width: 33.15%;}
+.ChargeShow-Tr{font-size:13px;}
+.ChargeShow-Tbody-Tr{font-size:11px;}
+/*余额变动明细*/
+.Detail-One{width: 80%;margin-left:auto;margin-right:auto;}
+.Detail-One select{line-height: 34px;text-align: center;font-size: 14px;color: #808080;outline: none;  height:25px;  width: 80px;position: relative;  left: -30px;}
+/*积分时间*/
+.IntegralBDiOne{ display: inline-block;    position: relative; }
+.IntegralBDiOne input{height: 26px;width: 120px;height: 30px;line-height: 30px;text-align: center;outline:none;font-size:14px;color: #808080;}
+/*设置支付密码*/
+.PassWordShow{width: 1025px;height: 575px;margin: 0 auto;margin-top: 50px;}
+.PassWordBig{float: left;width: 100%;padding-bottom:50px;box-shadow: 4px 6px 6px #dedede;background-color:#fff;}
+.PassWordBig-One{float: left;width: 100%;margin-top: 128px;}
+.RPassWordBig-One{float: left;width: 100%;margin-top: 128px;}
+.PassWordBig-One span{float: left;width: 145px;height: 66px;line-height: 66px;font-size: 16px;margin-left: 175px;}
+.RPassWordBig-One span{float: left;width: 145px;height: 35px;line-height: 35px;font-size: 16px;margin-left: 140px;    text-align: right;}
+.PassWordBig-One input{float: left;width: 526px;height: 64px;line-height: 64px;font-size: 16px;border: 1px solid #808080;outline: none;}
+.RPassWordBig-One input{float: left;width: 300px;height: 35px;line-height: 35px;font-size: 16px;border: 1px solid #808080;outline: none;margin-left: 40px;}
+.PassWordBig-Two{float: left;width: 100%;margin-top: 34px;}
+.RPassWordBig-Two{float: left;width: 100%;margin-top: 36px;}
+.RPassWordBig-Two span{float: left;width: 145px;height: 35px;line-height: 35px;font-size: 16px;margin-left: 140px;text-align: right;}
+.PassWordBig-Two span{float: left;width: 145px;height: 66px;line-height: 66px;font-size: 16px;margin-left: 175px;}
+.RPassWordBig-Two input{float: left;width: 300px;height: 35px;line-height: 35px;font-size: 16px;border: 1px solid #808080;outline: none;margin-left: 40px;}
+.PassWordBig-Two input{float: left;width: 526px;height: 64px;line-height: 64px;font-size: 16px;border: 1px solid #808080;outline: none;}
+.PassWordBig-Three{float: left;width: 100%;margin-top: 50px;text-align:center;}
+.PassWordBig-Three input{width: 100px;height: 40px;border-style:none;border-radius:6px;line-height: 40px;text-align: center;background-color: #008cee;color: #FFFFFF;margin-bottom: 50px;}
+/*设置管理员密码*/
+.PassWordShowT{width: 80%;min-width:900px;height: 200px;padding-top:50px;margin:15vh  auto auto auto ;box-shadow:4px 6px 6px #dedede;background-color:#fff;min-width: 1150px;}
+.PassWordBigT{width:80%;clear:both;margin:0 auto;}
+.PassWordBig-OneT{width: 100%;}
+.PassWordSpanT{width: 160px;padding-left:5vw;;display:inline-block;height: 62px;line-height: 62px;font-size: 11px;margin-right: 40px;text-align: right;}
+.PassWordBig-SPOT{width: 300px;height: 35px;line-height: 35px;font-size: 16px;border: 1px solid #808080;outline: none;}
+.PassWordBig-SPOTO{float: left;width: 526px;height: 64px;line-height: 64px;font-size: 16px;border: 1px solid #808080;outline: none;margin-left: 31px;}
+.PassWordBig-TwoT{width: 100%;margin-top: 36px;}
+.PassWordBig-TP{width: 300px;height: 35px;line-height: 35px;font-size: 16px;border: 1px solid #808080;outline: none;}
+.PassWordBig-TPO{float: left;width: 526px;height: 64px;line-height: 64px;font-size: 16px;border: 1px solid #808080;outline: none;margin-left: 31px;}
+.PassWordBig-ThreeT{text-align: center;width: 100%;margin-top: 50px;}
+.PassWordBig-ThreeT input{width: 100px;height: 35px; border-style:hidden;border-radius:6px;    line-height: 35px;text-align: center;background-color: #008cee;color: #FFFFFF;}
+.PassWordBig-SPT{width: 140px;border-style:hidden;height: 35px;line-height: 35px;text-align: center;background-color: #008cee;color: #FFFFFF;margin-left:40px;}
+.PassWordBig-Span{float: left;width: 98px;height: 42px;line-height: 42px;text-align: center;background-color: #008cee;color: #FFFFFF;}
+/*钱包*/
+.WalletShow{margin: 0 auto;width:100%;background-color:#fff;padding-top:40px;}
+.WalletShowTop{width:93%;margin:0px auto; }
+.WalletShowTopLeft{display:inline-block;width: 180px;height: 110px;vertical-align:top;}
+.WSTLOne{width: 45px; background-color:#ffff00;margin-left:auto;margin-right:auto;height: 45px;}
+.WSTLTwo{width: 100%;margin-top: 13px;font-size: 13px;color: #373737;text-align: center;}
+.WalletShowTopRight{display:inline-block;height: 110px;}
+.WSTR-Ul{padding-left: 40px;}
+.WSTR-Li-O{width: 100%;}
+.WSTR-Li-O a{font-size: 13px;color: #373737;}
+.WSTR-Li-O span:first-child{display:inline-block;width:286px;}
+.WSTR-Li-O span{font-size: 13px;color: #373737;}
+.WSTR-Li-T{width: 100%;margin-top: 20px;}
+.WSTR-Li-T span:first-child{display:inline-block;width:286px;}
+.WSTR-Li-T span{font-size: 11px;color: #373737;}
+.WSTR-Li-Num{font-size: 11px;color: #373737;}
+.WSTR-Li-NumT{margin-left: 20px;font-size: 11px;color: #373737;}
+.WSTR-Li-H{width: 100%;margin-top: 25px;}
+.WSTR-Li-H span:first-child{width:286px;display:inline-block;}
+.WSTR-Li-H input{width: 45px;border-radius:6px;background-color: #008cee;color: #FFFFFF;text-align: center;border-style: hidden;}
+.WSTR-Li-H input:hover{background-color: #0000ee;}
+.WSTR-Li-YE{text-decoration: none;font-size: 12px;color: #008cee;margin-left: 20px;}
+.WSTR-Li-JF{text-decoration: none;font-size: 12px;color: #008cee; position: relative;left: -5px;}
+.WalletShowBottom{width: 93%;margin:40px auto;margin-bottom:0px;}
+.WSB-Li-JL{width: 100%;font-size: 13px;color: #373737;font-weight:700;margin-bottom:20px;}
+.WSB-Li-QT{width: 100%;font-size: 13px;color: #373737;margin-top:40px;padding-bottom:20px;border-bottom: 1px solid #808080;font-weight:700;}
+.WSB-Li-CK {width:100%;font-size:11px; padding-top: 20px;}
+.WSB-Li-CK a {float:right;font-size:11px;text-decoration:none;color: black;}
+.WSB-Li-T{width: 100%;}
+.WSB-Li-Table{width: 100%;border-left: 1px solid #808080;border-top:1px solid #808080;}
+.WSB-Li-Tr{width: 100%;}
+.WSB-TD-One{border-bottom: 1px solid #808080;border-right: 1px solid #808080;width:10%;height: 30px;line-height: 30px;text-align: center;}
+.WSB-TD-Two{border-bottom: 1px solid #808080;border-right: 1px solid #808080;width:13%;height: 30px;line-height: 30px;text-align: center;}
+.WSB-TD-Three{border-bottom: 1px solid #808080;border-right: 1px solid #808080;width:13%;height: 30px;line-height: 30px;text-align: center;}
+.WSB-TD-Four{border-bottom: 1px solid #808080;border-right: 1px solid #808080;width:13.1%;height: 30px;line-height: 30px;text-align: center;}
+.WSB-TD-Five{border-bottom: 1px solid #808080;border-right: 1px solid #808080;width:13.1%;height: 30px;line-height: 30px;text-align: center;}
+.WSB-TD-Six{border-bottom: 1px solid #808080;border-right: 1px solid #808080;width:13.1%;height: 30px;line-height: 30px;text-align: center;}
+.WSB-TD-Seven{border-bottom: 1px solid #808080;border-right: 1px solid #808080;width:13.1%;height: 30px;line-height: 30px;text-align: center;}
+.WSB-TD-Seven a{text-decoration:none;color: black;}
+.WSB-TD-Eight{border-bottom: 1px solid #808080;border-right: 1px solid #808080;width:11%;height: 30px;line-height: 30px;text-align: center;}
+.WSB-TD-Chakan{text-decoration: none;}
+.WalletShowDI{margin-top: 20px;margin-bottom:30px;margin-left:auto;margin-right:auto;width:93%;padding-bottom: 20px;}
+.WalletShowDI a{text-decoration: none;}
+.WSD-UO{width: 125px;}
+.WSD-UT{width:335px;height: 84px;line-height: 82px;text-align: center;font-size: 28px;color: #373737;}
+.WSD-UH{width: 130px;}
+.WSD-UO-One{font-size: 12px;}
+.WSD-UO-One a{font-size: 12px;text-decoration:none;color: #008cee;;}
+.WSD-UO-Two{font-size: 12px;margin-top: 20px;}
+.WSD-UO-Two a{font-size: 12px;text-decoration:none;color: #008cee;}
+.WSD-UO-Three{font-size: 12px;margin-top: 20px;}
+.WSD-UO-Three a{font-size: 12px;text-decoration:none;color: #008cee;}
+/*交易记录*/
+.TradeRecordShow{width: 100%;min-width:900px;margin: 0 auto;    padding-bottom: 40px;}
+.TradeRecordShow-Li{width: 95%;margin-top:40px;margin-left:auto;margin-right:auto;}
+.TradeRecordShow-Li input{width: 180px;height: 26px;line-height: 26px;text-align: center;outline:none;font-size:14px;color: #808080;}
+.TradeRecordShow-input{float: left;width: 282px;height: 46px;line-height: 46px;text-align: center;font-size: 14px;color: #808080;outline: none;}
+.TradeRecordShow-Table{  width:100%;  border-left: 1px solid #808080;margin: 0px auto;border-left:1px solid #808080;}
+.TradeRecordShow-Table thead tr td{border-top:1px solid #808080;}
+.TradeRecordShow-Tr{width: 100%;}
+.TradeRecordShow-Td-One{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TradeRecordShow-Td-Two{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TradeRecordShow-Td-Three{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TradeRecordShow-Td-Four{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TradeRecordShow-Td-Five{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TradeRecordShow-Td-Six{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TradeRecordShow-Td-Seven{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TradeRecordShow-Td-Seven a{text-decoration:none;color:#008ecc;}
+.TradeRecordShow-Td-Eight{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TradeRecordShow-Td-Eight{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TradeRecordShow-Td-Nine{height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-One{float: left;width: 9.3%;height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-Two{float: left;width: 10.2%;height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-Three{float: left;width: 10.2%;height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-Four{float: left;width: 10.3%;height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-Five{float: left;width: 11.3%;height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-Six{float: left;width: 14.2%;height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-Seven{float: left;width: 14.4%;height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-Eight{float: left;width: 11.3%;height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-Nine{float: left;width: 8.3%;height: 50px;line-height: 50px;border-bottom: 1px solid #808080;border-right: 1px solid #808080;text-align: center;}
+.TRS-Td-Seven a{text-decoration: none;}
+.TRS-Td-Eight a{text-decoration: none;}
+#txtBegin{}
+/*设置支付密码*/
+.FitSuccessShow{    width: 80%; margin: 30px auto; padding-top: 50px; padding-bottom: 50px;  background-color: #fff;  box-shadow: 4px 6px 6px #dedede;}
+.FSS-Li-One{width: 100%;text-align: center;font-size: 25px;color: #373737;}
+.FSS-Li-Two{width: 100%;text-align: center;margin-top: 30px;}
+.FSS-Li-Two a{color: #008cee;font-size: 13px;text-decoration: none;}
+/*无手机号提示*/
+.TiShiShow{}
+.TiShiShow-One{font-size: 24px;color: #373737;text-align: center;margin-top: 50px;}
+.TiShiShow-Two{text-align: center;height: 100px; line-height: 100px;margin-top:50px;  font-size: 13px;}
+.TiShiShow-Three a{font-size: 16px;text-decoration:none;color:#373737;}
+.TiShiShow-Two a{font-size: 16px;text-decoration:none;color:#008ecc;}
+.TiShiShow-Input{width: 96px;height: 30px;line-height: 30px;}
+.TiShiShow-Three{text-align:center;}
+.TiShiShow-Three span{     text-align: center;   margin-right: 30px;border: 1px solid #808080;width: 96px; height: 30px;line-height: 30px; cursor: pointer; display: inline-block;  border-radius: 5px;}
+/*基本配置*/
+ thead td{font-weight:700;}

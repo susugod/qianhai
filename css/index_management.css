@@ -1,0 +1,453 @@
+﻿body {
+    overflow: hidden;
+    font-family: 'Hiragino Sans GB';
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* 框架页顶部标头 */
+.ibo-indexmanagement-navbar {
+    background: #263548;
+    height: 80px;
+}
+
+/*框架页顶部标头 左侧logo位置div*/
+.ibo-indexmanagement-navbar-header {
+    float: left;
+}
+
+/*框架页顶部标头 左侧logo图片*/
+.ibo-indexmanagement-logo {
+    width: 200px;
+    height: 80px;
+    display: block;
+    background: url(../../img/backpage/bb-logo.png) no-repeat center center;
+}
+
+/*框架页顶部标头 右侧文字位置div*/
+.ibo-indexmanagement-navbar-right {
+    float: right;
+}
+
+    /*框架页顶部标头 右侧文字排版li*/
+    .ibo-indexmanagement-navbar-right li {
+        list-style: none;
+        /*width: 80px;*/
+        height: 100%;
+        display: inline-block;
+        position: relative;
+        margin-right: 30px;
+    }
+
+        /*框架页顶部标头 右侧文字内容*/
+        .ibo-indexmanagement-navbar-right li a {
+            font-size: 14px;
+            color: white;
+            font-family: 'Microsoft YaHei';
+            display: block;
+            width: 100%;
+            height: 100%;
+            line-height: 80px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+    /*框架页顶部标头 右侧内容间隔竖线*/
+    .ibo-indexmanagement-navbar-right .line {
+        margin-right: 15px;
+        margin-left: -15px;
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        height: 12px;
+        display: inline-block;
+    }
+
+/*框架右侧内容展示区域div*/
+#ibo-indexmanagement-rightcontent {
+    left: 200px;
+    top: 80px;
+    position: absolute;
+    background-color: #ffffff;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*框架右侧内容展示区域上方导航*/
+.navbardiv {
+    background-color: #EDF2F8;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #373737;
+}
+
+    .navbardiv .firstnavbar {
+        margin-left: 20px;
+    }
+
+    .navbardiv .lastnavbar {
+        color: #008cf0;
+    }
+
+/*框架右侧内容展示区域下方iframe*/
+#ibo-indexmanagement-rightcontent-div {
+    width: 100%;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    bottom: 0;
+}
+
+/*框架右侧内容展示区域下方iframe*/
+#ibo-indexmanagement-rightcontent-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+.selectedfirstMenu {
+    background-color: #3f5d81;
+}
+
+.selectedMenu {
+    background-color: #3f5d81;
+}
+
+.wzMenuspan {
+    display: inline-block;
+    width: 100px;
+    margin-left: 25px;
+    color: #cddbe8;
+}
+
+.selectedMenu .wzMenuspan {
+    color: #fff;
+}
+
+.indeximg {
+    background: url(../../img/backpage/index.png) no-repeat center left 0px;
+}
+
+.selectedMenu .indeximg {
+    background: url(../../img/backpage/index_click.png) no-repeat center left 0px;
+}
+
+.setManageimg {
+    background: url(../../img/backpage/set.png) no-repeat center left 0px;
+}
+
+.selectedMenu .setManageimg {
+    background: url(../../img/backpage/set_click.png) no-repeat center left 0px;
+}
+
+.addressbookimg {
+    background: url(../../img/backpage/addressbook_click.png) no-repeat center left 0px;
+}
+
+.selectedMenu .addressbookimg {
+    background: url(../../img/backpage/addressbook_click.png) no-repeat center left 0px;
+}
+
+.applicationcenterimg {
+    background: url(../../img/backpage/applicationcenter.png) no-repeat center left 0px;
+}
+
+.selectedMenu .applicationcenterimg {
+    background: url(../../img/backpage/applicationcenter_click.png) no-repeat center left 0px;
+}
+
+.applicationmanageimg {
+    background: url(../../img/backpage/applicationmanage.png) no-repeat center left 0px;
+}
+
+.selectedMenu .applicationmanageimg {
+    background: url(../../img/backpage/applicationmanage_click.png) no-repeat center left 0px;
+}
+
+#ibo-indexmanagement-leftmenu {
+    background: #2f4561;
+    color: #cddbe8;
+    width: 220px;
+    overflow: hidden;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+}
+
+    #ibo-indexmanagement-leftmenu .scrollbar-y {
+        height: 45px;
+        width: 20px;
+        position: absolute;
+        left: 180px;
+        top: 45vh;
+        display: none;
+        cursor: pointer;
+    }
+
+#firstMenu {
+    width: 220px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+    #firstMenu dt {
+        font-size: 1.1em;
+        width: 200px;
+        /*height: 70px;*/
+        /*height:10vh;*/
+        font-family: 'Microsoft YaHei';
+        font-weight: bold;
+        display: inline-block;
+        /*line-height: 70px;*/
+        /*line-height:10vh;*/
+        text-align: center;
+        cursor: pointer;
+        /*margin-top: 3vh;*/
+    }
+
+        #firstMenu dt del {
+            font-size: 1.1em;
+            width: 200px;
+            /*height: 70px;*/
+            height: 7vh;
+            font-family: 'Microsoft YaHei';
+            font-weight: bold;
+            display: inline-block;
+            /*line-height: 70px;*/
+            line-height: 7vh;
+            text-align: center;
+            cursor: pointer;
+        }
+
+    #firstMenu dd {
+        display: none;
+    }
+
+    #firstMenu li {
+        list-style: none;
+        width: 200px;
+        /*height: 45px;*/
+        height: 7vh;
+        display: inline-block;
+    }
+
+        #firstMenu li a {
+            font-size: 14px;
+            color: #cddbe8;
+            font-family: 'Microsoft YaHei';
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            /*line-height: 45px;*/
+            line-height: 7vh;
+            text-align: center;
+            text-decoration: none;
+        }
+
+    /*#firstMenu .selectTBMenu {
+        background: url(../img/indexmanagement/zitubiao.png) no-repeat center left 60px;
+    }
+
+    #firstMenu .selectedTBMenu {
+        background: url(../img/indexmanagement/zitubiao_click.png) no-repeat center left 60px;
+    }*/
+
+    #firstMenu .selectWZMenu {
+        display: inline-block;
+        width: 100px;
+        margin-left: 20px;
+    }
+
+
+
+.secondMenu {
+    overflow: hidden;
+    position: absolute;
+    top: -9999px;
+    height: 0;
+    z-index: 1001;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+    .secondMenu ul {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .secondMenu li {
+        display: block;
+        height: 24px;
+        line-height: 24px;
+    }
+
+        .secondMenu li a {
+            height: 24px;
+            line-height: 24px;
+        }
+
+            .secondMenu li a:hover {
+                background: #dedede;
+            }
+
+
+.index_view {
+    position: absolute;
+    background-color: #FFF;
+    width: 100%;
+}
+
+    .index_view .index_company {
+        position: relative;
+        border-bottom: 1px solid #c9c9c9;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+        .index_view .index_company .companyinfo {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+.companylogo {
+    float: left;
+    width: 10%;
+    margin-left: 15px;
+}
+
+.companydetail {
+    float: left;
+    width: 30%;
+    margin-left: 15px;
+}
+
+    .companydetail .companytitle {
+        color: #373737;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .companydetail .companyappnum {
+        font-size: 14px;
+        color: #008cf0;
+        margin-top: 10px;
+    }
+
+    .companydetail .companytotal {
+        margin-top: 30px;
+    }
+
+        .companydetail .companytotal .sum {
+            float: left;
+            font-size: 14px;
+            color: #373737;
+        }
+
+        .companydetail .companytotal .subscribe {
+            float: left;
+            font-size: 14px;
+            color: #373737;
+            margin-left: 20px;
+        }
+
+        .companydetail .companytotal .unsubscribe {
+            float: left;
+            font-size: 14px;
+            color: #373737;
+            margin-left: 20px;
+        }
+
+        .companydetail .companytotal p {
+            height: 25px;
+        }
+
+.companycode {
+    float: left;
+    width: 10%;
+}
+
+.index_view .index_app {
+    position: relative;
+    margin-left: 20px;
+}
+
+.index_app .ulapp {
+    list-style: none;
+    margin-top: 30px;
+}
+
+    .index_app .ulapp li {
+        float: left;
+        width: 120px;
+        text-align: center;
+    }
+
+    .index_app .ulapp .apptitle {
+        font-size: 14px;
+        font-weight: bold;
+        color: #373737;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .index_app .ulapp .addapptitle {
+        font-size: 14px;
+        font-weight: bold;
+        color: #808080;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .index_app .ulapp .appinstalled {
+        font-size: 12px;
+        font-weight: bold;
+        border: 1px solid #c9c9c9;
+        color: #373737;
+        height: 25px;
+        line-height: 25px;
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .index_app .ulapp .appuninstalled {
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #008cf0;
+        color: #fff;
+        height: 25px;
+        line-height: 25px;
+        width: 50px;
+        margin: 0 auto;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+.index_view .title {
+    margin-top: 50px;
+    height: 50px;
+}
+
+    .index_view .title .titlewz {
+        margin-left: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        color: #373737;
+        vertical-align: middle;
+    }
+
+    .index_view .title .titleline {
+        border-left: 5px solid #008cf0;
+        border-right: 5px solid #008cf0;
+        height: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }

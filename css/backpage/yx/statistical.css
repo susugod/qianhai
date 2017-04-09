@@ -1,0 +1,58 @@
+.clear{clear: both;}
+.Border-Shadow{background-color:#fff;box-shadow:4px 6px 6px #dedede;padding-top:40px;padding-bottom: 20px;}
+.Border-Shadow-B{background-color:#fff;box-shadow:4px 6px 6px #dedede;padding-top:40px;padding-bottom: 20px;margin-top:40px;}
+.DateAll{width:80%;margin-left:auto;margin-right:auto;}
+/*发送到手机*/
+.statistical_phone{}
+.statistical_phone h4{padding-left: 20px;height: 70px;  line-height: 70px;  background-color: #dfdfdf;margin-bottom: 40px;}
+.statistical_phone input.phone_click{width: 80%;margin-left: 50px;height: 50px;margin-bottom: 20px;}
+.phone_sure{width: 100%;    margin-top: 20px;  margin-bottom: 20px;}
+.phone_sure input{padding-left:30px;padding-right:30px;height: 35px;line-height:35px;border-radius:6px;text-align:center;}
+.cancel{background: none;border: 1px solid #c9c9c9;float:right;margin-right:30%;}
+.ensure{border: 1px solid #c9c9c9;background: #6699ff;float:left;margin-left:10%;}
+.s_ensure{border: 1px solid #c9c9c9;background: #6699ff;float: right;   margin-right: 40px;}
+.password_error{font-size:11px;color:red;margin-left: 50px;    margin-bottom: 40px;}
+/*文章数据*/
+.essay{width: 80%;margin: 100px auto;}
+.essay_list{border: 1px solid #c9c9c9;margin-top: 50px;}
+.essay_list_date{padding-top: 20px;font-size: 14px;}
+.essay_list img{float: left;width: 60px;height: 60px;padding: 20px;}
+.essay_list ul{float: left;margin: 20px 10px;width: 70%;}
+.essay_list a{float: right;margin-top: 40px;margin-right: 1%;color: #6699ff;width: 15%;text-align: right;}
+/*总体数据*/
+.statistical_all{width: 80%;margin:30px auto;padding-top:40px;padding-bottom:40px;    min-width: 900px;background-color:#fff;box-shadow: 4px 6px 6px #cdcdcd;}
+.proportion_title{width: 100%;}
+.proportion_content{width: 100%;margin-top: 20px;}
+.proportion_content_A{width:100%;margin-top:30px;margin-bottom:30px;}
+.proportion_content_B{width:100%;margin-top:30px;margin-bottom:30px;}
+.proportion_content_A ul{padding-top: 200px;}
+.proportion_content_A ul li{margin-top: 10px; margin-right: auto;margin-left: auto;}
+.proportion_content_B ul{padding-top: 200px;}
+.proportion_content_B ul li{margin-top: 10px; margin-right: auto;margin-left: auto;}
+.proportion_title h5{float: left;font-size: 15px;font-weight: 700;}
+#Set-Phone{float:right;border:1px solid #c9c9c9;display:inline-block;height:35px;line-height:35px;padding-left:30px;padding-right:30px;cursor: pointer;}
+.proportion_title input{float: right;border: 1px solid #808080;background: none;display:inline-block;padding-left:30px;padding-right:30px;border-radius: 6px;height: 35px;}
+.proportion_title div{ height: 10px;display: block;clear: both; border-bottom: 1px solid #c9c9c9;}
+.proportion_title a{display:inline-block;margin-top:20px;font-size:11px;color:#999;}
+.proportion_pic{ float: left;  width: 75%;    overflow: hidden;}
+.proportion_pi{width: 25%; float:right;    margin-top: 300px;}
+.all_proportion{width:95%;margin-left:auto;margin-right:auto;}
+/*单独文章统计*/
+.Wechat_article{width: 60%;margin: 50px auto;}
+.analyze_all{width: 80%;margin: 50px auto;}
+.analyze_content{border-top: 1px solid #c9c9c9;}
+.analyze_wechat_content{margin-bottom: 50px;}
+.analyze_all h5{font-weight: normal;font-size: 16px;margin-bottom: 50px;margin-left: 20px;}
+.analyze_wechat_title{border-bottom: 1px dotted #c9c9c9;line-height: 50px;}
+.analyze_wechat_title h5{float: left;}
+.analyze_wechat_title input{float: right;border:1px solid #c9c9c9;background: none;height: 30px;width: 50px;margin-top: 10px;}
+.analyze_all table{text-align: center;width: 80%;float: right;border-top: 1px solid #c9c9c9;border-left: 1px solid #c9c9c9;}
+.analyze_all table tr{height: 50px;}
+.analyze_all table td{border-bottom: 1px solid #c9c9c9;border-right: 1px solid #c9c9c9;} 
+.analyze_wechat{width: 80%;margin: 0 auto;}
+.analyze_wechat h5{font-weight: normal;font-size: 16px;height: 50px;line-height: 50px;}
+.analyze_wechat table{text-align: center;width: 80%;float: right;border-top: 1px solid #c9c9c9;border-left: 1px solid #c9c9c9;}
+.analyze_wechat table tr{height: 50px;}
+.analyze_wechat table td{border-bottom: 1px solid #c9c9c9;border-right: 1px solid #c9c9c9;}
+.analyze_wechat p{margin:25px;}
+.analyze_wechat a{display: block;width: 100px;height: 50px;border:1px solid #c9c9c9;line-height: 50px;text-align: center;margin-left: 10%;}

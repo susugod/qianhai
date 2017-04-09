@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>用户手机类型跳转</title>
+    <script src="./js/jquery-1.11.3.min.js?TimeStamp=201604011320"></script>
+    <script type="text/javascript" >
+        $(document).ready(function () {
+            var u = navigator.userAgent;
+            if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {
+                window.location.href = "http://openbox.mobilem.360.cn/index/d/sid/3383600";
+            } else if (u.indexOf('iPhone') > -1) {
+                window.location.href = "https://itunes.apple.com/cn/app/ban-ban/id1148257113?mt=8";
+            } else if (u.indexOf('Windows Phone') > -1) {
+                window.location.href = "http://www.sina.com.cn";
+            } else {
+                document.write("您请求的页面不存在！");
+            }
+        });
+    </script>
+  
+</head>
+<body>
+   
+</body>
+</html>

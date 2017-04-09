@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="艾伯资讯" />
+    <meta name="keywords" content="艾伯，自定义表单" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>艾伯资讯</title>
+    <link href="./css/bootstrap.min.css?TimeStamp=201604011320" rel="stylesheet" />
+    <link href="./css/jquery-ui.min.css?TimeStamp=201604011320" rel="stylesheet" />
+    <link href="./css/index.css?TimeStamp=201604011320" rel="stylesheet" />
+    <link href="./css/jquery.fullPage.css?TimeStamp=201604011320" rel="stylesheet" />
+    <style type="text/css">
+        /* 右侧导航 */
+        #fp-nav {
+            _display: none;
+            font-size: 12px;
+        }
+
+            #fp-nav ul li {
+                width: 90px;
+                height: 21px;
+                margin: 10px 0 0;
+                vertical-align: middle;
+            }
+
+                #fp-nav ul li a {
+                    float: right;
+                    width: 21px;
+                    height: 21px;
+                    color: #8F9DA4;
+                    text-decoration: none;
+                    text-align: right;
+                    background: url(img/index/dot.png) 5px 5px no-repeat;
+                }
+
+                #fp-nav ul li .active {
+                    background-position: 0 bottom;
+                }
+
+            #fp-nav span {
+                display: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="ibo-index-navbar">
+        <div class="ibo-index-inner">
+            <div class="ibo-navbar-header">
+                <a class="ibo-logo" href="#"></a>
+            </div>
+            <ul class="ibo-navbar-right">
+                <li class="active"><a href="javascript:void(0)">关于艾伯</a></li>
+                <li><a href="javascript:void(0)" onclick="openLoginWin();">注册登录</a></li>
+                <li><a href="javascript:void(0)">客户案例</a></li>
+                <li><a href="javascript:void(0)">合作伙伴</a></li>
+                <li><a href="javascript:void(0)">帮助中心</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="ibo-container">
+        <div id="pages" class="ibo-pages">
+            <div class="ibo-pages-first section">
+                <div class="ibo-index-inner" style="margin-top: 130px;">
+                    <div class="ibo-pages-first-img">
+                        <img class="ibo-pages-first-qx" src="img/index/shouping-02.png" />
+                        <img class="ibo-pages-first-yk" src="img/index/shouping-01.png" />
+                        <img class="ibo-pages-first-qp" src="img/index/shouping-03.png" />
+                    </div>
+                    <div class="ibo-pages-first-wz" style="width: 500px;">
+                        <img src="img/index/shouping-wenzi.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-second section">
+                <div class="ibo-index-inner" style="margin-top: 100px;">
+                    <div class="ibo-pages-second-title">
+                        <span>移动改变生活，互联指引未来</span>
+                    </div>
+                    <div class="ibo-pages-second-content">
+                        <span>企业移动互联网是我们“新的十年”的“新的起点”，艾伯牵引你到风口中顺势而为。</span>
+                    </div>
+                    <div class="ibo-pages-second-img" style="width: 1050px;">
+                        <img src="img/index/ping2-01.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-third section">
+                <div class="ibo-index-inner" style="margin-top: 100px;">
+                    <div class="ibo-pages-third-title">
+                        <span>产品展示</span>
+                    </div>
+                    <div class="ibo-pages-third-content">
+                        <span>艾伯软件专业平台您优先的选择：提供专业的软件产品，具备实力的团队人员。</span>
+                    </div>
+                    <div class="ibo-pages-third-word">
+                        <span>十年累计&nbsp;&nbsp;&nbsp;专业稳定</span>
+                    </div>
+                    <div id="focus_Box" class="ibo-pages-third-img">
+                        <ul id="imgRoundabout">
+                            <li>
+                                <img src="img/index/rjcp-1.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-2.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-3.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-4.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-5.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-6.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-7.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-8.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-9.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-10.png" alt="" /></li>
+                            <li>
+                                <img src="img/index/rjcp-11.png" alt="" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-fourth section">
+                <div class="ibo-index-inner" style="margin-top: 100px;">
+                    <div class="ibo-pages-fourth-title">
+                        <span>艾伯，为您企业增加利益</span>
+                    </div>
+                    <div class="ibo-pages-fourth-content">
+                        <span style="display: inline-block">提供强大的移动信息管理和安全，满足移动信息生命周期内的所有需求，并与已</span>
+                        <span style="display: inline-block">有的基础结构信息无缝集成，简单、快速的部署应用，为企业带来市场和收益。</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-fifth section">
+                <div class="ibo-index-inner" style="margin-top: 50px;">
+                    <div class="ibo-pages-fifth-title">
+                        <span>客户鉴赏</span>
+                    </div>
+                    <div class="ibo-pages-fifth-content">
+                        <span>我们大部分业务来自长期合作的客户，我们为数百个知名品牌与集团提供服务，相信知名企业，相信艾伯资讯。</span>
+                    </div>
+                    <div class="ibo-pages-fifth-img" style="width: 1050px;">
+                        <img src="img/index/ping5-01.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-sixth section">
+                <div class="ibo-index-inner" style="margin-top: 120px;">
+                    <div class="ibo-pages-sixth-sections">
+                        <div class="ibo-pages-sixth-sectionaccount">
+                            <h3 class="ibo-pages-sixth-title" style="margin-top: 60px;">注册 / 登录</h3>
+                            <button class="ibo-pages-sixth-button-register" onclick="openResiterWin();">免费注册</button>
+                            <button class="ibo-pages-sixth-button-login" onclick="openLoginWin();">即刻登录</button>
+                            <p class="ibo-pages-sixth-content">艾伯拥有强悍的开发能力，小伙伴们赶紧加入我们吧！</p>
+                        </div>
+                        <div class="ibo-pages-sixth-sectioncontract">
+                            <h3 class="ibo-pages-sixth-title" style="margin-top: 60px;">CONTACT US</h3>
+                            <p class="ibo-pages-sixth-address">
+                                地址：深圳市高新技术园北区（南山区朗山路13号）<br />
+                                清华紫光信息港C座四层&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </p>
+                            <p class="ibo-pages-sixth-telfax" style="width: 398px; display: block;">电话：0755-83456488</p>
+                            <p class="ibo-pages-sixth-telfax" style="width: 398px; display: block;">传真：0755-83456733</p>
+                            <p class="ibo-pages-sixth-word">具备实力的团队人员&nbsp;&nbsp;提供专业的软件平台</p>
+                            <p class="ibo-pages-sixth-word">国家级高新技术企业，国家系统集成二级资质企业和深圳市软件企业。</p>
+                        </div>
+                    </div>
+                    <div class="ibo-pages-sixth-links">
+                        <h3 class="ibo-pages-sixth-links-title">友情链接</h3>
+                        <p class="ibo-pages-sixth-links-href">
+                            <a href="#" target="_blank">中国平安</a>
+                            <a href="#" target="_blank">中国移动</a>
+                            <a href="#" target="_blank">秦能电力</a>
+                            <a href="#" target="_blank">中国石化</a>
+                            <a href="#" target="_blank">腾讯科技</a>
+                            <a href="#" target="_blank">阿里巴巴</a>
+                            <a href="#" target="_blank">北京大学</a>
+                            <a href="#" target="_blank">周大福</a>
+                            <a href="#" target="_blank">海尔集团</a>
+                            <a href="#" target="_blank">苏宁电器</a>
+                            <a href="#" target="_blank">惠州美誉油库</a>
+                            <a href="#" target="_blank">新疆质监局</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-1.11.3.min.js?TimeStamp=201604011320"></script>
+    <script src="./js/common.js?TimeStamp=201604011320"></script>
+    <script src="./js/jquery-ui.min.js?TimeStamp=201604011320"></script>
+    <script src="./js/jquery.json-2.2.js?TimeStamp=201604011320"></script>
+    <script src="./js/controlanimate.js?TimeStamp=201604011320"></script>
+    <script src="./js/bootstrap.min.js?TimeStamp=201604011320"></script>
+    <script src="./js/roundshapes.js?TimeStamp=201604011320"></script>
+    <script src="./js/roundabout.js?TimeStamp=201604011320"></script>
+    <script src="js/jquery.fullPage.js?TimeStamp=201604011320"></script>
+    <script>
+        // 不检查是否登陆
+        $.ibo.isNotCheckLogin = true;
+
+        // 打开注册页面
+        function openResiterWin() {
+            $.ibo.openNewWin({
+                width: 650,
+                height: 400,
+                dialogClass: "ibo-dialog",
+                hasTitle: true,
+                title: "",
+                pageType: "register",
+                url: "./views/index/LoginRegister.html?TimeStamp=201604011320",
+                callBackFun: function (obj) {
+                    if (obj != null && obj != undefined) {
+                        var obj = eval("(" + obj + ")");
+                        $.ibo.openNewWin({
+                            width: 400,
+                            height: 250,
+                            dialogClass: "ibo-dialog",
+                            hasTitle: true,
+                            title: "",
+                            url: "./views/index/RegisterSuccess.html?TimeStamp=201604011320&Account=" + obj.Account + "&Password=" + obj.Password,
+                            callBackFun: function () {
+
+                            }
+                        });
+                    }
+                    else
+                    window.location = "./main";
+                }
+            });
+            return false;
+        };
+
+        // 打开登陆页面
+        function openLoginWin() {
+            $.ibo.openNewWin({
+                width: 650,
+                height: 400,
+                dialogClass: "ibo-dialog",
+                hasTitle: true,
+                title: "",
+                pageType: "login",
+                url: "./views/index/LoginRegister.html?TimeStamp=201604011320",
+                callBackFun: function (obj) {
+                    if (obj != null && obj != undefined) {
+                        var obj = eval("(" + obj + ")");
+                        $.ibo.openNewWin({
+                            width: 400,
+                            height: 250,
+                            dialogClass: "ibo-dialog",
+                            hasTitle: true,
+                            title: "",
+                            url: "./views/index/RegisterSuccess.html?TimeStamp=201604011320&TimeStamp=201604011321&Account=" + obj.Account + "&Password=" + obj.Password,
+                            callBackFun: function () {
+
+                            }
+                        });
+                    }
+                    else
+                        window.location = "./main";
+                }
+            });
+            return false;
+        };
+        //打开找回密码页面
+        function openFindPasswordWin() {
+            $.ibo.openNewWin({
+                width: 650,
+                height: 300,
+                dialogClass: "ibo-dialog",
+                hasTitle: true,
+                title: "",
+                pageType: "",
+                url: "./views/index/FindPassword.html?TimeStamp=201604011320",
+                callBackFun: function (obj) {
+
+                }
+            });
+            return false;
+        };
+
+        $(document).ready(function () {
+
+            $("#pages").children().height($(window).height());
+            $(window).resize(function () {
+                $("#pages").children().height($(window).height());
+            });
+            $('#myModal').modal('hide');
+
+            $('#imgRoundabout').roundabout({
+                shape: 'figure8',
+                minOpacity: 1,
+                autoplay: true,
+                autoplayDuration: 2000,
+                autoplayPauseOnHover: false,
+            });
+            //var r = document.body.offsetWidth / window.screen.availWidth;
+            //$(document.body).find(".section").css("-webkit-transform", "scale(" + r + ")");
+            var PageType = $.ibo.QueryString("PageType");
+            if (PageType === "FindPwd") {
+                openFindPasswordWin();
+            }
+        });
+        //$(window).resize(function () {
+        //    var r = document.body.offsetWidth / window.screen.availWidth;
+        //    $(document.body).find(".section").css("-webkit-transform", "scale(" + r + ")");
+
+        //});
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#pages').fullpage({
+                'verticalCentered': false,
+                'css3': true,
+                'navigation': true,
+                'navigationPosition': 'right',
+                'afterLoad': function (anchorLink, index) {
+                    if (index == 1) {
+                        $(".ibo-pages-first-qx").show();
+                        $(".ibo-pages-first-yk").show();
+                        $(".ibo-pages-first-qp").show();
+                        $(".ibo-pages-first-wz").show();
+                        $(".ibo-pages-first-qx").iboAnimate("slideLeft", 1, 0, false);
+                        $(".ibo-pages-first-yk").iboAnimate("slideLeft", 1, 0.5, false);
+                        $(".ibo-pages-first-qp").iboAnimate("slideLeft", 1, 1, false);
+                        $(".ibo-pages-first-wz").iboAnimate("slideLeft", 1, 1.5, false);
+                    }
+                },
+                'onLeave': function (index, nextIndex, direction) {
+                    if (nextIndex != 1) {
+                        $(".section").find("span").iboAnimate("fadeIn", 1, 0.5, false);
+                    }
+                    else {
+                        $(".ibo-pages-first-qx").hide();
+                        $(".ibo-pages-first-yk").hide();
+                        $(".ibo-pages-first-qp").hide();
+                        $(".ibo-pages-first-wz").hide();
+                    }
+                },
+                'afterRender': function () {
+                    $(".ibo-pages-first-qx").iboAnimate("slideLeft", 1, 0, false);
+                    $(".ibo-pages-first-yk").iboAnimate("slideLeft", 1, 0.5, false);
+                    $(".ibo-pages-first-qp").iboAnimate("slideLeft", 1, 1, false);
+                    $(".ibo-pages-first-wz").iboAnimate("slideLeft", 1, 1.5, false);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

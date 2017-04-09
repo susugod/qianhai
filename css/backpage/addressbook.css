@@ -1,0 +1,694 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei';
+}
+
+.index_view {
+    background-color: #FFF;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin:20px;
+}
+
+.index_view .tool_bar {
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+}
+
+.tool_bar .organization {
+    background: #1f8cd9;
+    width: 220px;
+    padding: 0 11px;
+    text-align: center;
+    box-shadow:0 0 8px #1f8cd9;
+}
+
+.tool_bar .userinfo-title {
+    min-width: 800px;
+}
+
+.userinfo-title .tbtitle {
+    margin-left: 20px;
+}
+
+.userinfo-title .tbtitle .atbclass {
+    background-color: red;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.userinfo-title .tbtitle .alertmessage {
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.contact_view {
+    width:95%;
+    position: absolute;
+    left: 20px;
+    right: 0;
+    top: 150px;
+    bottom: 0;
+    min-height: 300px;
+    z-index: 1;
+}
+.AddrTitle{
+    height:60px;
+    line-height:60px;
+    background:#DDE9F5;
+    margin:20px -20px 20px 1.2%  ;
+    box-shadow:0px 2px 0px #d2d2d2;
+    border-radius:4px;
+}
+.AddrTitle .TitleBtn{
+    padding:5px 15px;
+    background:#fff;
+    border-radius:4px;
+    margin-left:10px;
+    border:1px solid #d2d2d2;
+}
+.AddChildRemov>span{
+    display: inline-block;
+    width:50%;
+    padding:5px 0;
+    text-align: center;
+    background: #fff;
+    cursor:pointer;
+    box-shadow:0 0 3px #555;
+}
+.contact_view .contact_tree {
+    width: 220px;
+    background-color: #f8f8f8;
+    overflow: auto;
+    position: absolute;
+    top: -6px;
+    bottom: 0;
+    border:1px solid #d2d2d2;
+    box-shadow:0 0 3px #d2d2d2;
+}
+
+.contact_view .tree-list {
+    border-left: 1px solid #c9c9c9;
+    background-color: #fff;
+    position: absolute;
+    z-index: 0;
+    left: 220px;
+    top: -50px;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    margin-left:20px;
+    box-shadow:0 0 3px #d2d2d2;
+}
+
+.tree-list .dtlist {
+    width: 100%;
+    position:relative;
+    border-bottom: 1px solid #c9c9c9;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    table-layout: fixed;
+    top: 41px;
+}
+
+.tree-list th {
+    border-top: 1px solid #c9c9c9;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e5e5e5;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tree-list .dtlist td {
+    border-top: 1px solid #c9c9c9;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: keep-all;
+    font-size: 14px;
+}
+.firstFixed{
+    position: absolute;
+    top: 0px;
+    z-index: 1000;
+}
+.tree-list .dtlist .listdata {
+    cursor: pointer;
+}
+
+.tree-list .dtlist .listdata:hover {
+    background-color: #e5e5e5;
+}
+
+.dialog-edit {
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    box-shadow: -2px 0 4px rgba(0,0,0,.2);
+    min-height: 300px;
+}
+
+.dialog-edit .dialog-title {
+    background: #e5e5e5;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #c9c9c9;
+    font-size: 16px;
+}
+
+.dialog-edit .dialog-content {
+    min-height: 100px;
+    overflow: auto;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    right: 0;
+    bottom: 45px;
+    padding-left: 7px;
+    background-color: #fff;
+}
+
+.dialog-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dialog-content .pl_member_list li {
+    border-bottom: 0 none;
+    cursor: default;
+    width: 23%;
+    padding: 10px 3px;
+    height: 102px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.dialog-content .pl_member_list li a {
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    margin-left: 21px;
+    text-decoration: none;
+    color: #c9c9c9;
+}
+
+.member_list .member_header {
+    padding: 40px 0 0 28px;
+    overflow: hidden;
+}
+
+.member_list .member_header img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+}
+
+.member_list .member_header .member_detail {
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+}
+
+.member_list .member_header .member_detail .c_name {
+    font-weight: 700;
+    font-size: 16px;
+    width: 100px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    margin-top: 0;
+}
+
+.member_list .member_header .member_detail .c_sex {
+    font-size: 16px;
+    width: 100px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    margin-top: 0;
+}
+
+.member_list .member_header .member_freeze {
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    padding: 2px 4px;
+    background-color: #eee;
+    color: #666;
+}
+
+.member_list .member_content {
+    padding: 35px 0 0 30px;
+}
+
+.member_list .member_content .item {
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.member_list .member_content .item .label {
+    color: #808080;
+    text-align: left;
+}
+
+.member_list .member_content .item .info {
+    text-align: left;
+    color: #373737;
+    word-break: break-word;
+}
+
+.dialog-edit .dialog-foot {
+    background-color: #E5E5E5;
+    border-top: 1px solid #c9c9c9;
+    padding: 7px 10px;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.dialog-foot .btn {
+    box-sizing: content-box;
+    display: inline-block;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px;
+    min-width: 30px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    color: #222;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    background: #fcfcfc;
+}
+
+.dialog-title .icon_close_class {
+    float: right;
+    margin: 12px 10px 0 0;
+}
+
+.tool_bar .bar_left {
+    float: left;
+}
+
+.tool_bar .bar_right {
+    float: right;
+}
+
+.dropmenu {
+    float: left;
+}
+
+.dropmenu-title {
+    font-size: 16px;
+    color: #fff;
+}
+
+.icon_add {
+    background-image: url(../../img/backpage/addaddress.png)!important;
+    background-repeat: no-repeat!important;
+    background-position-y: center;
+    width: 18px;
+    height: 19px;
+    display: inline-block;
+}
+
+.icon_search {
+    background-image: url(../../img/backpage/searchaddress.png)!important;
+    background-repeat: no-repeat!important;
+    background-position-y: center;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+}
+
+.iconcolor_search {
+    background-image: url(../../img/backpage/searchaddress.png)!important;
+    background-repeat: no-repeat!important;
+    background-position-y: center;
+    background-color: #1f8cd9;
+    position:absolute;
+    top:7px;
+    right:9px;
+}
+
+.icon_close {
+    background-image: url(../../img/backpage/close.png)!important;
+    background-repeat: no-repeat!important;
+    background-position-y: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.spansearch {
+    width: 20px;
+    height: 30px;
+    border: 1px solid #1f8cd9;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.dropmenu .dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    color: #373737;
+    border: 1px solid #C9C9C9;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.dropmenu .dropdown-menu li {
+    text-align: center;
+}
+
+.dropmenu .dropdown-menu li a {
+    display: block;
+    text-decoration: none;
+    color: #373737;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+.dropmenusearch {
+    float:right;
+}
+
+.dropmenusearch .search_box {
+    position: absolute;
+    display: none;
+    width: 220px;
+    padding: 0 10px;
+    top: 100px;
+    left: 20px;
+    background: #fff;
+    border: 1px solid #C9C9C9;
+}
+
+.dropmenusearch .search_box .input_text {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #1f8cd9;
+}
+
+.dropmenuadd {
+    margin-left: 10px;
+}
+
+.ui-dialog-titlebar-close {
+    background: url("../../images/ui-icons_ef8c08_256x240.png") -96px -128px;
+}
+
+.ibo-dialog {
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+.ui-widget-content {
+    background: #ffffff;
+}
+
+.ibo-dialog .ui-dialog-titlebar {
+    border: 0 none;
+}
+
+.ibo-dialog .ui-dialog-titlebar-close {
+    height: 23px;
+    width: 23px;
+    border: 0 none;
+    background: url('../../img/indexpage/zhuceyemian--guanbianniu.png');
+}
+
+/*.ibo-dialog .ui-widget-header {*/
+/*background: transparent;*/
+/*color: #373737;*/
+/*}*/
+
+/*.ui-state-default .ui-icon {*/
+/*background-image: none;*/
+/*}*/
+
+.hide {
+    display: none !important;
+}
+
+.dialog_box {
+    background-color: #fff;
+    border-radius: 5px;
+    z-index: 500;
+}
+
+.dialog_box .dialog_content {
+    height: 415px;
+    overflow: auto;
+}
+
+.dialog_box .dialog_line {
+    padding: 20px 0;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.dialog_box .dialog_add {
+    width: 425px;
+    margin: 0 auto;
+}
+
+.dialog_box .dialog_add .dialog_add_label {
+    display: block;
+    color: #373737;
+    line-height: 34px;
+}
+
+.dialog_box .dialog_add .dialog_add_select {
+    width: 200px;
+    height: 28px;
+    border: 1px solid #c9c9c9;
+}
+
+.dialog_box .dialog_add .dialog_add_input_text {
+    width: 400px;
+    height: auto;
+    line-height: 20px;
+    padding: 4px 5px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    resize: none;
+}
+
+.dialog_box .dialog_add .dialog_add_ul {
+    width: 400px;
+    height: auto;
+    line-height: 20px;
+    padding: 4px 5px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    resize: none;
+    list-style: none;
+}
+
+.tip_text {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.tip_text .tip_text_title {
+    color: #373737;
+}
+
+.divDeptclass {
+    float: left;
+    height: 93%;
+    width: 40%;
+    border: 1px solid #d2d2d2;
+    margin: 40px 20px 20px 20px ;
+    overflow-y: auto;
+    position:relative;
+}
+#selUserTreeNode li,
+#selTreeNode li{
+    margin:10px 0;
+}
+#selUserTreeNode li span,
+#selTreeNode li span{
+    margin:0 3px;
+}
+
+.divUserclass {
+    float: left;
+    border: 1px solid #d2d2d2;
+    margin: 40px 20px 20px 20px;
+    height: 93%;
+    width: 47%;
+    overflow-y: auto;
+    position:relative;
+}
+.dialogTextLeft{
+    position:absolute;
+    top:20px;
+    left: 30px;
+    font-size:14px;
+    font-weight:bold;
+}
+.dialogTextRight{
+    position:absolute;
+    top:20px;
+    left:350px;
+    font-size:14px;
+    font-weight:bold;
+}
+.ibo-dialog>div:first-child>span{
+    font-size:16px;
+    font-weight:bold;
+}
+#seldiv{
+    height:40px;
+    line-height:40px;
+    padding-left:20px;
+    border-bottom:1px solid #d2d2d2;
+}
+
+.rMenuclass {
+    position: absolute;
+    display: none;
+    border: 1px solid #c9c9c9;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.rMenuclass ul {
+    list-style: none;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 0;
+    background: #4990e1;
+}
+
+.rMenuclass ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.rMenuclass ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.spanBumen{
+    display: inline-block;
+    width:25%;
+    margin-top:30px;
+}
+.TextJuZho{
+    text-align: center;
+    margin-top:5%;
+}
+.import-dialog-edit {
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    min-height: 300px;
+}
+
+.import-dialog-edit p {
+    text-align: left;
+}
+
+.import-dialog-edit .divimporttitle {
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom:30px;
+}
+
+.import-dialog-edit .divimporttitle a {
+    text-decoration: none;
+    color: #1f8cd9;
+}
+
+.import-dialog-edit .divimport {
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom:30px;
+}
+
+.import-dialog-edit .divimport .importbutton {
+    text-decoration: none;
+    background-color: #1f8cd9;
+    color: #fff;
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.loadingclass {
+    position: fixed;
+    z-index: 1001;
+    display: none;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: #EFEFEF;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+}
+/*点击审批人选择用户样式*/
+#listuser .listdata{
+    height:30px;
+}
+
+#js_img{
+    position:absolute;
+    top:40px;
+    right:250px;
+}
+#userAddEdit>div>div{
+    padding:20px;
+}
+#userAddEdit>div>div>input{
+    width:30%;
+}

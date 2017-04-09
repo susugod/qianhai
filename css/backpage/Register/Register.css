@@ -1,0 +1,71 @@
+﻿/*基本设置*/
+body,div,span,header,ul{margin:0px;padding:0px;}
+.clear{clear:both;}
+li{display:inline-block;}
+ul{list-style:none;}
+div{color:#363636;}
+span{color:#363636;}
+
+/************************************************************公共部分开始*******************************************************/
+/*header+导航栏*/
+	/*header*/
+header{height:72px;background-color:#192D36;}
+header>ul>li{line-height:72px;color:#FFF;}
+header>ul>li:first-child{float:left;}
+header>ul>li:first-child img{height: 39px; vertical-align: middle;  margin-left: 150px;}
+header>ul>li:nth-child(2){float:right;margin-right: 40px;}
+header>ul>li:nth-child(3){float:right;margin-right: 20px;}
+header>ul>li:nth-child(3) a{display:inline-block;line-height:16px;padding-right:20px;border-right:1px solid #FFF;}
+	/*导航栏*/
+section{margin:11px auto;width:1200px;height:78px; vertical-align: middle;background-color:#DCE8F4;border:1px solid #dedede;text-align:center;}
+section span{display:inline-block;}
+section span:nth-child(2n-1){color:#FFF;width:45px;height:45px;border-radius:90px;background-color:#000; line-height: 45px;font-size: 30px  ; margin-top: 15px; vertical-align: top; margin-right: 10px; }
+section span:nth-child(2n){margin-top:30px; }
+section span:nth-child(3){margin-left:210px;}
+section span:nth-child(4){margin-right:210px;}
+
+article {margin:16px auto;width:1200px;padding-bottom:70px;/* background-color:#DCE8F4;*/border:1px solid #dedede;text-align:center;}
+article>div:first-child{margin-top:40px;}
+article>div:not(:first-child){margin-top:20px;}
+article>div>div:first-child{line-height: 50px;display:inline-block;width:36%;float:left;text-align:right;margin-right: 25px;}
+article>div>div:nth-child(2){display:inline-block;float:left;text-align:left;}
+article>div>div:nth-child(2) a{text-decoration:none;color:#0C8CEC;}
+article>div>div:nth-child(2) :first-child{height:45px;line-height:45px; width: 350px;}
+
+article>input{margin-top:20px;background-color:#0C8CEC;color:#fff;border-style:none; height: 35px;  width: 90px;}
+/*注册第一第三个页面的验证码专用*/
+.Verification>div:nth-child(2) input:first-child{height:45px;line-height:45px; width: 250px;vertical-align: top;}
+.Verification>div:nth-child(2) input:nth-child(2){width:110px;color: #fff;height:45px;line-height:45px;background-color:#0C8CEC;vertical-align: top;border-style: none;}
+.Verification>div:nth-child(2) input:nth-child(4){width:110px;color: #fff;height:45px;line-height:45px;background-color:#0C8CEC;vertical-align: top;border-style: none;}
+#GetCode{width:120px;color: #fff;height:45px;line-height:45px;background-color:#0C8CEC;vertical-align: top;border-style: none;}
+/*注册第二个页面的选择地区专用*/
+#selProvinces{width:175px;height:50px;}
+#selCity{width:175px;height:50px;}
+/*第三个页面专用*/
+.Three-Section{text-align:left;}
+.Three-Section input{height:34px;background-color:#0C8CEC;margin-top:18px;border-style:none;margin-left:20px;border-radius:5px;color:#fff;}
+.Three-Section div{line-height: 34px; padding: 2px 5px 2px 5px;height:34px;display:inline-block;background-color:#0C8CEC;margin-top:18px;border-style:none;margin-left:20px;border-radius:5px;color:#fff;}
+
+
+/*footer*/
+
+
+/*************************************************************公共部分结束*******************************************************/
+#ColorBlur{background-color:#0C8CEC;}
+.ColorRed{color:red;}
+.Notes{font-size:12px;color:#888;}
+.hr{margin-top: 40px; margin-left: 310px; margin-right: 310px;}
+
+
+
+/*办办服务协议*/
+.AgreeMent{padding-top:5px;width:70%;padding-left:100px;padding-right:100px;text-align:left;font-family:"Microsoft YaHei","Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.AgreeMent .Notes{font-size:10px;color:#999;}
+.AgreeMent p{ text-indent:2em;}
+.AgreeMent ul{padding-left:6em;}
+.AgreeMent ul>li{text-indent:-2em;display:block;}
+.AgreeMent h2{width:100%;text-align:center;}
+.AgreeMent h3{margin-top:40px;}
+.AgreeMent h4{font-weight:100;margin-top:30px;font-size:15px;font-weight:700;}
+
+

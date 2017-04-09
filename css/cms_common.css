@@ -1,0 +1,224 @@
+﻿
+.maindiv {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.maintitle {
+    width: 98%;
+    margin: 0 auto;
+    padding: 4px 2px;
+    border-bottom: 1px solid #808080;
+}
+
+.mymenuDiv {
+    width: 120px;
+    position: absolute;
+    background: border-box;
+    top: 45px;
+    left: 130px;
+    background-color: white;
+    border-bottom: 1px solid #808080;
+}
+
+.itemmenuDiv {
+    height: 30px;
+    width: 120px;
+    padding-top: 5px;
+    border: 1px solid #808080;
+    border-collapse: collapse;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.leftdiv {
+    width: 14%;
+    height: 700px;
+    background-color: white;
+    float: left;
+    background: #edf2f8;
+}
+
+.rightdiv {
+    background-color: white;
+    float: left;
+    position: absolute;
+	width:100%;
+	min-width:1000px;
+}
+#dvView{
+    width: 82%;
+    left: 18%;
+}
+
+#dvtitle{
+    line-height: 40px;
+}
+
+.secTitle {
+    height: 40px;
+    line-height: 28px;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 12px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.secContent {
+    height: 25px;
+    line-height: 20px;
+    font-size: 12px;
+    border-bottom: 1px solid #fff;
+}
+
+.querydiv {
+    /*height: 40px;*/
+    line-height: 39px;
+    height: 39px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.dtlist {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(156, 156, 156);
+}
+
+#queryGO:hover, #statusSel:hover {
+    color: #E88439;
+    border: 1px solid #E88439;
+    background-color: white;
+}
+
+.itemdiv {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    padding: 5px 5px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.itemdiv_title {
+    width: 20%;
+    max-width: 100px;
+    float: left;
+}
+
+.itemdiv_content {
+    width: 90%;
+    float: left;
+}
+/*营销详情*/
+.divMarketing {
+    float: left;
+    width: 100%;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+    .divMarketing .logoclass {
+        float: left;
+        width: 6%;
+        text-align: center;
+    }
+.divMarketing .logoclass>img{
+    width:100%;
+}
+
+    .divMarketing .contentclass {
+        margin-left:8%;
+        width:82%;
+    }
+
+
+
+            .divMarketing .contentclass .title .name {
+                font-weight: bold;
+                display: inline-block;
+            }
+.divMarketing .contentclass .title>img{
+    float:right;
+}
+            .divMarketing .contentclass .title .date {
+                width: 40%;
+                display: inline-block;
+            }
+
+    .divMarketing .discusslist {
+        float: left;
+        width: 100%;
+        margin-top: 1vh;
+        padding: 2px;
+        background: #f3f3f3;
+        list-style: none;
+        overflow-y: auto;
+    }
+
+        .divMarketing .discusslist .name {
+            color: #008cf0;
+        }
+
+    .divMarketing .viewContent {
+        margin-top: 2vh;
+        margin-left: 5vw;
+    }
+
+        .divMarketing .viewContent a {
+            text-decoration: none;
+        }
+
+        .divMarketing .discussOperate .time {
+            float: left;
+            width: 45%;
+            color:#999;
+            margin-top: 5px;
+        }
+
+        .divMarketing .discussOperate .zang {
+            float: left;
+            width: 25%;
+        }
+
+        .divMarketing .discussOperate .discuss {
+            float: left;
+            width: 30%;
+        }
+
+/*产品导入*/
+.productAllDiv {
+    float: left;
+    margin-top: 10px;
+    border-bottom: 1px solid #808080;
+    width: 100%;
+}
+
+.productLeftDiv {
+    float: left;
+    width: 50px;
+    margin: 20px;
+}
+.productLeftDiv>strong{
+    display: inline-block;
+    font-size:20px;
+    width:25px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius:8px;
+    background: rgba(0,0,0,.8);
+    color:#fff;
+}
+.productRightDiv {
+    float: left;
+    width: 550px;
+    padding: 5px 5px;
+}
+
+.productItemDiv {
+    margin:20px 5px;
+}

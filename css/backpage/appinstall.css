@@ -1,0 +1,95 @@
+﻿
+.tj_index_view {
+    margin-left: 20px;
+    background:#fff;
+    border-bottom:1px solid #d2d2d2;
+}
+.tj_view {
+    padding-bottom: 15px;
+    border-left:1px solid #d2d2d2;
+    border-right:1px solid #d2d2d2;
+}
+
+.tjtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #373737;
+    padding:5px 0 5px 30px;
+    border-bottom:1px solid #d2d2d2;
+}
+
+.tjinstall {
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+    color: #808080;
+}
+
+    .tjinstall .plinstall {
+        color: #008cf0;
+        text-decoration: none;
+    }
+
+.tjinstalldetail {
+    margin: 20px ;
+}
+
+    .tjinstalldetail a {
+        text-decoration: none;
+    }
+
+        .tjinstalldetail a img {
+            width: 60px;
+            height: 60px;
+        }
+
+    .tjinstalldetail ul {
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+        .tjinstalldetail ul li {
+            float: left;
+            text-align: center;
+            width: 100px;
+            margin:0 30px;
+        }
+
+        .tjinstalldetail ul .apptitle {
+            font-size: 14px;
+            font-weight: bold;
+            color: #373737;
+            height: 30px;
+            line-height: 30px;
+            margin: 0;
+        }
+
+        .tjinstalldetail ul .appinstalled {
+            display: inline-block;
+            padding:5px 0;
+            width:80px;
+            background: #09c;
+            border:1px solid #D2D2D2;
+            margin:0 0 15px 0;
+            color:#fff;
+        }
+
+        .tjinstalldetail ul .appuninstalled {
+            display: inline-block;
+            padding:5px 0;
+            width:80px;
+            border:1px solid #D2D2D2;
+            margin-bottom:15px;
+            cursor:pointer;
+        }
+
+.dialog-foot .btninstalled {
+    color: #fff;
+    background-color: #008cf0;
+}
+
+.dialog-foot .btnuninstalled {
+    color: #fff;
+    background-color: #808080;
+}

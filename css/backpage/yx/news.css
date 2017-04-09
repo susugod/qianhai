@@ -1,0 +1,31 @@
+.main{width: 100%}
+/*系统消息*/
+.news_list_all{width: 80%;margin: 30px auto;padding-top:40px;padding-bottom:40px;background-color: #fff;box-shadow: 4px 6px 6px #cdcdcd;}
+.news_list{width: 80%;margin: 30px auto;background-color: #fff;}
+.news_list ul li{ height: 50px; line-height: 50px;border-bottom: 1px solid #c9c9c9;}
+.news_list_xw{float: left;display: inline-block; }
+.news_list_date{float: right;display: inline-block;}
+/*订单消息*/
+.order_list_all{width: 80%;min-width: 1150px;margin: 30px auto;background-color:#fff;box-shadow: 4px 6px 6px #cdcdcd;background-color: #fff; padding-top: 40px; padding-bottom: 40px;}
+.order_list{width: 80%;margin: 30px auto;}
+.order_list ul li{ height: 50px; line-height: 50px;border-bottom: 1px solid #c9c9c9;}
+.order_list ul li i{background: url(../img/icon.png) no-repeat 0 22px;display: block;width: 9px;height: 50px;float: left;margin-right: 10px;}
+.order_list ul li i a{float: left;}
+/*已反馈数据*/
+.news_readed{width: 60%;margin: 100px auto;height: 450px;border: 1px solid #c9c9c9;}
+.news_readed h2{margin-top: 50px;text-align: center;}
+.news_readed article{width: 80%;margin: 50px auto;height: 200px;border: 1px solid #9C9C9C;word-wrap:break-word; word-break:break-all;text-indent:2em;}
+.company p{text-align: right;margin-bottom: 10px;}
+.company{margin: 50px auto 0 auto;width: 80%;}
+/*所有列表为0时显示为空的字体选项*/
+.QueryResultIsEmpty
+{
+	display:none;
+	width:100%;
+	text-align:center;
+	font-size:20px;
+	color:#363636;
+	font-family: 微软雅黑, arial, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+	margin-top:40px;
+	
+}

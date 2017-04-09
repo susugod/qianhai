@@ -1,0 +1,270 @@
+/*-------------------------------------
+简介：主要定义一些空间按钮的样式
+-------------------------------------*/
+
+.image-text-pair {
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+#divControls .div-body span {
+    line-height: 26px;
+    margin-left: 30px;
+    height: 26px;
+    font-family: 'Microsoft YaHei';
+    font-size: 13px;
+}
+
+#divControls .div-body a {
+    text-decoration: none;
+    color: #D4E0EB;
+    background-color: #4C627A;
+    display: inline-block;
+    height: 26px;
+    width: 125px;
+    line-height: 26px;
+    text-align: center;
+}
+
+#avideo {
+    background: url(../css/images/video.png) no-repeat center left 30px;
+}
+
+.selectedControl #avideo {
+    background: url(../css/images/video_click.png) no-repeat center left 30px;
+}
+
+#adiv {
+    background: url(../css/images/text.png) no-repeat center left 35px;
+}
+
+.selectedControl #adiv {
+    background: url(../css/images/text_click.png) no-repeat center left 35px;
+}
+
+#aarticle {
+    background: url(../css/images/text.png) no-repeat center left 20px;
+}
+
+.selectedControl #aarticle {
+    background: url(../css/images/text_click.png) no-repeat center left 20px;
+}
+
+#abutton {
+    background: url(../css/images/button.png) no-repeat center left 20px;
+}
+
+.selectedControl #abutton {
+    background: url(../css/images/button_click.png) no-repeat center left 20px;
+}
+
+#atext {
+    background: url(../css/images/textbox.png) no-repeat center left 20px;
+}
+
+.selectedControl #atext {
+    background: url(../css/images/textbox_click.png) no-repeat center left 20px;
+}
+
+#atextarea {
+    background: url(../css/images/textarea.png) no-repeat center left 20px;
+}
+
+.selectedControl #atextarea {
+    background: url(../css/images/textarea_click.png) no-repeat center left 20px;
+}
+
+#aimage {
+    background: url(../css/images/image.png) no-repeat center left 30px;
+}
+
+.selectedControl #aimage {
+    background: url(../css/images/image_click.png) no-repeat center left 30px;
+}
+
+#anumber {
+    background: url(../css/images/numberbox.png) no-repeat center left 20px;
+}
+
+.selectedControl #anumber {
+    background: url(../css/images/numberbox_click.png) no-repeat center left 20px;
+}
+
+#adecimal {
+    background: url(../css/images/floatbox.png) no-repeat center left 20px;
+}
+
+.selectedControl #adecimal {
+    background: url(../css/images/floatbox_click.png) no-repeat center left 20px;
+}
+
+#adate {
+    background: url(../css/images/date.png) no-repeat center left 30px;
+}
+
+.selectedControl #atime {
+    background: url(../css/images/date_click.png) no-repeat center left 30px;
+}
+
+#aselect {
+    background: url(../css/images/dropdown_list.png) no-repeat center left 30px;
+}
+
+.selectedControl #aselect {
+    background: url(../css/images/dropdown_list_click.png) no-repeat center left 30px;
+}
+
+#aradio {
+    background: url(../css/images/radio_button.png) no-repeat center left 30px;
+}
+
+.selectedControl #aradio {
+    background: url(../css/images/radio_button_click.png) no-repeat center left 30px;
+}
+
+#acheckbox {
+    background: url(../css/images/checkbox.png) no-repeat center left 30px;
+}
+
+.selectedControl #acheckbox {
+    background: url(../css/images/checkbox_click.png) no-repeat center left 30px;
+}
+
+#aradiolist {
+    background: url(../css/images/radio_list.png) no-repeat center left 20px;
+}
+
+.selectedControl #aradiolist {
+    background: url(../css/images/radio_list_click.png) no-repeat center left 20px;
+}
+
+#acheckboxlist {
+    background: url(../css/images/checkbox_list.png) no-repeat center left 20px;
+}
+
+.selectedControl #acheckboxlist {
+    background: url(../css/images/checkbox_list_click.png) no-repeat center left 20px;
+}
+
+#atable {
+    background: url(../css/images/table.png) no-repeat center left 30px;
+}
+
+.selectedControl #atable {
+    background: url(../css/images/table_click.png) no-repeat center left 30px;
+}
+
+#aupload {
+    background: url(../css/images/upload.png) no-repeat center left 30px;
+}
+
+.selectedControl #aupload {
+    background: url(../css/images/upload_click.png) no-repeat center left 30px;
+}
+
+#acharts {
+    background: url(../css/images/chart.png) no-repeat center left 30px;
+}
+
+.selectedControl #acharts {
+    background: url(../css/images/chart_click.png) no-repeat center left 30px;
+}
+
+#atime {
+    background: url(../css/images/datetime.png) no-repeat center left 30px;
+}
+
+.selectedControl #adatetime {
+    background: url(../css/images/datetime_click.png) no-repeat center left 30px;
+}
+
+#aemail {
+    background: url(../css/images/email.png) no-repeat center left 20px;
+}
+
+.selectedControl #aemail {
+    background: url(../css/images/email_click.png) no-repeat center left 20px;
+}
+
+#aemployeename {
+    background: url(../css/images/name.png) no-repeat center left 30px;
+}
+
+.selectedControl #aemployeename {
+    background: url(../css/images/name_click.png) no-repeat center left 30px;
+}
+
+#adepart {
+    background: url(../css/images/name.png) no-repeat center left 30px;
+}
+
+.selectedControl #adepart {
+    background: url(../css/images/name_click.png) no-repeat center left 30px;
+}
+
+#alocation {
+    background: url(../css/images/location.png) no-repeat center left 20px;
+}
+
+.selectedControl #alocation {
+    background: url(../css/images/location_click.png) no-repeat center left 20px;
+}
+
+#aaddress {
+    background: url(../css/images/address.png) no-repeat center left 30px;
+}
+
+.selectedControl #aaddress {
+    background: url(../css/images/address_click.png) no-repeat center left 30px;
+}
+
+#aimageproduct {
+    background: url(../css/images/imageproduct.png) no-repeat center left 20px;
+}
+
+.selectedControl #aimageproduct {
+    background: url(../css/images/imageproduct_click.png) no-repeat center left 20px;
+}
+
+#atelephone {
+    background: url(../css/images/phone.png) no-repeat center left 30px;
+}
+
+.selectedControl #atelephone {
+    background: url(../css/images/phone_click.png) no-repeat center left 30px;
+}
+
+#anoimgproduct {
+    background: url(../css/images/noimageproduct.png) no-repeat center left 20px;
+}
+
+.selectedControl #anoimgproduct {
+    background: url(../css/images/noimageproduct_click.png) no-repeat center left 20px;
+}
+#apanel {
+    background: url(../css/images/table.png) no-repeat center left 20px;
+}
+
+.selectedControl #apanel {
+    background: url(../css/images/table_click.png) no-repeat center left 20px;
+}
+#aarticleedit {
+    background: url(../css/images/table.png) no-repeat center left 20px;
+}
+
+#atreeview {
+    background: url(../css/images/table.png) no-repeat center left 20px;
+}
+
+.selectedControl #aarticleedit {
+    background: url(../css/images/table_click.png) no-repeat center left 20px;
+}
+
+#asearch {
+    background: url(../css/images/button.png) no-repeat center left 30px;
+}
+
+.selectedControl #asearch {
+    background: url(../css/images/button_click.png) no-repeat center left 30px;
+}

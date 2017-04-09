@@ -1,0 +1,596 @@
+﻿
+body
+{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    transform-origin: left top;
+}
+
+/*页面主容器div*/
+#ibo-div-main
+{
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+    /*transform-origin: left top;*/
+}
+
+/*页面抬头*/
+#ibo-pages-head
+{
+    background: #dedede;
+    opacity: 0.75;
+    position: absolute;
+    height: 120px;
+    width: 1920px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(237,237,237,.15);
+    z-index: 90;
+}
+
+/*页面抬头logo图标*/
+#ibo-pages-head-logo
+{
+    margin-left: 355px;
+    margin-top: 21px;
+    width: 160px;
+    height: 74px;
+    background-image: url(../img/index/shouping-logo.png);
+    float: left;
+}
+
+/*页面抬头菜单区域*/
+#ibo-pages-head-menu
+{
+    margin-right: 305px;
+    float: right;
+    height: 120px;
+}
+
+/*页面抬头单个菜单*/
+.ibo-pages-head-menu-char
+{
+    padding-top: 55px;
+    width: 110px;
+    height: 120px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #000000;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .ibo-pages-head-menu-char:hover
+    {
+        background: #ffffff;
+        color: #ff7e00;
+    }
+
+/*右中页面导航*/
+#ibo-pages-guid
+{
+    right: 20px;
+    position: fixed;
+    top: 50%;
+}
+
+    #ibo-pages-guid ul
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #ibo-pages-guid li
+    {
+        padding: 0;
+        margin: 0;
+        height: 40px;
+        line-height: 40px;
+        font-size: 40px;
+        color: #86f2ce;
+        cursor: pointer;
+    }
+
+/*页面div公用样式*/
+.ibo-pages
+{
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*第一页背景图*/
+#ibo-pages-first
+{
+    background-image: url(../img/index/shouping-bj.png);
+}
+
+/*第一页图片一*/
+#ibo-pages-first-img1
+{
+    width: 825px;
+    height: 455px;
+    background-size: 100% 100%;
+    background-image: url(../img/index/shouping-01.png);
+    position: absolute;
+    top: 245px;
+    left: 506px;
+    transform: translateX(-1331px);
+    transition: all 0.5s;
+}
+
+/*第一页图片二*/
+#ibo-pages-first-img2
+{
+    width: 960px;
+    height: 459px;
+    background-size: 100% 100%;
+    background-image: url(../img/index/shouping-02.png);
+    position: absolute;
+    top: 181px;
+    left: 667px;
+    transform: translateX(-1627px);
+    transition: all 0.5s;
+}
+
+/*第一页图片三*/
+#ibo-pages-first-img3
+{
+    width: 825px;
+    height: 455px;
+    background-size: 100% 100%;
+    background-image: url(../img/index/shouping-03.png);
+    position: absolute;
+    top: 444px;
+    left: 270px;
+    transform: translateX(-1095px);
+    transition: all 0.5s;
+}
+
+/*第一页文字*/
+#ibo-pages-first-char
+{
+    width: 487px;
+    height: 119px;
+    background-size: 100% 100%;
+    background-image: url(../img/index/shouping-wenzi.png);
+    position: absolute;
+    bottom: 115px;
+    right: 360px;
+    transform: translateX(-1560px);
+    transition: all 0.5s;
+}
+
+/*第二页标题*/
+#ibo-pages-second-title
+{
+    position: absolute;
+    font-family: 微软雅黑;
+    font-size: 40px;
+    color: #000000;
+    top: 280px;
+    left: 684px;
+}
+
+/*第二页文字*/
+#ibo-pages-second-char
+{
+    position: absolute;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: #838383;
+    top: 340px;
+    left: 577px;
+}
+
+/*第二页图片*/
+#ibo-pages-second-img
+{
+    position: absolute;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    width: 1200px;
+    height: 487px;
+    top: 425px;
+    left: 360px;
+    background-image: url(../img/index/ping2-01.png);
+}
+
+/*第三页标题1*/
+#ibo-pages-third-title1
+{
+    position: absolute;
+    font-family: 微软雅黑;
+    font-size: 40px;
+    color: #000000;
+    top: 245px;
+    left: 875px;
+}
+
+/*第三页文字*/
+#ibo-pages-third-char
+{
+    position: absolute;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: #838383;
+    top: 305px;
+    left: 607px;
+}
+
+/*第三页标题2*/
+#ibo-pages-third-title2
+{
+    position: absolute;
+    font-family: 黑体;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ff7e00;
+    top: 347px;
+    left: 723px;
+}
+
+/*第三页图片*/
+#ibo-pages-third-img
+{
+    position: absolute;
+    top: 462px;
+    width: 1920px;
+}
+
+    #ibo-pages-third-img img
+    {
+        background-color: #ffffff;
+    }
+
+/*第四页背景图*/
+#ibo-pages-fourth
+{
+    background-image: url(../img/index/ping4-01.png);
+}
+
+/*第四页标题*/
+#ibo-pages-fourth-title
+{
+    position: absolute;
+    top: 235px;
+    left: 702px;
+    font-family: 黑体;
+    font-size: 44px;
+    color: #ff7800;
+    font-weight: bold;
+}
+
+/*第四页文字*/
+#ibo-pages-fourth-char
+{
+    position: absolute;
+    top: 304px;
+    left: 594px;
+    font-family: YouYuan;
+    font-size: 20px;
+    height: 20px;
+    line-height: 48px;
+    color: #ffffff;
+    width: 735px;
+    padding-bottom: 28px;
+}
+
+/*第五页标题*/
+#ibo-pages-fifth-title
+{
+    position: absolute;
+    top: 236px;
+    left: 845px;
+    font-family: 微软雅黑;
+    font-size: 40px;
+    color: #000000;
+}
+
+/*第五页文字*/
+#ibo-pages-fifth-char
+{
+    position: absolute;
+    top: 296px;
+    left: 452px;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: #838383;
+}
+
+/*第五页图片*/
+#ibo-pages-fifth-img
+{
+    position: absolute;
+    top: 381px;
+    left: 360px;
+    width: 1202px;
+    height: 573px;
+    background-image: url(../img/index/ping5-01.png);
+}
+
+/*第六页背景图*/
+#ibo-pages-sixth
+{
+    background-image: url(../img/index/ping6-bj.png);
+}
+
+/*第六页页面块1*/
+#ibo-pages-sixth-div1
+{
+    position: absolute;
+    top: 276px;
+    left: 360px;
+    width: 585px;
+    height: 370px;
+    background-color: #ffffff;
+}
+
+/*第六页页面块1标题*/
+#ibo-pages-sixth-div1-title
+{
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    top: 66px;
+}
+
+/*第六页页面块1按钮*/
+.ibo-pages-sixth-div1-btn
+{
+    position: absolute;
+    background: #ffffff;
+    width: 178px;
+    border: 1px solid #727272;
+    color: #727272;
+    left: 200px;
+    font-family: 微软雅黑;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    .ibo-pages-sixth-div1-btn:hover
+    {
+        color: #ff8400;
+        border-color: #ff8400;
+    }
+
+/*第六页页面块1免费注册按钮*/
+#ibo-pages-sixth-div1-reg
+{
+    top: 116px;
+}
+
+/*第六页页面块1即刻登录按钮*/
+#ibo-pages-sixth-div1-login
+{
+    top: 191px;
+}
+
+/*第六页页面块1文字*/
+#ibo-pages-sixth-div1-char
+{
+    position: absolute;
+    font-size: 14px;
+    color: #6e6b6a;
+    text-align: center;
+    width: 100%;
+    top: 284px;
+    left: 0;
+}
+
+/*第六页页面块2*/
+#ibo-pages-sixth-div2
+{
+    position: absolute;
+    top: 276px;
+    left: 977px;
+    width: 585px;
+    height: 370px;
+    background-color: #ffffff;
+}
+
+/*第六页页面块2标题*/
+#ibo-pages-sixth-div2-title
+{
+    position: absolute;
+    color: #282828;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    top: 68px;
+}
+
+/*第六页页面块2文字1*/
+#ibo-pages-sixth-div2-char1
+{
+    position: absolute;
+    color: #5c5959;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    text-align: left;
+    line-height: 28px;
+    font-weight: bold;
+    top: 119px;
+    left: 125px;
+    width: 450px;
+}
+
+#ibo-pages-sixth-div2-char1-c1
+{
+    float: left;
+    height: 48px;
+}
+
+/*第六页面块2文字2*/
+#ibo-pages-sixth-div2-char2
+{
+    position: absolute;
+    color: #6e6b6a;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    text-align: center;
+    font-weight: bold;
+    top: 257px;
+    width: 100%;
+}
+
+#ibo-pages-sixth-div2-char2-c2
+{
+    margin-top: 19px;
+}
+
+/*第六页页面块3*/
+#ibo-pages-sixth-div3
+{
+    position: absolute;
+    top: 681px;
+    left: 360px;
+    width: 1202px;
+    height: 230px;
+    border: 4px solid #acacac;
+    font-family: 微软雅黑;
+    text-align: left;
+    font-size: 20px;
+}
+
+/*第六页页面块3文字1*/
+#ibo-pages-sixth-div3-char1
+{
+    margin-top: 32px;
+    margin-left: 51px;
+    color: #ffffff;
+}
+
+/*第六页页面块3文字2*/
+#ibo-pages-sixth-div3-char2
+{
+    margin-top: 13px;
+    margin-left: 51px;
+    color: #9e9e9e;
+    line-height: 46px;
+}
+
+    #ibo-pages-sixth-div3-char2 span
+    {
+        margin-right: 25px;
+    }
+
+/*渐变辅助样式*/
+.ibo-gradualchange
+{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+
+.ibo-dialog
+{
+    background: #ffffff;
+}
+
+    .ibo-dialog .ui-dialog-titlebar
+    {
+        border: 0 none;
+    }
+
+    .ibo-dialog .ui-dialog-titlebar-close
+    {
+        height: 23px;
+        width: 23px;
+        border: 0 none;
+        background: url('../img/index/zhuceyemian--guanbianniu.png');
+    }
+
+.dropopen
+{
+    opacity: 0;
+}
+
+.dropshow-1
+{
+    transform: translateX(-200px);
+    opacity: 0;
+}
+
+.dropshow-2
+{
+    transition: all 0.5s;
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.dropclose
+{
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+/* 图片轮播 */
+.roundabout-holder
+{
+    padding: 0;
+    height: 400px;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+
+.roundabout-moveable-item
+{
+    border: 0;
+    list-style: none;
+    width: 400px;
+    height: 300px;
+}
+
+    .roundabout-moveable-item img
+    {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+.round_conrol
+{
+    position: relative;
+    width: 198px;
+    margin: 0 auto;
+    height: 34px;
+    padding: 0 0 0 0;
+}
+
+.round_but
+{
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 22px;
+    cursor: pointer;
+}

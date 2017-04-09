@@ -1,0 +1,756 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: 'Microsoft YaHei';
+    font-size:12px;
+}
+
+/* 首页 */
+.ibo-index-navbar {
+    background: #ffffff;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    z-index: 90;
+    min-width: 1000px;
+}
+
+.ibo-index-inner {
+    height: 100%;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ibo-navbar-header {
+    float: left;
+}
+
+.ibo-logo {
+    line-height: 70px;
+    display: block;
+}
+
+    .ibo-logo img {
+        vertical-align: middle;
+    }
+
+.ibo-navbar-right {
+    float: right;
+    margin: 0;
+}
+
+    .ibo-navbar-right li {
+        list-style: none;
+        line-height: 70px;
+        height: 70px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+        .ibo-navbar-right li .login {
+            font-size: 14px;
+            color: #008cf0;
+            background: #ffffff;
+            border: 1px solid #008cf0;
+            border-radius: 5px;
+            font-family: 'Microsoft YaHei';
+            font-weight: bold;
+            display: inline-block;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .ibo-navbar-right li .register {
+            font-size: 14px;
+            color: #ffffff;
+            background: #008cf0;
+            border: 1px solid #008cf0;
+            border-radius: 5px;
+            font-family: 'Microsoft YaHei';
+            font-weight: bold;
+            display: inline-block;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+.ibo-container {
+    position: relative;
+    min-width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.ibo-pages {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ibo-pages-first {
+    background: url(../img/indexpage/firstpage-bj.jpg) no-repeat center top;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+}
+
+    .ibo-pages-first .banner {
+        position: relative;
+        padding-top: 120px;
+        text-align: center;
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+.banner .firsttitle {
+    margin: 0;
+    font-weight: 100;
+    font-size: 48px;
+    font-family: 'Microsoft YaHei';
+    text-align: right;
+    color: rgb(51,51,51);
+}
+
+.banner .registerdiv {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.banner .registertext {
+    width: 298px;
+    height: 46px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: rgb(186,186,186);
+    padding-left:40px;
+    outline: none;
+    border: 1px solid rgb(186,186,186);
+}
+
+.banner .registerbtn {
+    width: 338px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 24px;
+    font-family: 'Microsoft YaHei';
+    border-radius: 7px;
+    border: 1px solid rgb(0,140,240);
+    color: #ffffff;
+    background: rgb(0,140,240);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ibo-backpages-first {
+    background: url(../img/indexpage/backpage-1.jpg) no-repeat center top;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+}
+
+    .ibo-backpages-first .banner {
+        position: relative;
+        padding-top: 120px;
+        text-align: center;
+        margin: 0 auto;
+        width: 1115px;
+    }
+
+        .ibo-backpages-first .banner .firsttitle {
+            margin: 0;
+            font-size: 36px;
+            float: left;
+            font-family: 'Microsoft YaHei';
+            color: rgb(51,51,51);
+        }
+
+        .ibo-backpages-first .banner .ibo-backpage-login {
+            float: right;
+            width: 622px;
+            background-color: #fff;
+            background: rgba(255, 255, 255, 0.6);
+            height: 298px;
+            border-radius: 10px;
+            border: 1px solid #B2B5B5;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+        }
+
+.ibo-backpage-login .AccountLogin {
+    padding: 0px 35px;
+    float: left;
+    width: 315px;
+}
+
+.AccountTitle {
+    padding-top: 35px;
+    font-size: 22px;
+    color: #373737;
+}
+
+.divText {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.inputTextAccount {
+    background: url(../img/indexpage/backpage-2.png) no-repeat center left 10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    border: 1px solid #B2B5B5;
+    width: 270px;
+    outline: none;
+    padding: 10px 0 10px 45px;
+}
+
+.inputTextPassword {
+    background: url(../img/indexpage/backpage-3.png) no-repeat center left 10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    border: 1px solid #B2B5B5;
+    border-top: none;
+    width: 270px;
+    outline: none;
+    padding: 10px 0 10px 45px;
+}
+
+.checkboxpassword {
+}
+
+.rememberpassword {
+    font-size: 14px;
+    color: #373737;
+}
+
+.forgetpassword {
+    font-size: 14px;
+    color: #4990e2;
+    text-decoration: none;
+}
+
+.backpagelogin {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 2px;
+    border: 0;
+    background: #4990e1;
+    color: #ffffff;
+    letter-spacing: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.ibo-backpage-login .qyLogin {
+    float: left;
+    width: 35%;
+}
+
+.qyLogin .leftline {
+    float: left;
+    border: 1px solid #B2B5B5;
+    height: 220px;
+    margin-top: 40px;
+}
+
+.qyLogin .rightLogin {
+    float: left;
+    margin-left: 32px;
+    margin-top: 35px;
+}
+
+.qyLogin .qytitle {
+    font-size: 22px;
+    color: #373737;
+}
+
+.qyLogin .qyimg {
+    margin-top: 15px;
+}
+
+    .qyLogin .qyimg a {
+        text-decoration: none;
+    }
+
+.qyLogin .ptitle {
+    font-size: 18px;
+    color: #4990e2;
+    margin-top: 10px;
+}
+
+.qyLogin .loginMessage {
+    font-size: 16px;
+    color: #373737;
+    padding-top: 5px;
+}
+
+.ibo-pages-second {
+    width: 100%;
+    height: 720px;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.ibo-pages-second-title {
+    font-family: 'Microsoft YaHei';
+    color: #141414;
+    font-size: 38px;
+    text-align: center;
+    height: 40px;
+}
+
+.ibo-pages-second-content {
+    font-family: 'Microsoft YaHei';
+    font-size: 24px;
+    text-align: center;
+    color: #3d3d3d;
+    margin-top: 15px;
+    height: 20px;
+}
+
+.ibo-pages-second-img {
+    /*width: 100%;*/
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-top: 60px;
+    margin-left: 10px;
+    padding: 0;
+    float: left;
+}
+
+.ibo-pages-second-ul {
+    float: right;
+    margin-top: 55px;
+}
+
+    .ibo-pages-second-ul li {
+        float: left;
+        list-style: none;
+        width: 180px;
+    }
+
+    .ibo-pages-second-ul img {
+        margin-left: 10px;
+    }
+
+    .ibo-pages-second-ul .ptitle {
+        font-family: 'Microsoft YaHei';
+        font-size: 22px;
+        color: #141414;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+    .ibo-pages-second-ul .pcontent {
+        font-family: 'Microsoft YaHei';
+        font-size: 14px;
+        color: #3d3d3d;
+    }
+
+.ibo-pages-third {
+    width: 100%;
+    height: 720px;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.ibo-pages-third-title {
+    font-family: 'Microsoft YaHei';
+    font-size: 38px;
+    text-align: center;
+    height: 40px;
+    color: #141414;
+}
+
+.ibo-pages-third-content {
+    font-family: 'Microsoft YaHei';
+    font-size: 24px;
+    text-align: center;
+    color: #3d3d3d;
+    margin-top: 50px;
+    height: 20px;
+}
+
+.ibo-pages-third-img-left {
+    margin-top: 120px;
+    margin-left: 10px;
+    width: 300px;
+    float: left;
+}
+
+.ibo-pages-third-img {
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+.ibo-pages-third-img-right {
+    margin-top: 50px;
+    float: left;
+}
+
+.ibo-pages-third .ptitle {
+    font-family: 'Microsoft YaHei';
+    font-size: 22px;
+    color: #141414;
+}
+
+.ibo-pages-third .pcontent {
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.ibo-pages-fourth {
+    width: 100%;
+    height: 720px;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.ibo-pages-fourth-title {
+    font-family: 'Microsoft YaHei';
+    font-size: 38px;
+    text-align: center;
+    height: 40px;
+    color: #141414;
+}
+
+.ibo-pages-fourth-content {
+    font-family: 'Microsoft YaHei';
+    font-size: 24px;
+    text-align: center;
+    color: #3d3d3d;
+    margin-top: 15px;
+    height: 20px;
+}
+
+.ibo-pages-fourth-img {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-top: 80px;
+    padding: 0;
+    float: left;
+}
+
+.ibo-pages-fourth-ul {
+    float: right;
+    margin-top: 90px;
+}
+
+    .ibo-pages-fourth-ul li {
+        float: left;
+        list-style: none;
+        width: 225px;
+    }
+
+    .ibo-pages-fourth-ul img {
+        margin-left: 10px;
+    }
+
+    .ibo-pages-fourth-ul .ptitle {
+        font-family: 'Microsoft YaHei';
+        font-size: 22px;
+        color: #141414;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+    .ibo-pages-fourth-ul .pcontent {
+        font-family: 'Microsoft YaHei';
+        font-size: 14px;
+        color: #3d3d3d;
+    }
+
+.ibo-pages-fifth {
+    width: 100%;
+    height: 577px;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.ibo-pages-fifth-title {
+    font-family: 'Microsoft YaHei';
+    font-size: 38px;
+    text-align: center;
+    height: 40px;
+    color: #141414;
+}
+
+.ibo-pages-fifth-content {
+    font-family: 'Microsoft YaHei';
+    font-size: 24px;
+    text-align: center;
+    color: #3d3d3d;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.ibo-pages-fifth-img {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.ibo-pages-sixth {
+    width: 100%;
+    height: 523px;
+    background: rgb(234,234,234);
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.ibo-pages-sixth-title {
+    font-family: 'Microsoft YaHei';
+    font-size: 38px;
+    text-align: center;
+    height: 40px;
+    color: #141414;
+}
+
+.ibo-pages-sixth-img {
+    text-align: center;
+    margin-top: 80px;
+    display: block;
+}
+
+.ibo-foot {
+    min-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background: #2E3643;
+    text-align: center;
+}
+
+.ibo-foot-content {
+    color: #ffffff;
+    height: 70px;
+    line-height: 70px;
+    font-size: 12px;
+    font-family: 'Microsoft YaHei';
+}
+
+/* 图片轮播 */
+.roundabout-holder {
+    padding: 0;
+    height: 400px;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+
+.roundabout-moveable-item {
+    border: 0;
+    list-style: none;
+    width: 400px;
+    height: 300px;
+    -moz-box-shadow: 0px 20px 20px -10px #000000;
+    box-shadow: 0px 20px 20px -10px #000000;
+    -webkit-box-shadow: 0px 20px 20px -10px #000000;
+}
+
+    .roundabout-moveable-item img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+.round_conrol {
+    position: relative;
+    width: 198px;
+    margin: 0 auto;
+    height: 34px;
+    padding: 0 0 0 0;
+}
+
+.round_but {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 22px;
+    cursor: pointer;
+}
+
+/* 登录 注册页面*/
+.htitle {
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    color: #4f4f4f;
+}
+
+.content {
+    padding: 0px 35px;
+    float: left;
+    width: 58%;
+}
+
+.title {
+    float: left;
+    width: 30%;
+}
+
+#tipsmsgdiv {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #adddf8;
+    color: #ffffff;
+    width: 100%;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.rowdiv {
+    margin-bottom: 20px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.rowdivspan {
+    display: block;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+}
+
+.rowdivgrayspan {
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+    color: #a7a7a7;
+}
+
+.rowdivtext {
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    border-radius: 1px;
+    border: 1px solid #a7a7a7;
+    width: 100%;
+    text-indent: 20px;
+}
+
+.rowdivagreementlink {
+    font-size: 12px;
+    color: #1279bc;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei';
+}
+
+.rowdivpasswordlink {
+    font-size: 12px;
+    color: #a7a7a7;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei';
+}
+
+.rowdivbtn {
+    font-family: 'Microsoft YaHei';
+    font-size: 20px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 4px;
+    border: 0;
+    background: #0178BE;
+    color: #ffffff;
+    letter-spacing: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.error-msgs {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #0178BE;
+}
+
+.dropopen {
+    opacity: 0;
+}
+
+.dropshow-1 {
+    transform: translateX(-200px);
+    opacity: 0;
+}
+
+.dropshow-2 {
+    transition: all 0.5s;
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.dropclose {
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.ui-dialog-titlebar-close {
+    background: url("./images/ui-icons_ef8c08_256x240.png") -96px -128px;
+}
+
+.ibo-dialog {
+    background: #ffffff;
+    border: 1px solid #3B92DE;
+    border-radius: 10px;
+}
+
+    .ibo-dialog .ui-dialog-titlebar {
+        border: 0 none;
+    }
+
+    .ibo-dialog .ui-dialog-titlebar-close {
+        height: 23px;
+        width: 23px;
+        border: 0 none;
+        background: url('../img/indexpage/zhuceyemian--guanbianniu.png');
+    }
+
+    .ibo-dialog .ui-widget-header {
+        background: transparent;
+    }

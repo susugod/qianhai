@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="办办科技" />
+    <meta name="keywords" content="办办科技" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>办办科技后台</title>
+    <link href="./css/indexpage.css" rel="stylesheet" />
+    <link href="./css/jquery-ui.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="ibo-index-navbar">
+        <div class="ibo-index-inner">
+            <div class="ibo-navbar-header">
+                <a class="ibo-logo" href="#">
+                    <img src="./img/indexpage/bb-logo.png" alt="办办科技" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ibo-container">
+        <div id="pages" class="ibo-pages">
+            <div class="ibo-backpages-first">
+                <div class="banner">
+                    <h1 class="firsttitle">实现企业推广的移动办公平台</h1>
+                    <div class="ibo-backpage-login">
+                        <div class="AccountLogin">
+                            <div class="AccountTitle">
+                                账号登录
+                            </div>
+                            <div class="divText" style="margin-top: 15px;">
+                                <input id="txtAccount" class="inputTextAccount" type="text" placeholder="输入账号" />
+                            </div>
+                            <div class="divText">
+                                <input id="txtPassword" class="inputTextPassword" type="password" placeholder="密码" />
+                            </div>
+                            <div class="divText" style="margin-top: 10px;">
+                                <div style="float: left;">
+                                    <input id="chkLogin" type="checkbox" class="checkboxpassword" /><span class="rememberpassword">记住密码</span>
+                                </div>
+                                <div style="float: right;">
+                                    <a href="./views/backpage/ForgetPassword.html" target="_blank" class="forgetpassword">忘记密码</a>
+                                </div>
+                            </div>
+                            <div class="divText">
+                                <p id="plogin" class="error-msgs"></p>
+                                <input id="btnSubmitLogin" class="backpagelogin" type="button" value="登录"/>
+                            </div>
+                        </div>
+                        <div class="qyLogin">
+                            <div class="leftline">
+                            </div>
+                            <div class="rightLogin">
+                                <span class="qytitle">微信企业号登录</span>
+                                <div class="qyimg">
+                                    <a id="aqylogin" href="javascript:void(0);">
+                                        <img src="img/indexpage/backpage-4.png" />
+                                        <p class="ptitle">点击登录</p>
+                                    </a>
+                                </div>
+                                <div class="loginMessage">
+                                    使用您的微信号登录
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-second">
+                <div class="ibo-index-inner">
+                    <div class="ibo-pages-second-title" style="padding-top: 87px;">
+                        <span>为企业提供永久免费的一站式协同办公平台</span>
+                    </div>
+                    <div class="ibo-pages-second-content">
+                        <span>内部沟通与协同办公一站式解决，流畅高效</span>
+                    </div>
+                    <div style="width: 100%;">
+                        <div class="ibo-pages-second-img">
+                            <img src="img/indexpage/secondpage-1.png" />
+                        </div>
+                        <div class="ibo-pages-second-ul">
+                            <ul>
+                                <li>
+                                    <img src="img/indexpage/secondpage-4.png" />
+                                    <p class="ptitle">任务管理</p>
+                                    <p class="pcontent">
+                                        发起、查看、汇总，<br />
+                                        及时开展确保无误
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="img/indexpage/secondpage-2.png" />
+                                    <p class="ptitle">流程审批</p>
+                                    <p class="pcontent">
+                                        财务、人事、行政，<br />
+                                        审批简单高效
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="img/indexpage/secondpage-3.png" />
+                                    <p class="ptitle">项目管理</p>
+                                    <p class="pcontent">
+                                        立项、进度、报告，<br />
+                                        全程把控及时反馈
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ibo-pages-second-ul">
+                            <ul>
+                                <li>
+                                    <img src="img/indexpage/secondpage-5.png" />
+                                    <p class="ptitle">IM沟通</p>
+                                    <p class="pcontent">
+                                        工作个人消息区分<br />
+                                        显示，发送功能添加<br />
+                                        更多固定格式文件
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="img/indexpage/secondpage-6.png" />
+                                    <p class="ptitle">企业管理</p>
+                                    <p class="pcontent">
+                                        根据岗位角色不同<br />
+                                        需求，分配不同模<br />
+                                        块的管理权限
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="img/indexpage/secondpage-7.png" />
+                                    <p class="ptitle">个人办公</p>
+                                    <p class="pcontent">
+                                        速记、文档、收藏<br />
+                                        等办公工具， 帮助<br />
+                                        提高工作效率
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-third">
+                <div class="ibo-index-inner">
+                    <div class="ibo-pages-third-title" style="padding-top: 87px;">
+                        <span>办办真正实现企业推广</span>
+                    </div>
+                    <div class="ibo-pages-third-content">
+                        <!--<span>企业信息互联网传播，轻松推广</span>-->
+                    </div>
+                    <div style="width: 100%;">
+                        <div class="ibo-pages-third-img-left">
+                            <img src="img/indexpage/thirdpage-2.png" />
+                            <p class="ptitle" style="margin-left: 10px; margin-top: 10px;">企业信息</p>
+                        </div>
+                        <div class="ibo-pages-third-img">
+                            <img style="text-align: center;" src="img/indexpage/thirdpage-1.png" />
+                        </div>
+                        <div class="ibo-pages-third-img-right">
+                            <div>
+                                <img src="img/indexpage/thirdpage-3.png" />
+                                <p class="ptitle" style="margin-top: 10px; margin-left: 160px;">产品宣传</p>
+                            </div>
+                            <div style="margin-top: 90px; margin-left: 70px;">
+                                <img src="img/indexpage/thirdpage-4.png" />
+                                <p class="ptitle" style="margin-top: 10px; margin-left: 160px;">企业动态</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-fourth">
+                <div class="ibo-index-inner">
+                    <div class="ibo-pages-fourth-title" style="padding-top: 87px;">
+                        <span>安全数据化销售管理系统助力企业业绩提升</span>
+                    </div>
+                    <div class="ibo-pages-fourth-content">
+                        <span>销售环节数据把控与辅助，科学有效</span>
+                    </div>
+                    <div style="width: 100%;">
+                        <div class="ibo-pages-fourth-img">
+                            <img src="img/indexpage/fourthpage-1.png" />
+                        </div>
+                        <div class="ibo-pages-fourth-ul">
+                            <ul>
+                                <li>
+                                    <img src="img/indexpage/fourthpage-2.png" />
+                                    <p class="ptitle">名片扫描</p>
+                                    <p class="pcontent">
+                                        一键扫描获取<br />
+                                        客户信息
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="img/indexpage/fourthpage-3.png" />
+                                    <p class="ptitle">客户管理</p>
+                                    <p class="pcontent">
+                                        客户信息管理<br />
+                                        提炼销售机会
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ibo-pages-fourth-ul" style="margin-top: 30px;">
+                            <ul>
+                                <li>
+                                    <img src="img/indexpage/fourthpage-4.png" />
+                                    <p class="ptitle">活动记录</p>
+                                    <p class="pcontent">
+                                        方便掌握活动开<br />
+                                        展的动态记录
+                                    </p>
+                                </li>
+                                <li>
+                                    <img src="img/indexpage/fourthpage-5.png" />
+                                    <p class="ptitle">附近客户</p>
+                                    <p class="pcontent">
+                                        自动定位获取已<br />
+                                        记录的附近客户
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-fifth">
+                <div class="ibo-index-inner">
+                    <div class="ibo-pages-fifth-title" style="padding-top: 87px;">
+                        <span>办办与进步企业携手，共同拥抱互联网+时代</span>
+                    </div>
+                    <div class="ibo-pages-fifth-content">
+                        <span>让企业实现对内流畅管理，对外轻松推广</span>
+                    </div>
+                    <div class="ibo-pages-fifth-img">
+                        <img src="img/indexpage/fifthpage-10.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="ibo-pages-sixth">
+                <div class="ibo-index-inner">
+                    <div class="ibo-pages-sixth-title" style="padding-top: 87px;"><span>企业实现科学办公和轻松推广，从下载办办开始</span></div>
+                    <div class="ibo-pages-sixth-img">
+                        <span style="padding-right: 87px;">
+                            <img src="img/indexpage/sixthpage-1.png" />
+                        </span>
+                        <span>
+                            <img src="img/indexpage/banbanApp.png" />
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ibo-foot">
+        <div class="ibo-foot-content">
+            前海办办科技（深圳）有限公司版权所有<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粤ICP备07040089号-->
+        </div>
+    </div>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/jquery-ui.min.js?TimeStamp=201604011320"></script>
+    <script src="./js/jquery.json-2.2.js"></script>
+    <script src="./js/crossorgin.js"></script>
+    <script src="./js/md5.js"></script>
+    <script>
+        $.ibo.isNotCheckLogin = true;
+        $(document).ready(function () {
+            $("#btnSubmitLogin").click(function () {
+                SubmitLogin();
+            });
+            document.onkeydown = function (e) {
+                var ev = document.all ? window.event : e;
+                if (ev.keyCode == 13) {
+                    SubmitLogin();
+                }
+            }
+            $("#aqylogin").click(function () {
+                window.location.href = $.ibo.IndexSrvUrl + "/ApplicationLogin.aspx";
+            });
+            //获取cookie
+            GetCookie();
+        });
+
+        // 检测账号
+        function checkTxtAccount() {
+            setTips("");
+            var accountObj = $("#txtAccount");
+            var v = accountObj.val();
+            // 判断邮箱是否填写
+            if (!$.ibo.checkNotNull(v)) {
+                setTips("请填写账号！");
+                return false;
+            }
+            return true;
+        };
+
+        // 检测密码
+        function checkPassword() {
+            setTips("");
+            var passwordObj = $("#txtPassword");
+            var v = passwordObj.val();
+            // 判断邮箱是否填写
+            if (!$.ibo.checkNotNull(v)) {
+                setTips("请填写密码！");
+                return false;
+            }
+            return true;
+        };
+
+        var isLoginSubmiting = false;
+        // 提交登陆
+        function SubmitLogin() {
+            // 判断重复提交
+            if (isLoginSubmiting) return;
+            isLoginSubmiting = true;
+            try {
+                // 验证各输入项
+                if (!checkTxtAccount() || !checkPassword()) {
+                    isLoginSubmiting = false;
+                    return;
+                }
+                // 组装Json参数
+                var data = $.toJSON({
+                    "Account": encodeURIComponent($.trim($("#txtAccount").val())),
+                    // 密码md5加密
+                    "Password": encodeURIComponent(hex_md5($.trim($("#txtPassword").val())))
+                });
+
+                // 查询企业信息
+                $.ibo.crossOrgin({
+                    url: $.ibo.IndexSrvUrl,
+                    funcName: "GetFlowFormSrvInfo",
+                    data: data,
+                    success: function (obj) {
+                        // 查询成功
+                        if ($.ibo.ResFlag.Success == obj.ResFlag) {
+                            if (obj.ResObj.IsComFlag == 0)//临时用户
+                            {
+
+                                var div = $("<div>").addClass("tip_text");
+                                var divtitle = $("<div>").addClass("tip_text_title");
+                                divtitle.append("确定继续操作后台功能？<br>还是申请企业认证信息？");
+                                div.append(divtitle);
+                                var buttons = {
+                                    "继续操作": function () {
+                                        $(this).dialog("destroy");
+                                        loginSubmitToFFSrv(obj.ResObj);                                              
+                                    },
+                                    "申请企业": function () {
+                                        $(this).dialog("destroy");
+                                        // 保存企业管理后台服务地址
+                                        localStorage.setItem("$.ibo.FormFlowSrvUrl", "");
+                                        // 保存企业应用服务地址
+                                        localStorage.setItem("$.ibo.ApplicationSrvUrl", "");
+                                        // 公司编号
+                                        localStorage.setItem("$.ibo.ComID", "");
+                                        window.top.location = "./views/backpage/AppManage/ComIndex/Qualification.html?quaId=null";                                     
+                                    }
+                                };
+                                div.dialog({
+                                    modal: true, title: "温馨提示", dialogClass: "ibo-dialog", width: 450, height: 250,
+                                    buttons:buttons,
+                                    close: function () {
+                                        $(this).dialog("destroy");
+                                        loginSubmitToFFSrv(obj.ResObj);
+                                    }
+                                });
+                                $(".ui-dialog-titlebar-close").blur();
+                            }
+                            else {
+                                loginSubmitToFFSrv(obj.ResObj);
+                            }
+
+                        }
+                            // 查询失败
+                        else {
+                            setTips(obj.ResObj);
+                            isLoginSubmiting = false;
+                        }
+
+                    }
+                });
+            }
+            catch (e) {
+                alert(e);
+                isRegSubmiting = false;
+            }
+        };
+
+        // 提交登陆至服务器
+        function loginSubmitToFFSrv(company) {
+            //alert($.toJSON(company));
+            var account = company.Account;
+
+            var ComID = company.ComID;
+
+            // 办办帐号不允许登录企业后台
+            //if (ComID == "00001") {
+            //    setTips("帐号或密码错误！");
+            //    return;
+            //}
+
+            // 组装json参数
+            var data = $.toJSON({
+                "Account": encodeURIComponent(account),
+                // 密码md5加密
+                "Password": encodeURIComponent(hex_md5($.trim($("#txtPassword").val()))),
+                // 公司编号
+                "ComID": encodeURIComponent(ComID),
+                //是否是临时用户 1不是临时用户 0是临时用户
+                "IsComFlag": company.IsComFlag
+            });
+            $.ibo.crossOrgin({
+                url: company.DesignUrl,
+                funcName: "Login",
+                data: data,
+                success: function (obj) {
+                    if ($.ibo.ResFlag.Success == obj.ResFlag) {
+                        // 保存企业管理后台服务地址
+                        localStorage.setItem("$.ibo.FormFlowSrvUrl", company.DesignUrl);
+                        // 保存企业应用服务地址
+                        localStorage.setItem("$.ibo.ApplicationSrvUrl", company.AppUrl);
+                        // 公司编号
+                        localStorage.setItem("$.ibo.ComID", company.ComID);
+
+                        if ($("#chkLogin").is(":checked")) {
+                            SetCookie($("#txtAccount").val(), $("#txtPassword").val());
+                        }
+                        else {
+                            SetCookie($("#txtAccount").val(), "");
+                        }
+                        window.top.location = "./views/backpage/AppManage/main.html";
+                    }
+                    else {
+                        setTips(obj.ResObj);
+                    }
+                }
+            });
+        };
+
+        //提示信息
+        function setTips(msg) {
+            $("#plogin").text(msg);
+        };
+
+        //设置cookie
+        function SetCookie(usern, psw) {
+            var Then = new Date()
+            Then.setTime(Then.getTime() + 1000 * 60 * 60 * 24 * 30);
+            document.cookie = "username=" + usern + "%%" + psw + ";expires=" + Then.toGMTString();
+        };
+
+        //获取cookie
+        function GetCookie() {
+            var nmpsd;
+            var nm;
+            var psd;
+            var cookieString = new String(document.cookie);
+            var cookieHeader = "username=";
+            var beginPosition = cookieString.indexOf(cookieHeader);
+            cookieString = cookieString.substring(beginPosition);
+            var ends = cookieString.indexOf(";");
+            if (ends != -1) {
+                cookieString = cookieString.substring(0, ends);
+            }
+            if (beginPosition > -1) {
+                nmpsd = cookieString.substring(cookieHeader.length);
+                if (nmpsd != "") {
+                    beginPosition = nmpsd.indexOf("%%");
+                    nm = nmpsd.substring(0, beginPosition);
+                    psd = nmpsd.substring(beginPosition + 2);
+                    $("#txtAccount").val(nm);
+                    $("#txtPassword").val(psd);
+                    if (nm != "" && psd != "") {
+                        $("#chkLogin").attr("checked", true);
+                    }
+                }
+            }
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@charset "utf-8";
+body,html,h1,h2,h3,h4,h5,h6,div,dd,dt,dl,ul,ol,li,form,th,td,input,button,p,video{
+    margin: 0;
+    padding: 0;
+}
+input,button{outline: none;}
+a{
+    text-decoration: none;
+    color: #808080;
+}
+ul{
+    list-style: none;
+}
+/*清除浮动*/
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+*html .clearfix{height: 1%;}
+.clearfix{zoom:1;}
+/*浮动*/
+.fc{clear:both;height:0px;zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear: both;}
+.overflow{overflow: hidden;}
+.font-color{color: #808080;}
+.font-blue{color: #008cf0;}

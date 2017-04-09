@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+    	<script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>	    
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <link rel="stylesheet" href="css/main.css" />
+	    <link rel="stylesheet" href="css/swiper-3.4.0.min.css" />
+	    <script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>
+	    <script type="text/javascript" src="js/swiper-3.4.0.jquery.min.js" ></script>
+	    <title></title>
+	    <script type="text/javascript">
+	   		document.addEventListener('plusready', function(){
+	   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+	   		});
+	    </script>
+	</head>
+	<body>
+		<header>
+			<ul class="product-title">
+				<li class="select btn1"><a>企业推广</a></li>
+				<li class="btn2"><a>移动办公</a></li>
+				<li class="btn3"><a>移动CRM</a></li>
+			</ul>
+		</header>
+		<div class="content product" >
+			<!--<ul class="product-content">-->
+				<div class="swiper-container swiper-container-horizontal product-content" id="swiper-container1">
+					<div class="swiper-wrapper">
+							<div class="swiper-slide blue-slide swiper-slide-prev" style="">
+								<li class="swiper-li" mb="1">
+									<h3 class="h3">全程程序化</h3>
+									<span>PC移动端同步，随时掌握推广情况<hr>抢先购买优质套餐，提交代写需求</span>
+									<div class="phone-begin">
+										<a href="video.html?1"><img src="img/phone-begin.png" mp= '1' class="phone_mp4"/></a>
+									</div>
+									<h3 class="h3">海量媒介渠道</h3>
+									<span>办办平台汇集50,000+媒介资源<hr>实现全网推广,帮助企业触达目标人群</span>
+									<div class="phone-begin">
+										<a href="video.html?2"><img src="img/phone-begin.png" mp= '2' class="phone_mp4"/></a>
+									</div>
+									<div class="phone">
+										<img src="img/logo.png" />
+										<span>粤ICP备16050990号</span>
+										<span>©Copyright 前海办办科技(深圳)有限公司版权所有</span>
+							    	</div>
+								</li>
+							</div>
+							<div class="swiper-slide red-slide swiper-slide-active" style="">
+								<li class="swiper-li" mb="2">
+									<h3 class="h3">即时IM</h3>
+									<span>信息渠道规范化,办公信息自动归类<hr>多人群组沟通,工作沟通更便捷</span>
+									<div class="phone-begin">
+										<a href="video.html?3"><img src="img/phone-begin.png" mp= '3' class="phone_mp4"/></a>
+									</div>
+									<h3 class="h3">考勤签到</h3>
+									<span>解决最后的100米，进入办公半径<hr>即可定位签到，不再排队打卡</span>
+									<div class="phone-begin">
+										<a href="video.html?4"><img src="img/phone-begin.png" mp= '4' class="phone_mp4"/></a>
+									</div>
+									<h3 class="h3">审批申请</h3>
+									<span>移动审批随时提审，自动通知审批人员<hr>摒弃繁琐纸质批复流程</span>
+									<div class="phone-begin">
+										<a href="video.html?5"><img src="img/phone-begin.png" mp= '5' class="phone_mp4"/></a>
+									</div>
+									<div class="phone">
+										<img src="img/logo.png" />
+										<span>粤ICP备16050990号</span>
+										<span>©Copyright 前海办办科技(深圳)有限公司版权所有</span>
+							    	</div>
+								</li>
+							</div>
+							<div class="swiper-slide orange-slide swiper-slide-next" style="">
+								<li class="swiper-li" mb="3">
+									<h3 class="h3">产品资讯</h3>
+									<span>云端同步销售产品资讯<hr>移动端随时查看最新公司产品</span>
+									<div class="phone-begin">
+										<a href="video.html?6"><img src="img/phone-begin.png" mp= '6' class="phone_mp4"/></a>
+									</div>
+									<h3 class="h3">客户信息</h3>
+									<span>全方位掌握客户信息及时添加并管理客户<hr>LBS发现附近客户，有效管理客户关系</span>
+									<div class="phone-begin">
+										<a href="video.html?7"><img src="img/phone-begin.png" mp= '7' class="phone_mp4"/>
+									</div>
+									<h3 class="h3">销售管理</h3>
+									<span>打通销售闭环，实现流程自动化,<hr>销售线索与机会数据化管理，快速查看销售阶段</span>
+									<div class="phone-begin">
+										<a href="video.html?8"><img src="img/phone-begin.png" mp= '8' class="phone_mp4"/></a>
+									</div>
+									<div class="phone">
+										<img src="img/logo.png" />
+										<span>粤ICP备16050990号</span>
+										<span>©Copyright 前海办办科技(深圳)有限公司版权所有</span>
+							    	</div>
+								</li>
+							</div>
+					</div>
+				</div>
+			<!--</ul>-->
+			<!--<div id="contrast">
+				<a class="" href="#" id="btn1">1</a>
+				<a href="#" id="btn2" class="default">2</a>
+				<a href="#" id="btn3" class="">3</a>
+				<a href="#" id="btn4" class="">4</a>
+				<a href="#" id="btn5" class="">5</a>
+			</div>-->
+		</div>
+	</body>
+	<script>
+		$(function(){
+		  	$(".product-title li").on("click",function(){
+				$(this).addClass("select").siblings().removeClass();
+				var a = $(this).index();
+				$(".product-content>li").hide();
+				$('.product-content>li').eq(a).show();
+				$(".swiper-wrapper").scrollTop(0);
+				$(".product").scrollTop(0);
+			})
+		  	var a = $(window).height();
+		  	var b = $(window).width();
+		  	$(".bg").css({"width":b,"height":a})
+		  	$(".product-content .phone_mp4").on("click",function(){
+	    		var a = $(this).attr('mp');
+	    		$(".dd-video-dialog").show();
+//				switch(a)
+//			        {
+//			            case "1":
+//			            	$(".dd-video-dialog video").attr("src","media/company-dd.mp4");
+//			            	break;
+//			            case "2":
+//			            	$(".dd-video-dialog video").attr("src","media/company-zy.mp4");
+//			            	break;
+//			            case "3": 
+//			            	$(".dd-video-dialog video").attr("src","media/mobile-IM.mp4");
+//			            	break;
+//			            case "4":
+//			            	$(".dd-video-dialog video").attr("src","media/mobile-checkon.mp4");
+//			            	break;
+//			            case "5":
+//			            	$(".dd-video-dialog video").attr("src","media/mobile-Request.mp4");
+//			            	break;
+//			            case "6":
+//			            	$(".dd-video-dialog video").attr("src","media/CRM-Product.mp4");
+//			            	break;
+//			            case "7":
+//			            	$(".dd-video-dialog video").attr("src","media/CRM-customer.mp4");
+//			            	break;
+//			            case "8":
+//			            	$(".dd-video-dialog video").attr("src","media/CRM-Sales.mp4");
+//			            	break;
+//			        }
+	    	})
+		  	$(".bg").on("click",function(){
+    			$(".dd-video-dialog").hide();
+    			$(".dd-video-dialog video").attr("src","");
+	    	})
+	   })
+		var mySwiper = new Swiper('.swiper-container',{
+			autoHeight:true,
+			onSlideChangeStart: function(swiper){
+		     	var activeIndex = swiper.activeIndex
+		     	$(".product-title li").eq(activeIndex).addClass("select").siblings().removeClass();
+		     	switch(activeIndex)
+		     		{
+					case 0:
+						document.body.scrollTop=0;
+						break;
+					case 1:
+						document.body.scrollTop=0;
+						break;
+					case 2:
+						document.body.scrollTop=0;
+						break;
+		     		case 3:
+						document.body.scrollTop=0;
+						break;
+					case 4:
+						document.body.scrollTop=0;
+						break;
+					}
+		     }
+		})
+		$('.btn1').click(function(){
+			mySwiper.slideTo(0, 0, false);
+			document.body.scrollTop=0;
+		})
+		$('.btn2').click(function(){
+			mySwiper.slideTo(1, 0, false);
+			document.body.scrollTop=0;
+		})
+		$('.btn3').click(function(){
+			mySwiper.slideTo(2, 0, false);
+			document.body.scrollTop=0;
+		})
+	</script>
+</html>

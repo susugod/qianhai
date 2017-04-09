@@ -1,0 +1,102 @@
+﻿.Frame{width:98%;margin-left:auto;margin-right:auto;min-width:1000px; font-family:"Microsoft YaHei";}
+
+.Title{background-color:#DCE9F5;height:40px;border:1px solid #e1e1e1;padding-top:9px;padding-bottom:9px;padding-left:40px;}
+.Title:after{content:" ";display:block;clear:both;}
+.Title>span:nth-child(3),.Title>span:nth-child(4),.Title>span:nth-child(5),.Title>span:nth-child(6){float:right;}
+
+.TitleFont{font-size:20px;color:#131313;}
+
+.CloseImg{vertical-align:top;}
+
+/*按键样式*/
+.But{display:inline-block;margin-right:20px;margin-left:20px;cursor:pointer;border-radius: 6px;border:1px solid #999;padding-left:30px;padding-right:30px;height:40px;text-align:center;line-height:40px;background-color:#fff;}
+
+.AddButBule{background-color:#008cf0;color:#fff;}
+
+.star{color:red;font-size:20px;vertical-align:middle;}
+
+
+.MarT30{margin-top:30px;}
+.MarR20{margin-right:20px;display:inline-block;}
+.TextAlignRight{text-align:right;}
+
+.content{border:1px solid #e1e1e1;margin-top:20px;padding:20px 20px 20px 20px;}
+
+.SendRange>span:last-child{float:right;}
+.SendRange>span:last-child>input{height:20px;width:150px;}
+.SendRange>span:last-child>span>img{position: relative;;left:-30px;top:5px;cursor:pointer;}
+
+.SendRangeSelect{display:inline-block;margin-left:20px;margin-right:20px;}
+.SendRangeSelect>span:first-child{display:inline-block;height:10px;width:10px;border-radius:7px;border:2px solid #666;cursor:pointer;margin-right:10px;}
+.SendRangeSelected{display:inline-block;margin-left:20px;margin-right:20px;}
+.SendRangeSelected>span:first-child{display:inline-block;height:10px;width:10px;border-radius:7px;border:2px solid #666;cursor:pointer;margin-right:10px;background-color:#ED721D;}
+
+.EntCon{width:100%;height:250px;max-width:100%;}
+
+.AddCon>span>img{vertical-align:middle;}
+
+
+.DivLink{position:fixed;left:0;top:0px;right:0px;bottom:0px;display:none;}
+.DivLinkBackGound{position:fixed;left:0;top:0px;right:0px;bottom:0px;}
+.alpha{background-color:#666;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;}
+
+
+.LinkFrame{margin-top:100px;width:500px;margin-left:auto;margin-right:auto;height:330px;background-color:#fff;border-radius:4px;}
+.LinkTitle{background-color:#DEDEDE;height:50px;line-height:50px;padding-left:30px;padding-right:10px;}
+.LinkTitle>span:nth-child(2){cursor:pointer;float:right;margin-top:10px;}
+
+.LinkCon>div{margin-top:15px;padding-left:20px;}
+.LinkCon>div>span>input{width:300px;height:30px;}
+.LinkCon>div:nth-child(4){margin-bottom:30px;}
+
+.DivTimedRelease{position:fixed;left:0;top:0px;right:0px;bottom:0px;display:none;}
+
+
+
+.DivUSE{position:fixed;left:0;top:0px;right:0px;bottom:0px;display:none;}
+.DivUSEBackGound{position:fixed;left:0;top:0px;right:0px;bottom:0px;}
+.alpha{background-color:#666;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;}
+
+
+.USEFrame{margin-top:50px;width:1000px;margin-left:auto;margin-right:auto;height:500px;background-color:#fff;border-radius:4px;border:1px solid #999;}
+
+
+.USESearch{padding-left:20px;padding-top:20px;}
+.USESearch>span>input{height:20px;width:150px;}
+.USESearch>span>span>img{position: relative;;left:-30px;top:5px;cursor:pointer;}
+
+.USETitle{border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;margin-top:20px;}
+.USETitle>div{display:inline-block;width:49%;height:50px;line-height:50px;}
+.USETitle>div:first-child{border-right:1px solid #e1e1e1;}
+.USETitle>div>span{display:inline-block;margin-left:20px;}
+
+.USESelect{border-bottom:1px solid #e1e1e1;margin-bottom:20px;}
+.USESelect>div{display:inline-block;width:49%;height:300px;vertical-align: top;}
+.USESelect>div:first-child{border-right:1px solid #e1e1e1;}
+.USESelect>div:first-child>div{height:300px;display:inline-block;overflow: auto;}
+.USESelect>div:first-child>div:first-child{width:94%;}
+.USESelect>div:first-child>div:nth-child(2){width:2%;vertical-align:top;padding-left:10px;font-size:10px;line-height:10px;}
+.USESelect>div>span{display:inline-block;margin-left:20px;}
+
+.ToSelect>div:first-child>div{margin-left:20px;margin-top:10px;cursor:pointer;}
+
+.ToSelect>div:nth-child(2)>span{display:block;vertical-align:top;text-align:right;cursor:pointer;}
+
+.ToSelect .SelectedLetter{color:#008cf0;}
+
+
+.Selected{overflow:auto;}
+.Selected>div{margin-left:20px;margin-top:10px;cursor:pointer;}
+.Selected>div>span{display:inline-block;}
+.Selected>div>span:first-child{width:70%;}
+.Selected>div>span:nth-child(2){width:29%;}
+
+
+.DisplayInformation>div{margin-top:20px;}
+
+.EnclosureTitle{margin-top:0px;border-top:none;}
+.EnclosureCon{margin-top:0px;border-top:none;}
+.EnclosureCon>div{margin-top:10px;}
+.EnclosureCon>div>img{vertical-align:middle;}
+
+.DivReview{position:fixed;left:0;top:0px;right:0px;bottom:0px;display:none;}

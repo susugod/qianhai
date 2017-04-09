@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>办办科技</title>
+	<meta name="keywords" content="SAAS  企业营销推广  移动办公 客户关系管理">
+	<meta name="description" content="办办,实现企业推广的移动办公平台,一站式解决企业推广、移动办公、销售管理需求">
+	<link href="css/backpage/yx/homepage.css" rel="stylesheet" />
+</head>
+<body class="bodyOne" style="background-color:#F5F6FB;">
+	<header class="header-inherit" id="AboutUs-header">
+		<ul>
+			<li><a title="logo" href="index.html"><img id="LogoImg" src="img/homepage/logo.png" alt="logo"/></a></li>
+			<li><a title="注册" id="TopForIE" href="views/backpage/AppManage/Register/RegisterOne.html">注册</a></li>
+			<li><a title="登录" href="views/backpage/AppManage/login/login.html">登录</a></li>
+			<li><a title="我们" href="AboutUs.html">我们</a></li>
+			<li><a title="案例" href="Case.html">案例</a></li>
+			<li><a title="服务" href="Serve.html">服务</a></li>
+			<li><a title="产品" href="MobilePromotion.html">产品</a></li>
+			<li><a title="首页" href="index.html">首页</a></li>
+			<div class="clear"></div>
+		</ul>
+	</header>	
+	<article class="NewsList">
+	<!--	<div>
+			<div>你好</div>
+			<div>你好</div>
+			<div>鸟</div>
+		</div>
+		
+		<div>
+			<div>你好</div>
+			<div>你好</div>
+			<div>鸟</div>
+		</div>
+		-->
+	</article>
+	<div id="page">
+		<!--<span class="PreviousNext">上一页</span><span class="PageNum">1</span><span class="PageNumSelected">2</span><span class="PageNum">3</span><span>...</span><span class="NOPreviousNext">下一页</span><span class="PageAll">共10页</span>-->
+	</div>
+</body>
+		<script src="js/jquery-1.11.3.min.js?TimeStamp=201604011320" type="text/javascript"></script>
+		<script src="js/jquery-ui.min.js?TimeStamp=201604011320"></script>
+		<script src="js/jquery.json-2.2.js?TimeStamp=201604011320"></script>
+		<script src="js/common.js?TimeStamp=201604011320"></script>
+		<script src="js/crossorgin.js?TimeStamp=201604011320"></script>
+		
+		<script>
+		    $.ibo.isNotCheckLogin = true;
+			var orderby ="A.CreateDate desc";//排序
+			var PageSize;
+			var pgindex;
+			var total;
+			$(function () {
+				PageSize = 10;
+				pgindex=1;
+				CheckArticleWorks();
+			});
+			function CheckArticleWorks() {
+				var condition = new Array();
+				condition.push({ Key: "WorksType", Value: 6 });
+				var data = $.toJSON({ pgIndex:pgindex, pgSize:PageSize, condition: condition, OrderBy: orderby });
+				$.ibo.crossOrgin({
+				url: $.ibo.IndexSrvUrl,
+				funcName: "GetArticleWorksNewsList",
+                data: data,
+                success: function (obj) {
+                    // 查询成功
+                    if ($.ibo.ResFlag.Success == obj.ResFlag) {
+						total=obj.ResObj.TotalCount;
+                        var worksList = obj.ResObj.List;
+                        $(".NewsList").html("");
+                        if (worksList.length > 0) {
+                            $(worksList).each(function (i, item) {
+                                var div = $("<div>").attr("onclick","GetIN("+item.WorksID+")");
+                                var div1 = $("<div>").text(item.Title); div.append(div1);
+								var content="";
+								if(item.Content.replace(/<[^>]+>/g,"").length>50)
+								{
+									content=item.Content.replace(/<[^>]+>/g,"").substring(0,50)+"...";
+								}
+								else{
+									content=item.Content.replace(/<[^>]+>/g,"");
+								}
+                                var div2 = $("<div>").text(content); div.append(div2);
+								var div3 = $("<div>").text(item.CreateDate); div.append(div3);
+                                $(".NewsList").append(div);
+                            });
+							
+							var AllPage=Math.ceil(total/PageSize);
+							if(AllPage==0)
+							{
+								
+							}
+							else
+							{
+									var PageDiv=$("#page");
+									$("#page").html("");
+									if(pgindex==1)
+									{
+										var PageAa=$("<span>").addClass("NOPreviousNext").text("上一页");
+										PageDiv.append(PageAa);
+									}else
+									{	
+										var PageAa=$("<span>").addClass("PreviousNext").attr("onclick","pgindex="+(pgindex-1)+";CheckArticleWorks();").text("上一页");
+										PageDiv.append(PageAa);
+									}
+									
+									
+									if(AllPage==pgindex&&AllPage>3)
+									{
+										var PageAa=$("<span>").text("...");
+										PageDiv.append(PageAa);
+									}
+									for(var i=(pgindex-2);i<pgindex+3;i++)
+									{	
+										
+											if(i<=0||i>AllPage)
+											{	
+												
+											}
+											else
+											{	if(i==pgindex)
+												{
+													var PageAa=$("<span>").text(i).addClass("PageNumSelected"); PageDiv.append(PageAa);
+												}
+												else
+												{
+													var PageAa=$("<span>").text(i).addClass("PageNum").attr("onclick","pgindex="+i+";CheckArticleWorks();");PageDiv.append(PageAa);
+												}
+											}
+										
+									}
+									if(AllPage>(pgindex+2))
+									{
+										var PageAa=$("<span>").text("...");
+										PageDiv.append(PageAa);
+									}
+									
+									if(pgindex==AllPage)
+									{
+										var PageAa=$("<span>").addClass("NOPreviousNext").text("下一页");
+										PageDiv.append(PageAa);
+									}else
+									{
+						
+										var PageAa=$("<span>").addClass("PreviousNext").attr("onclick","pgindex="+(pgindex+1)+";CheckArticleWorks();").text("下一页");
+										PageDiv.append(PageAa);
+									}
+								
+									var PageAa=$("<a>").addClass("PageAll").text("共"+AllPage+"页");PageDiv.append(PageAa);
+							}
+						
+                        }
+						
+                    }
+                    else if ($.ibo.ResFlag.NoRight == obj.ResFlag) {
+                        alert("抱歉，您没有此权限！");
+                    }
+                    else if ($.ibo.ResFlag.Failed == obj.ResFlag) {
+                        alert(obj.ResObj);
+                    }
+                    else {
+                        $.ibo.ShowErrorMsg(obj);
+                    }
+                }
+            });
+        }
+		function GetIN(id)
+		{
+			
+			 window.location.href="Article.html?WorksId="+id;
+		}
+			
+		</script>
+		
+<!--		<script>
+		//百度推广
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "//hm.baidu.com/hm.js?97602220d120e709153335bdc72530a4";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+
+		</script>
+		<script>
+			if(Number($("#TopForIE").offset().top)<=0){
+				$("#TopForIE").css("vertical-align","middle");
+				$("#TopForIE").parent().css("line-height","72px");
+				$("#TopForIE").parent().siblings().css("vertical-align","middle");
+				$("#TopForIE").parent().siblings().children("a").css("vertical-align","middle");
+			}
+		</script>-->
+</html>

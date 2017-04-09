@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+<body>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script>
+        // 监听消息
+        $(window).on("message", function (e) {
+            var url = GetQuery("ReturnUrl");
+            var e = e.originalEvent;
+            // 消息内容
+            var data = e.data;
+            // 设置系统应用服务器地址
+            localStorage.setItem("$.ibo.FormFlowSrvUrl", data);
+            if (url != undefined && url != "") {
+                window.top.location = url;
+            }
+            else {
+                window.top.location = "./views/backpage/main.html";
+            }
+        });
+        function GetQuery(key) {
+            var searchArr = window.location.search;
+            if (searchArr.length > 0) searchArr = searchArr.substr(1);
+            searchArr = searchArr.split(key);
+            if (searchArr.length > 1)
+                return searchArr[1].substr(1);
+            else
+                return "";
+        }
+    </script>
+</body>
+</html>

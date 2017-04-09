@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>办办科技-注册</title>
+	<meta name="keywords" content="办办,办办科技,办办学苑,办办软文,办办后台,媒体推广,软文推广,软文代写,企业推广,软文发布,软文营销,移动办公,营销推广,媒体宣传,媒体资源,广告资源,互联网推广,销售管理,销售管理系统,移动crm,客户关系管理,销售团队管理,移动办公系统">
+	<meta name="description" content="办办,实现企业推广的移动办公平台,让企业的互联网推广更简单,办公更高效.通过办办平台全网媒体资源结合大数据分析,解决企业营销推广的痛点;整合移动办公及移动CRM,帮助企业解决内部协同管理,提高企业内部办公效率.">
+   
+	<link href="css/official_website.css" rel="stylesheet" />
+</head>
+<body>
+	 <header>
+        <ul>
+            <li><a href="../index.html"><img id="LogoImg" src="images/bounblogo.png" alt="logo"/></a></li>
+            
+            <li><a href="login.html" class="select"  >返回登录</a></li>
+            <div class="clear"></div>
+        </ul>
+    </header>
+	<hr/>
+    <!-- 防止浏览器自动填写保存的账号密码 勿删 -->
+    <input type="text" name="" id="" style="display:none" />
+    <input type="password" name="" style="display:none" />
+    <!-- 防止浏览器自动填写保存的账号密码 勿删 -->  
+	<div class="PublishArticlesTitle" style="min-width:1000px;">
+			<div>
+				<span class="selecting">1</span><img src="../img/backpage/yx/grey_line.png"><span class="toselect">2</span><img src="../img/backpage/yx/grey_line.png"><span class="toselect">3</span>
+			</div>
+			<div><span class="selecting">填写注册手机</span><span class="toselect">完善企业信息</span><span class="toselect">完成注册</span></div>
+	</div>
+	<article class="RegisterOne">
+		<div>
+			<div>
+				手机号码
+			</div>
+			<div>
+				<input id="phoNum" onkeyup="value=value.replace(/[^0-9]/g,'')" type="text"  maxlength="11" />
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div>
+			<div>
+				短信验证码
+			</div>
+			<div>
+				<input  style="width:30%;margin-right:2%;" id="Code" type="text" />
+				<input type="button" style="width:40%;background-color:#008cf0;color:#FFF;"  id="GetCode"  onclick="GetCodeClock();"  value="获取验证码" />
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div>
+			<div style="vertical-align:top;margin-top:10px;">
+				密码
+			</div>
+			<div>
+				<input id="pwd" type="password" />
+				<br/>
+				<span class="Notes">密码必须包含数字、大写或小写字母、长度不低于6位</span>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<hr  class="hr" />
+		<input type="button" value="下一步"  class="ButtonB" style="margin-left:25%;"  onclick="Next()"/>
+	</article>
+	  <script src="../js/jquery-1.11.3.min.js?TimeStamp=201604011320" type="text/javascript"></script>
+      <script src="../js/jquery.json-2.2.js"></script>
+      <script src="../js/common.js"></script>
+      <script src="../js/crossorgin.js"></script>
+	<script>
+
+	    $.ibo.isNotCheckLogin = true;
+	    //再次发短信倒计时
+
+		var Num=0;
+		var Time_Long=60;
+		function GetCodeClock() {
+		    var phoNum = $("#phoNum").val();
+		    if (phoNum == "") {
+		        Message("手机号不可为空");
+		        return;
+		    }
+		    // 判断手机号码是否正确
+		    if (!$.ibo.checkPhone(phoNum)) {
+		        $.ibo.ShowErrorMsg("手机号码输入格式错误！");
+		        return;
+		    }
+		    $.ibo.crossOrgin({
+		        url: $.ibo.IndexSrvUrl,
+		        funcName: "SendPhoCode",
+		        data: $.toJSON({Pwd:null, mobilePhone: phoNum ,BS_User:null,comID:null,checkReg:true}), //string Pwd, string mobilePhone, BS_User currentUser, string comID
+		        success: function (obj) {
+		            if ($.ibo.ResFlag.Success == obj.ResFlag) {
+		                //Message("验证码已发送");
+		                $("#GetCode").attr("disabled", true);
+		                Num = Time_Long;
+						$("#GetCode").css("background-color","#666");
+		                Countdown();
+		            }
+		            else {
+		                Message(obj.ResObj);
+		            }
+		        }
+		    });
+		}
+
+		function Next()
+		{
+		    var phoNum = $("#phoNum").val();
+		    var code = $("#Code").val();
+		    var pwd = $("#pwd").val();
+		    if (phoNum == "" || phoNum==null)
+		    {
+		        Message("请输入电话号码");
+		        return;
+		    }
+		    // 判断手机号码是否正确
+		    if (!$.ibo.checkPhone(phoNum)) {
+		        $.ibo.ShowErrorMsg("手机号码输入格式错误！");
+		        return;
+		    }
+		    if (code == "" || code == null)
+		    {
+		        Message("请输入验证码");
+		        return;
+		    }
+		    if (pwd == "" || pwd == null)
+		    {
+		        Message("请输入密码");
+		        return;
+		    }
+			if(!PosswordVar(pwd))
+			{
+				Message("密码格式不正确");
+		        return;
+			}
+			
+		   
+		    $.ibo.crossOrgin({
+		        url: $.ibo.FormFlowSrvUrl,
+		        funcName: "MyCheckPhoCode",
+		        data: $.toJSON({ Pwd: pwd, mobilePhone: phoNum, verificationCode: code }),
+		        success: function (obj) {
+		            if ($.ibo.ResFlag.Success == obj.ResFlag) {
+		                window.location.href = "RegisterTwo.html";
+		            }
+		            else {
+		                Message(obj.ResObj);
+		            }
+		        }
+		    });
+		    
+		}
+
+		function Message(mes)
+		{
+		    alert(mes);
+		}
+
+		 function Countdown()
+		 {
+			Num--;
+			$("#GetCode").val("重获验证码"+Num+" S");
+			if(Num>0)
+			{
+				setTimeout("Countdown();", 1000 )
+			}
+			else
+			{
+				$("#GetCode").val("获取验证码");
+				$("#GetCode").css("background-color","#008cf0");
+				$("#GetCode").attr("disabled", false);
+				
+			}
+		 }
+		 function RefCode()
+		 {
+		     //$("#imgCode").attr("src", $.ibo.IndexSrvUrl + "/IdentityCode.aspx?t=" + Math.random());
+		 }
+
+		 $(function () {
+		     //$("#imgCode").attr("src", $.ibo.IndexSrvUrl + "/IdentityCode.aspx?t=" + Math.random());
+		     //$("body").css("visibility", "visible");
+		 });
+		//密码格式验证
+		function PosswordVar(now){
+				var reOne = new RegExp("[a-zA-Z]");
+				var reTwo = new RegExp("[0-9]");
+				var len=reOne.test(now);
+				var len1=reTwo .test(now);
+				if(now.length>=6&&len&&len1)
+				{	
+					return true;
+				}				
+				return false;
+			}
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>办办科技-注册</title>
+	<meta name="keywords" content="办办,办办科技,办办学苑,办办软文,办办后台,媒体推广,软文推广,软文代写,企业推广,软文发布,软文营销,移动办公,营销推广,媒体宣传,媒体资源,广告资源,互联网推广,销售管理,销售管理系统,移动crm,客户关系管理,销售团队管理,移动办公系统">
+	<meta name="description" content="办办,实现企业推广的移动办公平台,让企业的互联网推广更简单,办公更高效.通过办办平台全网媒体资源结合大数据分析,解决企业营销推广的痛点;整合移动办公及移动CRM,帮助企业解决内部协同管理,提高企业内部办公效率.">
+   
+	<link href="css/official_website.css" rel="stylesheet" />
+</head>
+<body >
+	 <header>
+        <ul>
+            <li><a href="../index.html"><img id="LogoImg" src="images/bounblogo.png" alt="logo"/></a></li>
+            
+            <li><a href="login.html" class="select"  >返回登录</a></li>
+            <div class="clear"></div>
+        </ul>
+    </header>
+	<hr/>
+	<div class="PublishArticlesTitle" style="min-width:1000px;">
+			<div>
+				<span class="selected">&nbsp;</span><img src="../img/backpage/yx/bule_line.png"><span class="selecting">2</span><img src="../img/backpage/yx/grey_line.png"><span class="toselect">3</span>
+			</div>
+			<div><span class="selected">填写注册手机</span><span class="selecting">完善企业信息</span><span class="toselect">完成注册</span></div>
+	</div>
+	<article class="RegisterTwo">
+		<div>
+			<div>
+				企业名称
+			</div>
+			<div>
+				<input id="comName" type="text" />
+				<br/>
+				<span class="Notes">请填写企业全称,注册完成不可修改</span>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div>
+			<div>
+				企业注册地
+			</div>
+			<div>
+				<select  id="selProvinces"></select><select  id="selCity"></select> 
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div>
+			<div>
+				详细地址
+			</div>
+			<div>
+				<input id="detailAdd" type="text" />
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div>
+			<div>
+				行业类型
+			</div>
+			<div>
+				<select id="Industy">
+                    <option value="0">请选择行业类型</option>
+                </select>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<hr  class="hr" />
+		<div>
+			<div>
+				管理员姓名
+			</div>
+			<div>
+				<input id="adminName" type="text" /><br/>
+				<span class="Notes">请填写身份证上姓名</span>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div>
+			<div>
+				邮箱
+			</div>
+			<div>
+				<input id="email" type="text"  />
+				<br/><br/>
+				<input id="agree" type="checkbox" style="width:15px;height:15px;"/>
+				<span class="Notes" style="font-size:13px;">已阅读</span>
+				<a href="AgreeMent.html" target="_black" style="font-size:13px;"  class="Notes">《办办服务协议》</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<hr  class="hr" />
+		<input onclick="save()"    class="ButtonB" style="margin-left:25%;"  type="button" value="确定"/>
+	</article>
+	<script src="../../../../js/jquery-1.11.3.min.js?TimeStamp=201604011320" type="text/javascript"></script>
+    <script src="../../../../js/jquery.json-2.2.js?TimeStamp=201604011320" type="text/javascript"></script>
+    <script src="../../../../js/crossorgin.js?TimeStamp=201604011320" type="text/javascript"></script>
+    <script src="../../../../js/common.js?TimeStamp=201604011320"></script>
+	<script src="../../../../js/address-cn.js" type="text/javascript"></script>
+	
+	<script>
+	    $.ibo.isNotCheckLogin = true;
+	    $.ibo.SetAddress($("#selProvinces"), $("#selCity"));
+	    var posted = false;
+	    function save()
+	    {
+	        
+	        var agree = $("#agree").is(":checked");
+	        var Regster = {};
+	        Regster.ComName = $("#comName").val();
+	        Regster.City = $("#selCity").find("option:selected").val();
+	        Regster.Province = $("#selProvinces").find("option:selected").val();
+	        Regster.RegLocation =Regster.Province+ Regster.City ;
+	        
+	        Regster.RegLocationDetail = $("#detailAdd").val();
+	        Regster.Industy = $("#Industy").find("option:selected").val();;
+	        Regster.AdminName = $("#adminName").val();
+	        Regster.AdminEmail = $("#email").val();
+
+	        if (Regster.ComName == "") {
+	            Message("企业名称不能为空");
+	            return;
+	        }
+	        if (Regster.Province == "") {
+	            Message("注册省份不能为空");
+	            return;
+	        }
+	        if (Regster.City == "") {
+	            Message("注册城市名称不能为空");
+	            return;
+	        }
+	        if (Regster.RegLocationDetail == "") {
+	            Message("详细地址不能为空");
+	            return;
+	        }
+	        if (Regster.Industy == "" || Regster.Industy == 0 || Regster.Industy=="0") {
+	            Message("行业不能为空");
+	            return;
+	        }
+	        if (Regster.AdminName == "") {
+	            Message("管理员姓名不能为空");
+	            return;
+	        }
+	        if (Regster.AdminEmail == "") {
+	            Message("邮箱不能为空");
+	            return;
+	        }
+	        if (!$.ibo.checkEmail(Regster.AdminEmail)) {
+	            Message("输入的邮箱格式不正确");
+	            return;
+	        }
+	        if (!agree) {
+	            Message("请先同意协议");
+	            return;
+	        }
+	        if (posted) {
+	            return;
+	        }
+	        posted = true;
+			lock();
+	        $.ibo.crossOrgin({
+	            url: $.ibo.FormFlowSrvUrl,
+	            funcName: "MyRegister",
+	            data: $.toJSON({ company: Regster }),
+	            success: function (obj) {
+	                if ($.ibo.ResFlag.Success == obj.ResFlag) {
+	                    //Message("注册成功");
+	                    window.location.href = "../views/backpage/AppManage/main.html?IsFirstLogin=1";
+	                }
+	                else {
+	                    Message(obj.ResObj);
+	                    posted = false;
+						unlock();
+	                }
+	            }
+	        });
+	    }
+        //行业类型
+		
+	    $(function () {
+	        $.ibo.crossOrgin({
+	            url: $.ibo.FormFlowSrvUrl,
+	            funcName: "GetDictById",
+	            data: $.toJSON({ typeId: '2'}),
+	            success: function (obj) {
+	                if ($.ibo.ResFlag.Success == obj.ResFlag) {
+	                    //var list = obj.ResObj.list;
+	                    $.each(obj.ResObj, function (i, n) {
+	                        var shtml = '<option value="'+n.DictValue+'">'+n.DictText+'</option>';
+	                        $("#Industy").append(shtml);
+	                    });
+	                }
+	                else {
+	                    Message(obj.ResObj);
+	                }
+	            }
+	        });
+	    });
+
+		
+		//注册登录锁屏
+		function lock()
+		{
+			$("input").attr("disabled","true");
+			$("select").attr("disabled","true");
+			
+			var img=$("<img>").attr("src","../../../../img/homepage/loading.gif").attr("id","loimg").css({"opacity":"0.8"});
+			
+			var div0=$("<div>").css({"position":"fixed","top":"0","bottom":"0","padding-top":"260px","text-align":"center","width":"100%"}).attr("id","loofont");
+			div0.append(img);
+			var div=$("<div>").html("企业数据初始化").css({"position":"fixed","top":"390px","text-align":"center","width":"100%"}).attr("id","lofont");
+			$("body").append(div0);
+			$("body").append(div);
+		}
+		function unlock()
+		{
+			$("input").removeAttr("disabled");
+			$("select").removeAttr("disabled");
+			var imgnode=document.getElementById("loofont"); 
+				imgnode.parentNode.removeChild(imgnode); 
+			var fontnode=document.getElementById("lofont"); 
+				fontnode.parentNode.removeChild(fontnode); 
+		}
+	    function Message(mes)
+	    {
+	        alert(mes);
+	    }
+	</script>
+</body>
+</html>

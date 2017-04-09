@@ -1,0 +1,88 @@
+{
+	"index.html": {
+		"resources": [
+			"css/main.css",
+			"img/bounblogo.png",
+			"js/jquery-1.10.1.min.js",
+			"js/swiper-3.4.0.jquery.min.js",
+			"css/swiper-3.4.0.min.css",
+			"img/phone_banner.png",
+			"img/wcd.png",
+			"img/sj.png",
+			"case.html",
+			"img/dx.png",
+			"img/mobile.png",
+			"img/phone_anker.png",
+			"img/phone_dztt.png",
+			"img/phone_zgsy.png",
+			"img/zmt.png",
+			"img/phone.png",
+			"img/phone_tkkj.png",
+			"img/phone_dq.png",
+			"img/mobile_crm1.png",
+			"img/phone_gxxy.png",
+			"img/mobile_office.png",
+			"img/phone_ysw.png",
+			"img/phone_qmt.png",
+			"img/mj.png",
+			"img/phone_dayhr.png",
+			"img/tc.png",
+			"product.html",
+			"aboutUs.html",
+			"img/download.png",
+			"img/logo.png"
+		],
+		"refer": [
+			"case.html",
+			"product.html",
+			"aboutUs.html"
+		]
+	},
+	"case.html": {
+		"resources": [
+			"img/kj.png",
+			"img/ys.png",
+			"img/heng.png",
+			"img/zn.png",
+			"img/bdbk.png",
+			"img/hlw.png",
+			"img/fw.png",
+			"img/qc.png",
+			"img/txqc.png",
+			"img/zgrjzx.png",
+			"img/kp.png",
+			"img/bdwk.png",
+			"img/zgjx.png",
+			"img/ylk.png",
+			"img/ty.png",
+			"img/hhqc.png",
+			"img/zgrj.png",
+			"img/zh.png",
+			"img/szxw.png"
+		]
+	},
+	"product.html": {
+		"resources": [
+			"img/phone-begin.png",
+			"media/company-dd.mp4",
+			"media/CRM-customer.mp4",
+			"media/mobile-IM.mp4",
+			"css/main.css",
+			"js/jquery-1.10.1.min.js"
+		]
+	},
+	"aboutUs.html": {
+		"resources": [
+			"img/media1.png",
+			"img/company.png",
+			"img/ditu.png",
+			"img/team.png",
+			"img/media.png",
+			"img/media2.png",
+			"img/media6.png",
+			"img/media5.png",
+			"img/media3.png",
+			"img/media4.png"
+		]
+	}
+}

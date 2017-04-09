@@ -1,0 +1,58 @@
+.main{width: 100%;}
+/*优质文章*/
+.Article_date{margin-left: 5%;margin-top: 25px;font-size: 14px; height: 30px;line-height: 30px;width: 90%; }
+.At_sx{margin-right: 25px;float: left;}
+.At_date{width: 30%;display:inline-block;text-align: left;height: 30px; line-height: 30px;float: left;}
+.At_date input{width: 40%;}
+.At_search{width: 25%;display:inline-block;text-align: right;height: 30px; line-height: 30px;float: right;}
+.At_search .At_search_ss{width: 45%;}
+.At_search .At_search_sr{width: 15%;margin-left: 10%;border:1px solid #000;background: #66CCFF;box-sizing: border-box;text-align: center;}
+.At_all{width: 90%;margin: 25px auto;font-size: 16px;}
+.At_new{width: 90%;margin: 30px auto 0 auto;}
+.At_news{width: 80%;margin: 30px auto 0 auto;}
+.At_new a,.At_news a{width: 150px;display: block;height: 50px;text-align: center;line-height: 50px;background: #6699FF;border:1px solid #9c9c9c; color: #000;float: right;}
+.At_table{width: 90%;margin: 25px auto 0px auto;}
+.At_table table{width: 100%;text-align: center;}
+.At_table table{width: 100%;border-left: 1px solid #9C9C9C;border-top: 1px solid #9C9C9C;}
+.At_table table tr{height: 50px;}
+.At_table table th{border-right:1px solid #9C9C9C;border-bottom: 1px solid #9C9C9C;background: #e5e5e5;}
+.At_table table td{border-right:1px solid #9C9C9C;border-bottom: 1px solid #9C9C9C;text-align: center;}
+.bg_e5 {}
+
+/*新建文章案例*/
+.new_title{width: 80%;margin: 50px auto;text-align: right;font-size: 14px;}
+.new_title ul li{float: right;margin-right: 50px;}
+.new_title_select{margin-left: 10px;height: 30px;}
+.new_title_fb{width: 100px;height: 30px;background: #008cf0;border:1px solid #000;}
+.new_content{width: 80%;margin: 50px auto;border:1px solid #9C9C9C;height: 450px;}
+.new_content button{width: 66px;height: 24px;text-align: center;float: left;background: #fff;}
+.new_content_button{margin: 50px 5%;}
+.new_content h4{margin: 40px 0 40px 5%;width:90%;}
+.button_two{border: none;border-top: 1px solid #c9c9c9;border-bottom: 1px solid #c9c9c9;border-top-left-radius:5px;border-bottom-left-radius:5px;border-left: 1px solid #c9c9c9; }
+.button_three{border: none;border-top: 1px solid #c9c9c9;border-bottom: 1px solid #c9c9c9;border-left: 1px solid #c9c9c9;}
+.button_four{border: none;border-top: 1px solid #c9c9c9;border-bottom: 1px solid #c9c9c9;border-left: 1px solid #c9c9c9;border-top-right-radius:5px;border-bottom-right-radius:5px;border-left: 1px solid #c9c9c9;border-right: 1px solid #c9c9c9;}
+.button_one i{background: url(../img/1.png);width: 60px;height: 20px;display: inline-block;}
+.button_two i{background: url(../img/2.png) no-repeat 25px 5px;width: 60px;height: 20px;display: inline-block;}
+.button_three i{background: url(../img/3.png) no-repeat 25px 5px;width: 60px;height: 20px;display: inline-block;}
+.button_four i{background: url(../img/4.png) no-repeat 25px 5px;width: 60px;height: 20px;display: inline-block;}
+.button_five i{background: url(../img/5.png) no-repeat 25px 5px;width: 60px;height: 20px;display: inline-block;}
+.new_content_article input{ border: none;width: 100%;}
+.new_content_article input.auther{margin: 25px 0;}
+.content_article_title{font-size: 20px;}
+.new_content_article{margin:0 5%;}
+.new_content_article textarea{width: 100%;border: none;padding: 20px;height: 100px;}
+.click_to{border-top: 1px solid #c9c9c9;}
+/*文章详情*/
+.Article_details{width: 60%; margin: 50px auto; border: 1px solid #9C9C9C; }
+.Article_details h3{margin: 30px 5%;}
+.Article_details article{width: 80%;margin: 50px auto;height: 200px;border: 1px solid #9C9C9C;word-wrap:break-word; word-break:break-all;overflow:auto;}
+.case_delete {width:10%;margin:50px auto;}
+.delete {width: 100%;background:#66ccff;border:1px solid #000;line-height:50px;height:50px;}
+/*优质案例*/
+.put_title{width: 80%;margin: 50px auto;}
+.put_title ul li {float:left;margin-right: 2%;}
+.addCase{margin-top: 25px;float: right;border: 1px solid #000;width: 150px;height: 50px; line-height: 50px; text-align: center;}
+.put_table{width: 80%;margin: 25px auto 0px auto;}
+.put_table table{width: 100%;border-left: 1px solid #9C9C9C;border-top: 1px solid #9C9C9C;text-align: center;}
+.put_table table tr{height: 50px;}
+.put_table table td{border-right:1px solid #9C9C9C;border-bottom: 1px solid #9C9C9C;text-align: center;}
